@@ -68,8 +68,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "echo \u0027lets seelaksldjalkdasjl\u0027",
-      "dateUpdated": "Jun 16, 2016 12:12:17 AM",
+      "text": "echo \u0027lets seelaksldjalkdasjl this should succedd\u0027",
+      "dateUpdated": "Jun 16, 2016 12:14:59 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -93,11 +93,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "lets seelaksldjalkdasjl\n"
+        "msg": "lets seelaksldjalkdasjl this should succedd\n"
       },
       "dateCreated": "Jun 13, 2016 3:43:11 PM",
-      "dateStarted": "Jun 16, 2016 12:12:17 AM",
-      "dateFinished": "Jun 16, 2016 12:12:17 AM",
+      "dateStarted": "Jun 16, 2016 12:14:59 AM",
+      "dateFinished": "Jun 16, 2016 12:14:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
