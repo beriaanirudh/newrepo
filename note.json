@@ -68,8 +68,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "echo \u0027lets see\u0027",
-      "dateUpdated": "Jun 15, 2016 11:24:11 PM",
+      "text": "echo \u0027lets see now\u0027",
+      "dateUpdated": "Jun 16, 2016 12:03:36 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -93,11 +93,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "lets see\n"
+        "msg": "lets see now\n"
       },
       "dateCreated": "Jun 13, 2016 3:43:11 PM",
-      "dateStarted": "Jun 15, 2016 11:24:11 PM",
-      "dateFinished": "Jun 15, 2016 11:24:11 PM",
+      "dateStarted": "Jun 16, 2016 12:03:36 AM",
+      "dateFinished": "Jun 16, 2016 12:03:36 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
