@@ -102,14 +102,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "echo anopther para",
+      "dateUpdated": "Jun 16, 2016 10:45:08 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1466013251501_-908988800",
       "id": "20160615-232411_1146973073",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "anopther para\n"
+      },
       "dateCreated": "Jun 15, 2016 11:24:11 PM",
+      "dateStarted": "Jun 16, 2016 10:45:09 AM",
+      "dateFinished": "Jun 16, 2016 10:45:09 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466054108823_398504133",
+      "id": "20160616-104508_1421736558",
+      "dateCreated": "Jun 16, 2016 10:45:08 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
