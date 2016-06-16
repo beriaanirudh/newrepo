@@ -136,14 +136,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "echo another brick in the wall",
+      "dateUpdated": "Jun 16, 2016 12:48:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1466054108823_398504133",
       "id": "20160616-104508_1421736558",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "another brick in the wall\n"
+      },
       "dateCreated": "Jun 16, 2016 10:45:08 AM",
+      "dateStarted": "Jun 16, 2016 12:48:14 PM",
+      "dateFinished": "Jun 16, 2016 12:48:14 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466061494316_1381186393",
+      "id": "20160616-124814_991664156",
+      "dateCreated": "Jun 16, 2016 12:48:14 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
