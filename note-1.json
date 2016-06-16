@@ -102,8 +102,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "echo anopther para",
-      "dateUpdated": "Jun 16, 2016 10:45:08 AM",
+      "text": "echo anopther para sd;akjsl",
+      "dateUpdated": "Jun 16, 2016 10:56:04 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -125,14 +125,14 @@
       "jobName": "paragraph_1466013251501_-908988800",
       "id": "20160615-232411_1146973073",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "anopther para\n"
+        "msg": "anopther para sd\nbash: akjsl: command not found\nExitValue: 127"
       },
       "dateCreated": "Jun 15, 2016 11:24:11 PM",
-      "dateStarted": "Jun 16, 2016 10:45:09 AM",
-      "dateFinished": "Jun 16, 2016 10:45:09 AM",
-      "status": "FINISHED",
+      "dateStarted": "Jun 16, 2016 10:56:04 AM",
+      "dateFinished": "Jun 16, 2016 10:56:05 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
