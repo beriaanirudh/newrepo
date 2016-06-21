@@ -34,14 +34,113 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\nls -al\n",
+      "dateUpdated": "Jun 22, 2016 12:03:24 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1466013251501_-908988800",
       "id": "20160615-232411_1146973073",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "Index: 0, Size: 0"
+      },
       "dateCreated": "Jun 15, 2016 11:24:11 PM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\npwd",
+      "dateUpdated": "Jun 22, 2016 12:03:30 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466533985177_136586257",
+      "id": "20160622-000305_1346752013",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "Index: 0, Size: 0"
+      },
+      "dateCreated": "Jun 22, 2016 12:03:05 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\nls",
+      "dateUpdated": "Jun 22, 2016 12:03:40 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466533991475_138525325",
+      "id": "20160622-000311_2015854402",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "Index: 0, Size: 0"
+      },
+      "dateCreated": "Jun 22, 2016 12:03:11 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466534011472_1066401755",
+      "id": "20160622-000331_1998787680",
+      "dateCreated": "Jun 22, 2016 12:03:31 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
