@@ -1,40 +1,6 @@
 {
   "paragraphs": [
     {
-      "text": "select * from default_qubole_memetracker",
-      "dateUpdated": "Jun 21, 2016 5:35:07 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1466530431528_-783769218",
-      "id": "20160621-173351_683851838",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "\u003cconsole\u003e:22: error: not found: value select\n              select * from default_qubole_memetracker\n              ^\n"
-      },
-      "dateCreated": "Jun 21, 2016 5:33:51 PM",
-      "dateStarted": "Jun 21, 2016 5:35:07 PM",
-      "dateFinished": "Jun 21, 2016 5:36:21 PM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%sql\nselect * from default_qubole_memetracker limit 2",
       "dateUpdated": "Jun 21, 2016 5:46:25 PM",
       "config": {
@@ -69,14 +35,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\nls -al",
+      "dateUpdated": "Jun 21, 2016 7:16:47 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1466530580932_1658799046",
       "id": "20160621-173620_1189449612",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 48\ndrwxrwxr-x 12 ec2-user ec2-user 4096 Jun 21 17:18 .\ndrwxr-xr-x  3 root     root     4096 Jun 21 17:18 ..\ndrwxrwxr-x  2 ec2-user ec2-user 4096 Jun 21 15:58 bin\ndrwxrwxr-x  2 ec2-user ec2-user 4096 Jun 21 17:18 conf\ndrwxrwxr-x  6 ec2-user ec2-user 4096 Jun 21 15:58 example-notebook\ndrwxrwxr-x  2 ec2-user ec2-user 4096 Jun 21 15:58 hustler\ndrwxrwxr-x  9 ec2-user ec2-user 4096 Jun 21 15:58 interpreter\nlrwxrwxrwx  1 root     root       36 Jun 21 17:18 logs -\u003e /media/ephemeral0/logs/zeppelin/logs\nlrwxrwxrwx  1 root     root       40 Jun 21 17:18 notebook -\u003e /media/ephemeral0/logs/zeppelin/notebook\ndrwxrwxr-x  3 ec2-user ec2-user 4096 Jun 21 15:58 R\nlrwxrwxrwx  1 root     root       35 Jun 21 17:18 run -\u003e /media/ephemeral0/logs/zeppelin/run\ndrwxr-xr-x  3 root     root     4096 Jun 21 17:18 webapps\ndrwxrwxr-x  3 ec2-user ec2-user 4096 Jun 21 15:58 zeppelin-server\ndrwxrwxr-x  2 ec2-user ec2-user 4096 Jun 21 15:58 zeppelin-web\ndrwxrwxr-x  3 ec2-user ec2-user 4096 Jun 21 15:58 zeppelin-zengine\n"
+      },
       "dateCreated": "Jun 21, 2016 5:36:20 PM",
+      "dateStarted": "Jun 21, 2016 7:16:47 PM",
+      "dateFinished": "Jun 21, 2016 7:16:47 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466536607127_1239987497",
+      "id": "20160621-191647_1519166525",
+      "dateCreated": "Jun 21, 2016 7:16:47 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
