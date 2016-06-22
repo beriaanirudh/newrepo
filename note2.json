@@ -69,14 +69,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\necho lol\n",
+      "dateUpdated": "Jun 22, 2016 6:50:02 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1466536607127_1239987497",
       "id": "20160621-191647_1519166525",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lol\n"
+      },
       "dateCreated": "Jun 21, 2016 7:16:47 PM",
+      "dateStarted": "Jun 22, 2016 6:50:02 AM",
+      "dateFinished": "Jun 22, 2016 6:50:03 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466578202413_1966993984",
+      "id": "20160622-065002_1174927588",
+      "dateCreated": "Jun 22, 2016 6:50:02 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -84,9 +118,9 @@
   "name": "newNote",
   "id": "UUDVTYU9HQ1466530430",
   "angularObjects": {
-    "2BNCUEHDJ113311466529491958": [],
-    "2BP9RSPM4113311466529491955": [],
-    "2BQ8BHS2U113311466529491924": []
+    "2BRNKCUVT113311466576856070": [],
+    "2BNAZV7N9113311466576856101": [],
+    "2BNUA5NWX113311466576856104": []
   },
   "config": {},
   "info": {},
