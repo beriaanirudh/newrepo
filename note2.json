@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect * from default_qubole_memetracker limit 2",
-      "dateUpdated": "Jun 21, 2016 5:46:25 PM",
+      "text": "select * from default_qubole_memetracker limit 2",
+      "dateUpdated": "Jun 21, 2016 5:36:20 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -49,7 +49,7 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -58,19 +58,19 @@
       "jobName": "paragraph_1466530507146_950217454",
       "id": "20160621-173507_155549444",
       "result": {
-        "code": "SUCCESS",
-        "type": "TABLE",
-        "msg": "site\tts\tphr\tlnks\tmonth\nhttp://jdnews.com/sports/game_1997_jdnsports__article.html/play_rain.html\t2009-04-16 04:42:41\t[\"we didn\u0027t play well but give credit to northside they hit the ball\",\"they made it a ballgame we didn\u0027t come ready to play at the same time they did they play hard\",\"we were still in it we were still in a dogfight\",\"my kids were battling tough we wanted to win so we were going to stay as long as it took but they made the call so we\u0027ve got to live with that and move on and come back and play tomorrow\",\"go ahead and make the decision because these guys were sitting around for so long\",\"we battled hard\",\"we were there just a couple errors early in the game gave them some runs can\u0027t fault the effort of my kids we\u0027re fighting we haven\u0027t given up and that\u0027s the best thing you can ask\",\"you look at a game like that and you want to get everybody in and you want to give some a rest\",\"and it bit me today\"]\t[]\t2009-04\nhttp://dailytimes.com/story.lasso?ewcd\u003d0ba0c0366b21dfcc\t2009-04-16 04:42:41\t[\"our campus is exemplary and we have exemplary students\",\"these kids work very hard\"]\t[]\t2009-04\n"
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:1: error: \u0027;\u0027 expected but integer literal found.\n       select * from default_qubole_memetracker limit 2\n                                                      ^\n"
       },
       "dateCreated": "Jun 21, 2016 5:35:07 PM",
-      "dateStarted": "Jun 21, 2016 5:46:25 PM",
-      "dateFinished": "Jun 21, 2016 5:46:35 PM",
-      "status": "FINISHED",
+      "dateStarted": "Jun 21, 2016 5:36:20 PM",
+      "dateFinished": "Jun 21, 2016 5:36:21 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sh\necho lol",
-      "dateUpdated": "Jun 22, 2016 11:04:07 AM",
+      "dateUpdated": "Jun 22, 2016 11:21:05 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -97,14 +97,14 @@
         "msg": "lol\n"
       },
       "dateCreated": "Jun 21, 2016 5:36:20 PM",
-      "dateStarted": "Jun 22, 2016 11:04:08 AM",
-      "dateFinished": "Jun 22, 2016 11:04:08 AM",
+      "dateStarted": "Jun 22, 2016 11:21:05 AM",
+      "dateFinished": "Jun 22, 2016 11:21:05 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh\necho here",
-      "dateUpdated": "Jun 22, 2016 11:04:14 AM",
+      "text": "%sh echo final commit",
+      "dateUpdated": "Jun 22, 2016 11:21:10 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -123,16 +123,16 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466593447997_-762598456",
-      "id": "20160622-110407_1768284986",
+      "jobName": "paragraph_1466578228526_2087451039",
+      "id": "20160622-065028_1538685890",
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "here\n"
+        "msg": "final commit\n"
       },
-      "dateCreated": "Jun 22, 2016 11:04:07 AM",
-      "dateStarted": "Jun 22, 2016 11:04:14 AM",
-      "dateFinished": "Jun 22, 2016 11:04:14 AM",
+      "dateCreated": "Jun 22, 2016 6:50:28 AM",
+      "dateStarted": "Jun 22, 2016 11:21:10 AM",
+      "dateFinished": "Jun 22, 2016 11:21:10 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -142,9 +142,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466593454128_-402458161",
-      "id": "20160622-110414_487704696",
-      "dateCreated": "Jun 22, 2016 11:04:14 AM",
+      "jobName": "paragraph_1466594470512_-224418467",
+      "id": "20160622-112110_679577926",
+      "dateCreated": "Jun 22, 2016 11:21:10 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -152,9 +152,9 @@
   "name": "newNote",
   "id": "UUDVTYU9HQ1466530430",
   "angularObjects": {
-    "2BNC6A95K113311466591331182": [],
-    "2BN5U3TQP113311466591331216": [],
-    "2BPE7REM5113311466591331214": []
+    "2BQU7WXM2113311466594397124": [],
+    "2BPGJX27S113311466594397093": [],
+    "2BNWB5PTB113311466594397127": []
   },
   "config": {},
   "info": {},
