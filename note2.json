@@ -171,14 +171,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\ntest another",
+      "dateUpdated": "Jun 22, 2016 11:22:08 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1466594515012_2008107545",
       "id": "20160622-112155_2071120137",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
       "dateCreated": "Jun 22, 2016 11:21:55 AM",
+      "dateStarted": "Jun 22, 2016 11:22:09 AM",
+      "dateFinished": "Jun 22, 2016 11:22:09 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466594524858_-1667783446",
+      "id": "20160622-112204_456338875",
+      "dateCreated": "Jun 22, 2016 11:22:04 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
