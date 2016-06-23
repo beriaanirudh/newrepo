@@ -34,8 +34,110 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh\necho \u0027another freh satr\u0027",
-      "dateUpdated": "Jun 23, 2016 1:39:41 PM",
+      "text": "%sh\necho 123",
+      "dateUpdated": "Jun 23, 2016 11:12:10 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466013251501_-908988800",
+      "id": "20160615-232411_1146973073",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "123\n"
+      },
+      "dateCreated": "Jun 15, 2016 11:24:11 PM",
+      "dateStarted": "Jun 23, 2016 11:12:10 AM",
+      "dateFinished": "Jun 23, 2016 11:12:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo another file",
+      "dateUpdated": "Jun 23, 2016 11:12:24 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466660525246_863711533",
+      "id": "20160623-111205_699455414",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "another file\n"
+      },
+      "dateCreated": "Jun 23, 2016 11:12:05 AM",
+      "dateStarted": "Jun 23, 2016 11:12:24 AM",
+      "dateFinished": "Jun 23, 2016 11:12:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh \necho another brick in the wall",
+      "dateUpdated": "Jun 23, 2016 11:27:47 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466597473143_-1939319659",
+      "id": "20160622-174113_1300524836",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "another brick in the wall\n"
+      },
+      "dateCreated": "Jun 22, 2016 5:41:13 PM",
+      "dateStarted": "Jun 23, 2016 11:27:47 AM",
+      "dateFinished": "Jun 23, 2016 11:27:47 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\nlol",
+      "dateUpdated": "Jun 24, 2016 12:34:34 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -57,48 +159,14 @@
       "jobName": "paragraph_1466661467687_569691686",
       "id": "20160623-112747_559365925",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "another freh satr\n"
+        "msg": "bash: lol: command not found\nExitValue: 127"
       },
       "dateCreated": "Jun 23, 2016 11:27:47 AM",
-      "dateStarted": "Jun 23, 2016 1:39:41 PM",
-      "dateFinished": "Jun 23, 2016 1:39:41 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sh\necho more and more",
-      "dateUpdated": "Jun 23, 2016 1:40:30 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1466669381706_-1819624019",
-      "id": "20160623-133941_994920018",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "more and more\n"
-      },
-      "dateCreated": "Jun 23, 2016 1:39:41 PM",
-      "dateStarted": "Jun 23, 2016 1:40:30 PM",
-      "dateFinished": "Jun 23, 2016 1:40:30 PM",
-      "status": "FINISHED",
+      "dateStarted": "Jun 24, 2016 12:34:34 AM",
+      "dateFinished": "Jun 24, 2016 12:34:37 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -107,9 +175,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466669430359_-1737395024",
-      "id": "20160623-134030_298359316",
-      "dateCreated": "Jun 23, 2016 1:40:30 PM",
+      "jobName": "paragraph_1466708674775_-245909441",
+      "id": "20160624-003434_2106824811",
+      "dateCreated": "Jun 24, 2016 12:34:34 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -124,7 +192,10 @@
     "2BPGFB1HMnull1466396774126": [],
     "2BN215GY6null1466396774115": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default",
+    "cron": "0 0 0/6 * * ?"
+  },
   "info": {},
   "source": "FCN"
 }
