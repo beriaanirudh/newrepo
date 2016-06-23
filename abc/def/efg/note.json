@@ -194,7 +194,8 @@
   },
   "config": {
     "looknfeel": "default",
-    "cron": "0 0 0/6 * * ?"
+    "cron": "0 0 0/6 * * ?",
+    "cron_updated_by_userid": "123"
   },
   "info": {},
   "source": "FCN"
