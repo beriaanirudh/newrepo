@@ -34,8 +34,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh\necho 123",
-      "dateUpdated": "Jun 23, 2016 11:12:10 AM",
+      "text": "%sh\necho \u0027another freh satr\u0027",
+      "dateUpdated": "Jun 23, 2016 1:39:41 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -54,84 +54,16 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466013251501_-908988800",
-      "id": "20160615-232411_1146973073",
+      "jobName": "paragraph_1466661467687_569691686",
+      "id": "20160623-112747_559365925",
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "123\n"
+        "msg": "another freh satr\n"
       },
-      "dateCreated": "Jun 15, 2016 11:24:11 PM",
-      "dateStarted": "Jun 23, 2016 11:12:10 AM",
-      "dateFinished": "Jun 23, 2016 11:12:13 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sh echo another file",
-      "dateUpdated": "Jun 23, 2016 11:12:24 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1466660525246_863711533",
-      "id": "20160623-111205_699455414",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "another file\n"
-      },
-      "dateCreated": "Jun 23, 2016 11:12:05 AM",
-      "dateStarted": "Jun 23, 2016 11:12:24 AM",
-      "dateFinished": "Jun 23, 2016 11:12:24 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sh \necho another brick in the wall",
-      "dateUpdated": "Jun 23, 2016 11:27:47 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1466597473143_-1939319659",
-      "id": "20160622-174113_1300524836",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "another brick in the wall\n"
-      },
-      "dateCreated": "Jun 22, 2016 5:41:13 PM",
-      "dateStarted": "Jun 23, 2016 11:27:47 AM",
-      "dateFinished": "Jun 23, 2016 11:27:47 AM",
+      "dateCreated": "Jun 23, 2016 11:27:47 AM",
+      "dateStarted": "Jun 23, 2016 1:39:41 PM",
+      "dateFinished": "Jun 23, 2016 1:39:41 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -141,9 +73,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466661467687_569691686",
-      "id": "20160623-112747_559365925",
-      "dateCreated": "Jun 23, 2016 11:27:47 AM",
+      "jobName": "paragraph_1466669381706_-1819624019",
+      "id": "20160623-133941_994920018",
+      "dateCreated": "Jun 23, 2016 1:39:41 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
