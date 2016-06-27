@@ -36,7 +36,7 @@
     },
     {
       "text": "desc tables;",
-      "dateUpdated": "Jun 27, 2016 11:22:37 AM",
+      "dateUpdated": "Jun 27, 2016 5:55:13 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -60,45 +60,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:28: error: missing arguments for method desc in object functions;\nfollow this method with `_\u0027 if you want to treat it as a partially applied function\n              desc tables;\n              ^\n"
-      },
-      "dateCreated": "Jun 27, 2016 11:22:03 AM",
-      "dateStarted": "Jun 27, 2016 11:22:37 AM",
-      "dateFinished": "Jun 27, 2016 11:23:20 AM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sql\ndesc default_qubole_memetracker",
-      "dateUpdated": "Jun 27, 2016 5:54:48 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sql"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467026557541_-1878803611",
-      "id": "20160627-112237_2111119137",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
         "msg": "org.apache.thrift.transport.TTransportException\n\tat org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)\n\tat org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:429)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:318)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:219)\n\tat org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.recv_getFormType(RemoteInterpreterService.java:311)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.getFormType(RemoteInterpreterService.java:298)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:306)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.getFormType(LazyOpenInterpreter.java:122)\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:211)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:174)\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:348)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
       },
-      "dateCreated": "Jun 27, 2016 11:22:37 AM",
-      "dateStarted": "Jun 27, 2016 5:54:48 PM",
-      "dateFinished": "Jun 27, 2016 5:54:48 PM",
+      "dateCreated": "Jun 27, 2016 11:22:03 AM",
+      "dateStarted": "Jun 27, 2016 5:55:13 PM",
+      "dateFinished": "Jun 27, 2016 5:55:13 PM",
       "status": "ERROR",
       "errorMessage": "org.apache.thrift.transport.TTransportException\n\tat org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)\n\tat org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:429)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:318)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:219)\n\tat org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.recv_getFormType(RemoteInterpreterService.java:311)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.getFormType(RemoteInterpreterService.java:298)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:306)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.getFormType(LazyOpenInterpreter.java:122)\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:211)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:174)\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:348)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n",
       "progressUpdateIntervalMs": 500
@@ -109,9 +75,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1467050088863_-965312835",
-      "id": "20160627-175448_1963148461",
-      "dateCreated": "Jun 27, 2016 5:54:48 PM",
+      "jobName": "paragraph_1467026557541_-1878803611",
+      "id": "20160627-112237_2111119137",
+      "dateCreated": "Jun 27, 2016 11:22:37 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
