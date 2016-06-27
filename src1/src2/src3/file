@@ -1,0 +1,94 @@
+{
+  "paragraphs": [
+    {
+      "text": "ls -l",
+      "dateUpdated": "Jun 27, 2016 11:22:03 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467026481977_1023498549",
+      "id": "20160627-112121_1429956659",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: not found: value ls\n              ls -l\n              ^\n"
+      },
+      "dateCreated": "Jun 27, 2016 11:21:21 AM",
+      "dateStarted": "Jun 27, 2016 11:22:03 AM",
+      "dateFinished": "Jun 27, 2016 11:23:20 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "desc tables;",
+      "dateUpdated": "Jun 27, 2016 11:22:37 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467026523205_1166068536",
+      "id": "20160627-112203_107045056",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: missing arguments for method desc in object functions;\nfollow this method with `_\u0027 if you want to treat it as a partially applied function\n              desc tables;\n              ^\n"
+      },
+      "dateCreated": "Jun 27, 2016 11:22:03 AM",
+      "dateStarted": "Jun 27, 2016 11:22:37 AM",
+      "dateFinished": "Jun 27, 2016 11:23:20 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467026557541_-1878803611",
+      "id": "20160627-112237_2111119137",
+      "dateCreated": "Jun 27, 2016 11:22:37 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "spark_1 - Clone",
+  "id": "P3Q5Q9KZMD112501467048079",
+  "angularObjects": {
+    "2BPUUWZ63112501467025679783": [],
+    "2BQYFR8Y2112501467025679817": [],
+    "2BQA7VD5V112501467025679815": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
