@@ -69,7 +69,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "ls -l",
+      "dateUpdated": "Jun 27, 2016 6:01:16 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -77,6 +92,19 @@
       "jobName": "paragraph_1467026557541_-1878803611",
       "id": "20160627-112237_2111119137",
       "dateCreated": "Jun 27, 2016 11:22:37 AM",
+      "dateStarted": "Jun 27, 2016 6:01:16 PM",
+      "status": "RUNNING",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467050476076_1792240834",
+      "id": "20160627-180116_97598798",
+      "dateCreated": "Jun 27, 2016 6:01:16 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -84,9 +112,9 @@
   "name": "spark_1",
   "id": "2ZGC4XZYZB1467026481",
   "angularObjects": {
-    "2BPUUWZ63112501467025679783": [],
-    "2BQYFR8Y2112501467025679817": [],
-    "2BQA7VD5V112501467025679815": []
+    "2BPC5672J112501467050361010": [],
+    "2BR3NSHT4112501467050362512": [],
+    "2BNU5TF7P112501467050365675": []
   },
   "config": {},
   "info": {},
