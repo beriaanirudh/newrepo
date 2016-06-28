@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%sql\nselect * from default_qubole_memetracker where site \u003d \u0027beria\u0027 limit 1",
-      "dateUpdated": "Jun 28, 2016 12:27:59 PM",
+      "dateUpdated": "Jun 28, 2016 12:30:36 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,7 +16,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/sql",
-        "tableHide": false
+        "tableHide": true,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -32,12 +33,12 @@
       "dateCreated": "Jun 27, 2016 11:22:03 AM",
       "dateStarted": "Jun 28, 2016 12:27:59 PM",
       "dateFinished": "Jun 28, 2016 12:27:52 PM",
-      "status": "RUNNING",
+      "status": "ABORT",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "desc tables;",
-      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
+      "dateUpdated": "Jun 28, 2016 12:30:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -51,7 +52,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": false
+        "tableHide": false,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -72,7 +74,7 @@
     },
     {
       "text": "huwehfiewghf\n",
-      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
+      "dateUpdated": "Jun 28, 2016 12:30:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -86,7 +88,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": false
+        "tableHide": false,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -107,7 +110,7 @@
     },
     {
       "text": "ls -l",
-      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
+      "dateUpdated": "Jun 28, 2016 12:30:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -121,7 +124,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": false
+        "tableHide": false,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -142,7 +146,7 @@
     },
     {
       "text": "ls -a",
-      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
+      "dateUpdated": "Jun 28, 2016 12:30:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -156,7 +160,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": false
+        "tableHide": false,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -176,7 +181,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
+      "dateUpdated": "Jun 28, 2016 12:30:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -190,7 +195,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": false
+        "tableHide": false,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -210,7 +216,9 @@
     "2BP3SVKT2112501467098498492": [],
     "2BPKD4RVN112501467098498458": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default"
+  },
   "info": {},
   "source": "FCN"
 }
