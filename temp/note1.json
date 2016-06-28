@@ -1,0 +1,60 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\nls\n",
+      "dateUpdated": "Jun 28, 2016 11:43:30 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467114040965_910610534",
+      "id": "20160628-114040_1022616439",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nderby.log\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Jun 28, 2016 11:40:40 AM",
+      "dateStarted": "Jun 28, 2016 11:43:30 AM",
+      "dateFinished": "Jun 28, 2016 11:43:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467114210031_-754356656",
+      "id": "20160628-114330_1940328681",
+      "dateCreated": "Jun 28, 2016 11:43:30 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "test",
+  "id": "DWSKC4X4CU1467114039",
+  "angularObjects": {
+    "2BP91EU2W112501467098498490": [],
+    "2BP3SVKT2112501467098498492": [],
+    "2BPKD4RVN112501467098498458": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
