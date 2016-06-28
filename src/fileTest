@@ -1,40 +1,6 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\necho this is a new file",
-      "dateUpdated": "Jun 27, 2016 1:30:03 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467033356137_2137786238",
-      "id": "20160627-131556_521529768",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "this is a new file\n"
-      },
-      "dateCreated": "Jun 27, 2016 1:15:56 PM",
-      "dateStarted": "Jun 27, 2016 1:30:03 PM",
-      "dateFinished": "Jun 27, 2016 1:30:04 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%sh\necho this is jst another para",
       "dateUpdated": "Jun 27, 2016 5:48:31 PM",
       "config": {
