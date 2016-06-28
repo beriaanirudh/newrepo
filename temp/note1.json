@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh\nhello",
-      "dateUpdated": "Jun 28, 2016 11:49:28 AM",
+      "text": "%sh \necho lol",
+      "dateUpdated": "Jun 28, 2016 11:50:01 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -58,14 +58,14 @@
       "jobName": "paragraph_1467114210031_-754356656",
       "id": "20160628-114330_1940328681",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "bash: hello: command not found\nExitValue: 127"
+        "msg": "lol\n"
       },
       "dateCreated": "Jun 28, 2016 11:43:30 AM",
-      "dateStarted": "Jun 28, 2016 11:49:28 AM",
-      "dateFinished": "Jun 28, 2016 11:49:28 AM",
-      "status": "ERROR",
+      "dateStarted": "Jun 28, 2016 11:50:01 AM",
+      "dateFinished": "Jun 28, 2016 11:50:01 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -74,9 +74,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1467114568295_-1932551377",
-      "id": "20160628-114928_706443529",
-      "dateCreated": "Jun 28, 2016 11:49:28 AM",
+      "jobName": "paragraph_1467114601358_1856283936",
+      "id": "20160628-115001_87469155",
+      "dateCreated": "Jun 28, 2016 11:50:01 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
