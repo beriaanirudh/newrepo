@@ -210,14 +210,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "Thread.sleep(new);",
+      "dateUpdated": "Jun 28, 2016 12:04:56 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467112903086_-1365991915",
       "id": "20160628-112143_746526370",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:1: error: identifier expected but \u0027)\u0027 found.\n       Thread.sleep(new);\n                       ^\n"
+      },
       "dateCreated": "Jun 28, 2016 11:21:43 AM",
+      "dateStarted": "Jun 28, 2016 12:04:56 PM",
+      "dateFinished": "Jun 28, 2016 12:04:57 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467115496973_-395945301",
+      "id": "20160628-120456_717749973",
+      "dateCreated": "Jun 28, 2016 12:04:56 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
