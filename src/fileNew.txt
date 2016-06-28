@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "desc tables;",
-      "dateUpdated": "Jun 28, 2016 11:18:08 AM",
+      "text": "%sql\nselect * from default_qubole_memetracker where site \u003d \u0027beria\u0027 limit 1",
+      "dateUpdated": "Jun 28, 2016 12:27:59 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,8 +15,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala",
-        "tableHide": true
+        "editorMode": "ace/mode/sql",
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -27,17 +27,17 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:28: error: missing arguments for method desc in object functions;\nfollow this method with `_\u0027 if you want to treat it as a partially applied function\n              desc tables;\n              ^\n"
+        "msg": "org.apache.spark.sql.AnalysisException: Table not found: default_qubole_memtracker; line 1 pos 14\n\tat org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.getTable(Analyzer.scala:306)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$9.applyOrElse(Analyzer.scala:315)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$9.applyOrElse(Analyzer.scala:310)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$resolveOperators$1.apply(LogicalPlan.scala:57)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$resolveOperators$1.apply(LogicalPlan.scala:57)\n\tat org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:69)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperators(LogicalPlan.scala:56)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$1.apply(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$1.apply(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:281)\n\tat scala.collection.Iterator$$anon$11.next(Iterator.scala:328)\n\tat scala.collection.Iterator$class.foreach(Iterator.scala:727)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1157)\n\tat scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:48)\n\tat scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:103)\n\tat scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:47)\n\tat scala.collection.TraversableOnce$class.to(TraversableOnce.scala:273)\n\tat scala.collection.AbstractIterator.to(Iterator.scala:1157)\n\tat scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:265)\n\tat scala.collection.AbstractIterator.toBuffer(Iterator.scala:1157)\n\tat scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:252)\n\tat scala.collection.AbstractIterator.toArray(Iterator.scala:1157)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.transformChildren(TreeNode.scala:321)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperators(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$1.apply(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$1.apply(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:281)\n\tat scala.collection.Iterator$$anon$11.next(Iterator.scala:328)\n\tat scala.collection.Iterator$class.foreach(Iterator.scala:727)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1157)\n\tat scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:48)\n\tat scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:103)\n\tat scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:47)\n\tat scala.collection.TraversableOnce$class.to(TraversableOnce.scala:273)\n\tat scala.collection.AbstractIterator.to(Iterator.scala:1157)\n\tat scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:265)\n\tat scala.collection.AbstractIterator.toBuffer(Iterator.scala:1157)\n\tat scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:252)\n\tat scala.collection.AbstractIterator.toArray(Iterator.scala:1157)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.transformChildren(TreeNode.scala:321)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperators(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$1.apply(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan$$anonfun$1.apply(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:281)\n\tat scala.collection.Iterator$$anon$11.next(Iterator.scala:328)\n\tat scala.collection.Iterator$class.foreach(Iterator.scala:727)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1157)\n\tat scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:48)\n\tat scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:103)\n\tat scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:47)\n\tat scala.collection.TraversableOnce$class.to(TraversableOnce.scala:273)\n\tat scala.collection.AbstractIterator.to(Iterator.scala:1157)\n\tat scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:265)\n\tat scala.collection.AbstractIterator.toBuffer(Iterator.scala:1157)\n\tat scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:252)\n\tat scala.collection.AbstractIterator.toArray(Iterator.scala:1157)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.transformChildren(TreeNode.scala:321)\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperators(LogicalPlan.scala:54)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:310)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:300)\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:83)\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:80)\n\tat scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:111)\n\tat scala.collection.immutable.List.foldLeft(List.scala:84)\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:80)\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:72)\n\tat scala.collection.immutable.List.foreach(List.scala:318)\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:72)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:36)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:36)\n\tat org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:34)\n\tat org.apache.spark.sql.DataFrame.\u003cinit\u003e(DataFrame.scala:133)\n\tat org.apache.spark.sql.DataFrame$.apply(DataFrame.scala:52)\n\tat org.apache.spark.sql.SQLContext.sql(SQLContext.scala:817)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:606)\n\tat org.apache.zeppelin.spark.SparkSqlInterpreter.interpret(SparkSqlInterpreter.java:158)\n\tat org.apache.zeppelin.interpreter.ClassloaderInterpreter.interpret(ClassloaderInterpreter.java:57)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:104)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:316)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:174)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:160)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
       },
       "dateCreated": "Jun 27, 2016 11:22:03 AM",
-      "dateStarted": "Jun 27, 2016 11:22:37 AM",
-      "dateFinished": "Jun 27, 2016 11:23:20 AM",
-      "status": "ERROR",
+      "dateStarted": "Jun 28, 2016 12:27:59 PM",
+      "dateFinished": "Jun 28, 2016 12:27:52 PM",
+      "status": "RUNNING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "desc tables;",
-      "dateUpdated": "Jun 28, 2016 11:18:08 AM",
+      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -51,7 +51,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": true
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -72,7 +72,7 @@
     },
     {
       "text": "huwehfiewghf\n",
-      "dateUpdated": "Jun 28, 2016 11:18:08 AM",
+      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -86,7 +86,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": true
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -107,7 +107,7 @@
     },
     {
       "text": "ls -l",
-      "dateUpdated": "Jun 28, 2016 11:18:08 AM",
+      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -121,7 +121,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": true
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -142,7 +142,7 @@
     },
     {
       "text": "ls -a",
-      "dateUpdated": "Jun 28, 2016 11:18:15 AM",
+      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -156,7 +156,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "tableHide": true
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -176,7 +176,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "dateUpdated": "Jun 28, 2016 12:26:38 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "tableHide": false
+      },
       "settings": {
         "params": {},
         "forms": {}
