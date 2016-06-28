@@ -138,14 +138,105 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "desc tables;",
+      "dateUpdated": "Jun 28, 2016 5:21:09 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467049734897_1414067953",
       "id": "20160627-174854_1408795197",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: missing arguments for method desc in object functions;\nfollow this method with `_\u0027 if you want to treat it as a partially applied function\n              desc tables;\n              ^\n"
+      },
       "dateCreated": "Jun 27, 2016 5:48:54 PM",
+      "dateStarted": "Jun 28, 2016 5:21:10 PM",
+      "dateFinished": "Jun 28, 2016 5:21:10 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect * from  default_qubole_airline_origin_destination limit 20",
+      "dateUpdated": "Jun 28, 2016 5:22:22 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "itinid",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "mktid",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "itinid",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "mktid",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467134469974_-801565499",
+      "id": "20160628-172109_1509220172",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "itinid\tmktid\tseqnum\tcoupons\tyear\tquarter\torigin\toriginaptind\torigincitynum\torigincountry\toriginstatefips\toriginstate\toriginstatename\toriginwac\tdest\tdestaptind\tdestcitynum\tdestcountry\tdeststatefips\tdeststate\tdeststatename\tdestwac\tbreak\tcoupontype\ttkcarrier\topcarrier\trpcarrier\tpassengers\tfareclass\tdistance\tdistancegroup\tgateway\titingeotype\tcoupongeotype\n\"ItinID\"\t\"MktID\"\t\"SeqNum\"\t\"Coupons\"\t\"Year\"\t\"Quarter\"\t\"Origin\"\t\"OriginAptInd\"\t\"OriginCityNum\"\t\"OriginCountry\"\t\"OriginStateFips\"\t\"OriginState\"\t\"OriginStateName\"\t\"OriginWac\"\t\"Dest\"\t\"DestAptInd\"\t\"DestCityNum\"\t\"DestCountry\"\t\"DestStateFips\"\t\"DestState\"\t\"DestStateName\"\t\"DestWac\"\t\"Break\"\t\"CouponType\"\t\"TkCarrier\"\t\"OpCarrier\"\t\"RPCarrier\"\t\"Passengers\"\t\"FareClass\"\t\"Distance\"\t\"DistanceGroup\"\t\"Gateway\"\t\"ItinGeoType\"\t\"CouponGeoType\"\n\"200713540007\"\t\"200716345063\"\t5\t6\t2007\t1\t\"IAH\"\t1\t37320\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"CLT\"\t0\t17960\t\"US\"\t\"37\"\t\"NC\"\t\"North Carolina\"\t36\t\"\"\t\"A\"\t\"US\"\t\"YV\"\t\"ZW\"\t1.00\t\"X\"\t913.00\t2\t0.00\t2\t2\n\"200713540007\"\t\"200716345063\"\t6\t6\t2007\t1\t\"CLT\"\t0\t17960\t\"US\"\t\"37\"\t\"NC\"\t\"North Carolina\"\t36\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"X\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t256.00\t1\t0.00\t2\t2\n\"200713540008\"\t\"200716345064\"\t1\t5\t2007\t1\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"ZW\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n\"200713540008\"\t\"200716345064\"\t2\t5\t2007\t1\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t1302.00\t3\t0.00\t2\t2\n\"200713540008\"\t\"200716345064\"\t3\t5\t2007\t1\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"LBB\"\t0\t51642\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"X\"\t\"A\"\t\"AA\"\t\"AA\"\t\"ZW\"\t1.00\t\"X\"\t282.00\t1\t0.00\t2\t2\n\"200713540008\"\t\"200716345065\"\t4\t5\t2007\t1\t\"LBB\"\t0\t51642\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"IAH\"\t1\t37320\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"\"\t\"A\"\t\"CO\"\t\"CO\"\t\"ZW\"\t1.00\t\"X\"\t458.00\t1\t0.00\t2\t2\n\"200713540008\"\t\"200716345065\"\t5\t5\t2007\t1\t\"IAH\"\t1\t37320\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"X\"\t\"A\"\t\"CO\"\t\"CO\"\t\"ZW\"\t1.00\t\"X\"\t1157.00\t3\t0.00\t2\t2\n\"200713540009\"\t\"200716345066\"\t1\t3\t2007\t1\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"ZW\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n\"200713540009\"\t\"200716345066\"\t2\t3\t2007\t1\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t1302.00\t3\t0.00\t2\t2\n\"200713540009\"\t\"200716345066\"\t3\t3\t2007\t1\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"OKC\"\t2\t65840\t\"US\"\t\"40\"\t\"OK\"\t\"Oklahoma\"\t73\t\"X\"\t\"A\"\t\"AA\"\t\"AA\"\t\"ZW\"\t1.00\t\"X\"\t175.00\t1\t0.00\t2\t2\n\"200713540010\"\t\"200716345067\"\t1\t4\t2007\t1\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"ZW\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n\"200713540010\"\t\"200716345067\"\t2\t4\t2007\t1\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"X\"\t\"A\"\t\"US\"\t\"RW\"\t\"ZW\"\t1.00\t\"X\"\t1302.00\t3\t0.00\t2\t2\n\"200713540010\"\t\"200716345068\"\t3\t4\t2007\t1\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t1302.00\t3\t0.00\t2\t2\n\"200713540010\"\t\"200716345068\"\t4\t4\t2007\t1\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"X\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n\"200713540011\"\t\"200716345069\"\t1\t4\t2007\t1\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"ZW\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n\"200713540011\"\t\"200716345069\"\t2\t4\t2007\t1\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"X\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t1302.00\t3\t0.00\t2\t2\n\"200713540011\"\t\"200716345070\"\t3\t4\t2007\t1\t\"DFW\"\t3\t23208\t\"US\"\t\"48\"\t\"TX\"\t\"Texas\"\t74\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t1302.00\t3\t0.00\t2\t2\n\"200713540011\"\t\"200716345070\"\t4\t4\t2007\t1\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"X\"\t\"A\"\t\"US\"\t\"US\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n\"200713540012\"\t\"200716345071\"\t1\t4\t2007\t1\t\"RIC\"\t0\t75820\t\"US\"\t\"51\"\t\"VA\"\t\"Virginia\"\t38\t\"PHL\"\t1\t69880\t\"US\"\t\"42\"\t\"PA\"\t\"Pennsylvania\"\t23\t\"\"\t\"A\"\t\"US\"\t\"ZW\"\t\"ZW\"\t1.00\t\"X\"\t198.00\t1\t0.00\t2\t2\n"
+      },
+      "dateCreated": "Jun 28, 2016 5:21:09 PM",
+      "dateStarted": "Jun 28, 2016 5:22:22 PM",
+      "dateFinished": "Jun 28, 2016 5:22:26 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467134524660_-999883038",
+      "id": "20160628-172204_19949352",
+      "dateCreated": "Jun 28, 2016 5:22:04 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -153,9 +244,9 @@
   "name": "Hello123",
   "id": "4UYQRFG9B71467033355",
   "angularObjects": {
-    "2BNRFVA44112501467049660846": [],
-    "2BQXUBQRS112501467049655562": [],
-    "2BQY5PJ25112501467049656093": []
+    "2BPXF6G95112501467131297169": [],
+    "2BNF6CD2H112501467131297166": [],
+    "2BNTV37W5112501467131297134": []
   },
   "config": {},
   "info": {},
