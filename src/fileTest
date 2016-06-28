@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%sh\necho this is jst another para",
-      "dateUpdated": "Jun 27, 2016 5:48:31 PM",
+      "dateUpdated": "Jun 28, 2016 5:36:21 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,7 +15,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/sh"
+        "editorMode": "ace/mode/sh",
+        "tableHide": true
       },
       "settings": {
         "params": {},
