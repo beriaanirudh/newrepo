@@ -141,8 +141,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh\necho ls -al",
-      "dateUpdated": "Jun 28, 2016 12:12:07 PM",
+      "text": "%sh\necho ls -aljeiowhfiowehrf",
+      "dateUpdated": "Jun 28, 2016 12:13:55 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
