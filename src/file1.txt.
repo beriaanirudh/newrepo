@@ -1,0 +1,223 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\necho this is jst another para",
+      "dateUpdated": "Jun 28, 2016 5:36:21 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh",
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467034203971_100736738",
+      "id": "20160627-133003_796626784",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "this is jst another para\n"
+      },
+      "dateCreated": "Jun 27, 2016 1:30:03 PM",
+      "dateStarted": "Jun 27, 2016 5:48:31 PM",
+      "dateFinished": "Jun 27, 2016 5:48:34 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh \nls\n",
+      "dateUpdated": "Jun 27, 2016 5:56:10 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467049711118_1863808769",
+      "id": "20160627-174831_331684261",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Jun 27, 2016 5:48:31 PM",
+      "dateStarted": "Jun 27, 2016 5:56:10 PM",
+      "dateFinished": "Jun 27, 2016 5:56:10 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect * from default_qubole_memtracker limit 1",
+      "dateUpdated": "Jun 27, 2016 5:50:25 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467049721483_-449686368",
+      "id": "20160627-174841_1803092211",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "org.apache.thrift.transport.TTransportException\n\tat org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)\n\tat org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:429)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:318)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:219)\n\tat org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.recv_getFormType(RemoteInterpreterService.java:311)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.getFormType(RemoteInterpreterService.java:298)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:306)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.getFormType(LazyOpenInterpreter.java:122)\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:211)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:174)\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:348)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
+      "dateCreated": "Jun 27, 2016 5:48:41 PM",
+      "dateStarted": "Jun 27, 2016 5:50:25 PM",
+      "dateFinished": "Jun 27, 2016 5:50:25 PM",
+      "status": "ERROR",
+      "errorMessage": "org.apache.thrift.transport.TTransportException\n\tat org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)\n\tat org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:429)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:318)\n\tat org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:219)\n\tat org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.recv_getFormType(RemoteInterpreterService.java:311)\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.getFormType(RemoteInterpreterService.java:298)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:306)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.getFormType(LazyOpenInterpreter.java:122)\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:211)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:174)\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:348)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "desc tables;",
+      "dateUpdated": "Jun 28, 2016 5:21:09 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467049734897_1414067953",
+      "id": "20160627-174854_1408795197",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: missing arguments for method desc in object functions;\nfollow this method with `_\u0027 if you want to treat it as a partially applied function\n              desc tables;\n              ^\n"
+      },
+      "dateCreated": "Jun 27, 2016 5:48:54 PM",
+      "dateStarted": "Jun 28, 2016 5:21:10 PM",
+      "dateFinished": "Jun 28, 2016 5:21:10 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect * from  default_qubole_airline_origin_destination where itinid like \u0027monika\u0027 limit 100",
+      "dateUpdated": "Jun 28, 2016 5:23:54 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "itinid",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "mktid",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "itinid",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "mktid",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467134469974_-801565499",
+      "id": "20160628-172109_1509220172",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "itinid\tmktid\tseqnum\tcoupons\tyear\tquarter\torigin\toriginaptind\torigincitynum\torigincountry\toriginstatefips\toriginstate\toriginstatename\toriginwac\tdest\tdestaptind\tdestcitynum\tdestcountry\tdeststatefips\tdeststate\tdeststatename\tdestwac\tbreak\tcoupontype\ttkcarrier\topcarrier\trpcarrier\tpassengers\tfareclass\tdistance\tdistancegroup\tgateway\titingeotype\tcoupongeotype\n"
+      },
+      "dateCreated": "Jun 28, 2016 5:21:09 PM",
+      "dateStarted": "Jun 28, 2016 5:23:54 PM",
+      "dateFinished": "Jun 28, 2016 5:27:29 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467134524660_-999883038",
+      "id": "20160628-172204_19949352",
+      "dateCreated": "Jun 28, 2016 5:22:04 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Hello123cqcqdqwdqw",
+  "id": "4UYQRFG9B71467033355",
+  "angularObjects": {
+    "2BPXF6G95112501467131297169": [],
+    "2BNF6CD2H112501467131297166": [],
+    "2BNTV37W5112501467131297134": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {},
+  "source": "FCN"
+}
