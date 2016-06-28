@@ -35,14 +35,48 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\nhello",
+      "dateUpdated": "Jun 28, 2016 11:49:28 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467114210031_-754356656",
       "id": "20160628-114330_1940328681",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "bash: hello: command not found\nExitValue: 127"
+      },
       "dateCreated": "Jun 28, 2016 11:43:30 AM",
+      "dateStarted": "Jun 28, 2016 11:49:28 AM",
+      "dateFinished": "Jun 28, 2016 11:49:28 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467114568295_-1932551377",
+      "id": "20160628-114928_706443529",
+      "dateCreated": "Jun 28, 2016 11:49:28 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
