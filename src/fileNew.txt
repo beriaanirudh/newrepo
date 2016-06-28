@@ -141,8 +141,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ls -a",
-      "dateUpdated": "Jun 28, 2016 11:18:15 AM",
+      "text": "%sh\necho ls -al",
+      "dateUpdated": "Jun 28, 2016 12:12:07 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -155,7 +155,7 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/sh",
         "tableHide": true
       },
       "settings": {
@@ -165,14 +165,14 @@
       "jobName": "paragraph_1467112638688_-197861961",
       "id": "20160628-111718_84688525",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:28: error: not found: value ls\n              ls -a\n              ^\n"
+        "msg": "ls -al\n"
       },
       "dateCreated": "Jun 28, 2016 11:17:18 AM",
-      "dateStarted": "Jun 28, 2016 11:18:15 AM",
-      "dateFinished": "Jun 28, 2016 11:18:15 AM",
-      "status": "ERROR",
+      "dateStarted": "Jun 28, 2016 12:12:07 PM",
+      "dateFinished": "Jun 28, 2016 12:12:07 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -244,7 +244,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "thread.sleep(1000);",
+      "dateUpdated": "Jun 28, 2016 12:12:10 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
