@@ -69,14 +69,82 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\necho 3",
+      "dateUpdated": "Jun 30, 2016 4:14:23 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467303131635_-573944907",
       "id": "20160630-161211_1301902981",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "3\n"
+      },
       "dateCreated": "Jun 30, 2016 4:12:11 PM",
+      "dateStarted": "Jun 30, 2016 4:14:23 PM",
+      "dateFinished": "Jun 30, 2016 4:14:23 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\necho 5",
+      "dateUpdated": "Jun 30, 2016 4:14:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467303263207_-1888431040",
+      "id": "20160630-161423_60055548",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "5\n"
+      },
+      "dateCreated": "Jun 30, 2016 4:14:23 PM",
+      "dateStarted": "Jun 30, 2016 4:14:28 PM",
+      "dateFinished": "Jun 30, 2016 4:14:28 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467303268703_1815008631",
+      "id": "20160630-161428_83759445",
+      "dateCreated": "Jun 30, 2016 4:14:28 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
