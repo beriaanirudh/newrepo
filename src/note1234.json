@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh\necho 2",
-      "dateUpdated": "Jun 30, 2016 4:12:11 PM",
+      "text": "%sh\neho another",
+      "dateUpdated": "Jun 30, 2016 4:15:07 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -58,82 +58,14 @@
       "jobName": "paragraph_1467303099204_-1093401895",
       "id": "20160630-161139_1014139831",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "2\n"
+        "msg": "bash: eho: command not found\nExitValue: 127"
       },
       "dateCreated": "Jun 30, 2016 4:11:39 PM",
-      "dateStarted": "Jun 30, 2016 4:12:11 PM",
-      "dateFinished": "Jun 30, 2016 4:12:11 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sh\necho 3",
-      "dateUpdated": "Jun 30, 2016 4:14:23 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467303131635_-573944907",
-      "id": "20160630-161211_1301902981",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "3\n"
-      },
-      "dateCreated": "Jun 30, 2016 4:12:11 PM",
-      "dateStarted": "Jun 30, 2016 4:14:23 PM",
-      "dateFinished": "Jun 30, 2016 4:14:23 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sh\necho 5",
-      "dateUpdated": "Jun 30, 2016 4:14:28 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467303263207_-1888431040",
-      "id": "20160630-161423_60055548",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "5\n"
-      },
-      "dateCreated": "Jun 30, 2016 4:14:23 PM",
-      "dateStarted": "Jun 30, 2016 4:14:28 PM",
-      "dateFinished": "Jun 30, 2016 4:14:28 PM",
-      "status": "FINISHED",
+      "dateStarted": "Jun 30, 2016 4:15:07 PM",
+      "dateFinished": "Jun 30, 2016 4:15:07 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -142,9 +74,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1467303268703_1815008631",
-      "id": "20160630-161428_83759445",
-      "dateCreated": "Jun 30, 2016 4:14:28 PM",
+      "jobName": "paragraph_1467303307805_-2119002900",
+      "id": "20160630-161507_992533237",
+      "dateCreated": "Jun 30, 2016 4:15:07 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
