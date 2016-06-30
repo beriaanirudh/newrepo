@@ -88,7 +88,11 @@
     "2BQJ2PSJE97441467018721213": [],
     "2BQ2Q42HZ97441467018720264": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default",
+    "cron": "0 0 0/6 * * ?",
+    "cron_updated_by_userid": "1740"
+  },
   "info": {},
   "source": "FCN"
 }
