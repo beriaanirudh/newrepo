@@ -1,0 +1,60 @@
+{
+  "paragraphs": [
+    {
+      "text": "sjhow tables;\n",
+      "dateUpdated": "Jun 30, 2016 7:26:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467269663227_-1029227323",
+      "id": "20160630-065423_1092640733",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:22: error: not found: value sjhow\n              sjhow tables;\n              ^\n"
+      },
+      "dateCreated": "Jun 30, 2016 6:54:23 AM",
+      "dateStarted": "Jun 30, 2016 7:26:55 AM",
+      "dateFinished": "Jun 30, 2016 7:27:36 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467271615947_-1228571058",
+      "id": "20160630-072655_1011702487",
+      "dateCreated": "Jun 30, 2016 7:26:55 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "spark1",
+  "id": "9ZWZU2W25Q1467269661",
+  "angularObjects": {
+    "2BQEFMBC246471467271209219": [],
+    "2BR49166246471467271209294": [],
+    "2BQ6EAFTQ46471467271209285": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
