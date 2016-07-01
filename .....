@@ -1,0 +1,294 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md ###This notebook supports multiple language backend\n- default: SQL on Presto\n- %md: markdown\n- %sh: shell \n- %presto: default, SQL on Presto\n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1443100995300_-1422426806",
+      "id": "20150924-132315_1798492170",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eThis notebook supports multiple language backend\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edefault: SQL on Presto\u003c/li\u003e\n\u003cli\u003e%md: markdown\u003c/li\u003e\n\u003cli\u003e%sh: shell\u003c/li\u003e\n\u003cli\u003e%presto: default, SQL on Presto\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eInterpreters are loaded lazily and hence takes some time the first time.\n\u003cbr  /\u003eNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\u003c/p\u003e\n"
+      },
+      "dateCreated": "Sep 24, 2015 1:23:15 PM",
+      "dateStarted": "Sep 25, 2015 10:48:14 AM",
+      "dateFinished": "Sep 25, 2015 10:48:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ### sql example\n- All hive tables are visible to Presto and can be queried from the Notebooks",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1443178094300_459294222",
+      "id": "20150925-104814_7043295",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003esql example\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAll hive tables are visible to Presto and can be queried from the Notebooks\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Sep 25, 2015 10:48:14 AM",
+      "dateStarted": "Sep 25, 2015 10:49:43 AM",
+      "dateFinished": "Sep 25, 2015 10:49:43 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "show tables",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Table",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Table",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1443178183092_-256400028",
+      "id": "20150925-104943_1385147203",
+      "dateCreated": "Sep 25, 2015 10:49:43 AM",
+      "dateStarted": "Sep 25, 2015 10:50:07 AM",
+      "dateFinished": "Sep 25, 2015 10:50:14 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "select * from default_qubole_memetracker limit 10",
+      "dateUpdated": "Nov 30, 2015 5:33:36 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "site",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "ts",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "site",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "ts",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448619753815_-1493668356",
+      "id": "20151127-102233_1973854269",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "site\tts\tphr\tlnks\tmonth\nhttp://boards.cruisecritic.com/forumdisplay.php?s\u003d61e34c2e99e43b5bf1fbc4cd54c65e3e\u0026f\u003d210\t2009-03-01 00:00:00\t[]\t[\"http://boards.cruisecritic.com/register.php?\"]\t2009-03\t\nhttp://rss.feedsportal.com/c/32158/f/414204/s/35272d0/l/0l0sitn0o0cnews0cd1ddd83b863878a7bcb5b4c36a2e97910bhtml/story01.htm\t2009-03-01 00:00:00\t[\"let me say this as plainly as i can by august 31 2010 our combat mission in iraq will end\",\"i have chosen a time-line that will remove our combat brigades over the next 18 months let me say this as plainly as i can by august 31 2010 our combat mission in iraq will end\",\"under the status of forces agreement with the iraqi government i intend to remove all us troops from iraq by the end of 2011 we will complete this transition to iraqi responsibility and we will bring our troops home with the honour that they have earned\"]\t[]\t2009-03\t\nhttp://webstandards.org/web-standards-articles-translations\t2009-03-01 00:00:00\t[]\t[\"http://w3.org/qa/2003/03/web-kit.html.ar\",\"http://uiaccess.com/justask/es/contents.html\"]\t2009-03\t\nhttp://nachofoto.com/gallery/south_africa_v_australia_1st_test_day_two-2\t2009-03-01 00:00:01\t[\"its like youtube of images\"]\t[]\t2009-03\t\nhttp://nachofoto.com/gallery/west_indies_v_england_4th_test_day_two-2\t2009-03-01 00:00:01\t[\"its like youtube of images\"]\t[]\t2009-03\t\nhttp://nachofoto.com/gallery/american_gangster_premiere-2\t2009-03-01 00:00:01\t[\"its like youtube of images\"]\t[]\t2009-03\t\nhttp://faz.net/s/rub99c3eeca60d84c08ad6b3e60c4ea807f/doc~eb9b0d319379c435b9a54565ac0339505~atpl~ecommon~scontent.html\t2009-03-01 00:00:01\t[\"keine europapolitik zu machen\"]\t[]\t2009-03\t\nhttp://faz.net/s/rub58241e4df1b149538abc24d0e82a6266/doc~e9d53a1d726d84d2eaf4451500a7ec013~atpl~ecommon~scontent.html?rss_aktuell\t2009-03-01 00:00:02\t[]\t[\"http://faz.net/rss/d/invest/watchlist/watchlistadd.aspx?isin\u003dus0268741073\"]\t2009-03\t\nhttp://faz.net/s/rubddbdabb9457a437baa85a49c26fb23a0/doc~eb6e133cd1f51423caa661e653c7d3338~atpl~ecommon~scontent.html?rss_aktuell\t2009-03-01 00:00:02\t[\"die partei hat immer recht\"]\t[]\t2009-03\t\nhttp://strategypage.com/htmw/htecm/articles/20090228.aspx\t2009-03-01 00:00:02\t[]\t[\"http://strategypage.com/militaryforums/6-53783.aspx\"]\t2009-03\t\n"
+      },
+      "dateCreated": "Nov 27, 2015 10:22:33 AM",
+      "dateStarted": "Nov 30, 2015 5:33:36 AM",
+      "dateFinished": "Nov 30, 2015 5:33:36 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "select quarter, count(*) from default_qubole_airline_origin_destination  where quarter is not null and try_cast(quarter as bigint) is not null group by quarter order by quarter",
+      "dateUpdated": "Nov 30, 2015 5:40:42 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "quarter",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "_col1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "quarter",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "_col1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448861568119_-1819096520",
+      "id": "20151130-053248_47722615",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "quarter\t_col1\n1\t7904383\t\n2\t8961217\t\n3\t8804926\t\n4\t8794699\t\n"
+      },
+      "dateCreated": "Nov 30, 2015 5:32:48 AM",
+      "dateStarted": "Nov 30, 2015 5:39:02 AM",
+      "dateFinished": "Nov 30, 2015 5:39:51 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "select origin, quarter, count(*) count from default_qubole_airline_origin_destination where quarter is not NULL group by origin, quarter order by count desc limit 100",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": true,
+          "keys": [
+            {
+              "name": "origin",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "count",
+              "index": 2.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [
+            {
+              "name": "quarter",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "scatter": {
+            "xAxis": {
+              "name": "origin",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "quarter",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1443178207756_-1463711429",
+      "id": "20150925-105007_597711845",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "origin\tquarter\tcount\n\"ATL\"\t4\t585943\t\n\"ATL\"\t2\t572598\t\n\"ATL\"\t3\t572256\t\n\"ATL\"\t1\t500581\t\n\"ORD\"\t2\t491543\t\n\"ORD\"\t3\t466277\t\n\"ORD\"\t4\t447966\t\n\"ORD\"\t1\t414078\t\n\"DFW\"\t4\t395589\t\n\"DFW\"\t2\t394314\t\n\"DFW\"\t3\t385744\t\n\"DEN\"\t3\t352433\t\n\"DEN\"\t2\t350541\t\n\"DEN\"\t4\t338047\t\n\"DFW\"\t1\t334973\t\n\"CLT\"\t4\t320120\t\n\"CLT\"\t2\t309697\t\n\"CLT\"\t3\t308442\t\n\"DEN\"\t1\t304126\t\n\"CLT\"\t1\t278568\t\n\"PHX\"\t4\t267915\t\n\"PHX\"\t3\t267910\t\n\"LAX\"\t2\t257623\t\n\"PHX\"\t1\t254131\t\n\"PHX\"\t2\t251099\t\n\"LAX\"\t3\t245908\t\n\"LAX\"\t4\t242943\t\n\"MSP\"\t2\t242774\t\n\"MSP\"\t4\t240772\t\n\"MSP\"\t3\t238894\t\n\"IAH\"\t4\t230179\t\n\"IAH\"\t1\t226183\t\n\"IAH\"\t2\t224701\t\n\"DTW\"\t2\t224464\t\n\"DTW\"\t4\t218456\t\n\"LAX\"\t1\t216789\t\n\"IAH\"\t3\t215317\t\n\"LAS\"\t3\t212800\t\n\"DTW\"\t3\t211875\t\n\"MSP\"\t1\t210818\t\n\"LAS\"\t4\t208455\t\n\"PHL\"\t2\t205220\t\n\"PHL\"\t4\t205053\t\n\"LAS\"\t2\t203396\t\n\"PHL\"\t3\t203169\t\n\"LAS\"\t1\t198329\t\n\"DTW\"\t1\t196459\t\n\"SEA\"\t3\t196199\t\n\"SEA\"\t2\t182331\t\n\"PHL\"\t1\t177207\t\n\"SLC\"\t3\t174109\t\n\"SEA\"\t4\t172549\t\n\"SFO\"\t3\t168273\t\n\"SFO\"\t2\t166709\t\n\"SLC\"\t2\t163611\t\n\"SFO\"\t4\t162051\t\n\"SLC\"\t4\t155542\t\n\"MCO\"\t2\t152253\t\n\"CVG\"\t2\t149251\t\n\"MCO\"\t1\t147277\t\n\"CVG\"\t3\t146615\t\n\"SLC\"\t1\t144876\t\n\"MCO\"\t4\t144103\t\n\"CVG\"\t4\t141082\t\n\"SEA\"\t1\t136729\t\n\"SFO\"\t1\t134752\t\n\"CVG\"\t1\t130466\t\n\"BOS\"\t2\t127430\t\n\"LGA\"\t2\t127420\t\n\"DCA\"\t2\t125981\t\n\"IAD\"\t2\t125825\t\n\"MCO\"\t3\t125714\t\n\"BOS\"\t3\t123382\t\n\"LGA\"\t3\t122713\t\n\"DCA\"\t3\t121217\t\n\"LGA\"\t4\t118307\t\n\"DCA\"\t4\t117944\t\n\"BOS\"\t4\t117260\t\n\"IAD\"\t1\t115924\t\n\"IAD\"\t4\t114798\t\n\"IAD\"\t3\t113989\t\n\"EWR\"\t2\t110173\t\n\"BWI\"\t3\t107754\t\n\"BWI\"\t2\t105037\t\n\"BWI\"\t4\t104957\t\n\"EWR\"\t4\t104524\t\n\"EWR\"\t3\t104487\t\n\"DCA\"\t1\t104110\t\n\"EWR\"\t1\t102976\t\n\"PDX\"\t3\t101936\t\n\"LGA\"\t1\t99723\t\n\"JFK\"\t2\t99313\t\n\"JFK\"\t3\t97973\t\n\"FLL\"\t1\t97782\t\n\"SAN\"\t3\t97503\t\n\"BOS\"\t1\t96220\t\n\"MEM\"\t4\t96146\t\n\"JFK\"\t4\t96138\t\n\"MEM\"\t2\t96070\t\n\"SAN\"\t2\t95953\t\n"
+      },
+      "dateCreated": "Sep 25, 2015 10:50:07 AM",
+      "dateStarted": "Sep 25, 2015 10:50:41 AM",
+      "dateFinished": "Sep 25, 2015 10:51:37 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1443178241780_-1947340272",
+      "id": "20150925-105041_188415639",
+      "dateCreated": "Sep 25, 2015 10:50:41 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "PrestoExampleNote - Clone",
+  "id": "M2J1UHFETW1457591402",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {},
+  "source": "FCN"
+}
