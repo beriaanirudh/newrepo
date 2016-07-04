@@ -1,37 +1,6 @@
 {
   "paragraphs": [
     {
-      "text": "%md ###This notebook supports multiple language backend\n- default: SQL on Presto\n- %md: markdown\n- %sh: shell \n- %presto: default, SQL on Presto\n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1443100995300_-1422426806",
-      "id": "20150924-132315_1798492170",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003ch3\u003eThis notebook supports multiple language backend\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edefault: SQL on Presto\u003c/li\u003e\n\u003cli\u003e%md: markdown\u003c/li\u003e\n\u003cli\u003e%sh: shell\u003c/li\u003e\n\u003cli\u003e%presto: default, SQL on Presto\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eInterpreters are loaded lazily and hence takes some time the first time.\n\u003cbr  /\u003eNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\u003c/p\u003e\n"
-      },
-      "dateCreated": "Sep 24, 2015 1:23:15 PM",
-      "dateStarted": "Sep 25, 2015 10:48:14 AM",
-      "dateFinished": "Sep 25, 2015 10:48:15 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%md ### sql example\n- All hive tables are visible to Presto and can be queried from the Notebooks",
       "config": {
         "colWidth": 12.0,
@@ -285,7 +254,11 @@
   ],
   "name": "PrestoExampleNote - Clone",
   "id": "M2J1UHFETW1457591402",
-  "angularObjects": {},
+  "angularObjects": {
+    "2BQ5Z2RUQ478071467633259307": [],
+    "2BRN9E411478071467633259304": [],
+    "2BSBF3J5M478071467633259100": []
+  },
   "config": {
     "looknfeel": "default"
   },
