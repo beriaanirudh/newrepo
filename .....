@@ -2,6 +2,7 @@
   "paragraphs": [
     {
       "text": "show tables",
+      "dateUpdated": "Jul 4, 2016 11:14:39 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -24,7 +25,9 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "enabled": false,
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -224,9 +227,9 @@
   "name": "PrestoExampleNote - Clone",
   "id": "M2J1UHFETW1457591402",
   "angularObjects": {
-    "2BQDQM4JA478071467364035520": [],
-    "2BPVRQS8X478071467364035535": [],
-    "2BRB6HZFR478071467364035348": []
+    "2BQMDN5KC478071467629361438": [],
+    "2BQMXQACT478071467629361452": [],
+    "2BRHFQGYC478071467629361185": []
   },
   "config": {
     "looknfeel": "default"
