@@ -2,6 +2,7 @@
   "paragraphs": [
     {
       "text": "%md ### sql example\n- All hive tables are visible to Presto and can be queried from the Notebooks",
+      "dateUpdated": "Jul 4, 2016 12:07:14 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -12,7 +13,9 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -26,13 +29,14 @@
         "msg": "\u003ch3\u003esql example\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAll hive tables are visible to Presto and can be queried from the Notebooks\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Sep 25, 2015 10:48:14 AM",
-      "dateStarted": "Sep 25, 2015 10:49:43 AM",
-      "dateFinished": "Sep 25, 2015 10:49:43 AM",
+      "dateStarted": "Jul 4, 2016 12:07:15 PM",
+      "dateFinished": "Jul 4, 2016 12:07:16 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "show tables",
+      "dateUpdated": "Jul 4, 2016 12:07:18 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -55,7 +59,9 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "enabled": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
