@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%sh\nls\n",
-      "dateUpdated": "Jul 4, 2016 3:55:53 PM",
+      "dateUpdated": "Jul 5, 2016 4:27:54 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -29,14 +29,14 @@
         "msg": "pom.xml\nsrc\ntarget\n"
       },
       "dateCreated": "Jun 13, 2016 3:41:13 PM",
-      "dateStarted": "Jul 4, 2016 3:55:53 PM",
-      "dateFinished": "Jul 4, 2016 3:55:55 PM",
+      "dateStarted": "Jul 5, 2016 4:27:54 PM",
+      "dateFinished": "Jul 5, 2016 4:27:58 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sh\necho \u0027another freh satr\u0027",
-      "dateUpdated": "Jul 4, 2016 3:50:33 PM",
+      "dateUpdated": "Jun 23, 2016 1:39:41 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -63,8 +63,8 @@
         "msg": "another freh satr\n"
       },
       "dateCreated": "Jun 23, 2016 11:27:47 AM",
-      "dateStarted": "Jul 4, 2016 3:50:33 PM",
-      "dateFinished": "Jul 4, 2016 3:50:36 PM",
+      "dateStarted": "Jun 23, 2016 1:39:41 PM",
+      "dateFinished": "Jun 23, 2016 1:39:41 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
