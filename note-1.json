@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\necho 1kajsdkhajksdajsdkahskd",
-      "dateUpdated": "Jul 15, 2016 1:50:38 AM",
+      "text": "%sh\necho ",
+      "dateUpdated": "Jul 15, 2016 1:52:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
