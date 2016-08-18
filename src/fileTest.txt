@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "",
-      "dateUpdated": "Jun 27, 2016 6:43:35 AM",
+      "text": "show schemas;",
+      "dateUpdated": "Aug 18, 2016 7:32:23 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -23,7 +23,26 @@
       },
       "jobName": "paragraph_1467007803805_-496440354",
       "id": "20160627-061003_1494359663",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Schema\ndefault\t\ninformation_schema\t\nnon_default\t\ntpcds_orc_1000\t\ntpcds_orc_3000\t\ntpcds_orc_500\t\ntpcds_txt_1000\t\ntpcds_txt_3000\t\ntpcds_txt_500\t\n"
+      },
       "dateCreated": "Jun 27, 2016 6:10:03 AM",
+      "dateStarted": "Aug 18, 2016 7:32:23 AM",
+      "dateFinished": "Aug 18, 2016 7:32:35 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1471505543091_-500722192",
+      "id": "20160818-073223_740772758",
+      "dateCreated": "Aug 18, 2016 7:32:23 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
