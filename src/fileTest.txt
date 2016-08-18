@@ -1,0 +1,80 @@
+{
+  "paragraphs": [
+    {
+      "text": "show tables;",
+      "dateUpdated": "Jun 27, 2016 6:10:03 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466495836619_-1455019113",
+      "id": "20160621-075716_1220806149",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Table\n5_parition_table\t\navrotest\t\ncsvtsvtable\t\ndefault_qubole_airline_origin_destination\t\ndefault_qubole_memetracker\t\nhivedep\t\nhivehtmltable\t\nnewhiveschemaform1488_201509221159\t\nnewhiveschemaform1495_201509240345\t\nnewhiveschemaform1500_201510090716\t\nnewhiveschemaform1549_201512091103\t\nnewhiveschemaraw\t\nnewtable\t\ntable_with_comments\t\ntest_table_hive\t\ntpcds_orc_1000item_temp_091079ee_9cfb_43e0_9a33_1350d4ffa742\t\ntpcds_orc_1000item_temp_4823a39b_d307_40b3_a365_b5ab2b5d0df5\t\ntpcds_orc_1000item_temp_85ab951f_26a6_400f_8540_117cfd461efd\t\ntpcds_orc_1000item_temp_92526419_b598_49dc_978a_a5530bb72e52\t\ntpcds_orc_1000item_temp_f8669bd7_dd3a_4233_a5da_ef9e5b47dbd0\t\ntpcds_orc_1000item_temp_fd935cb3_b8ba_441e_9362_b5f0e292593f\t\nworkflow_test1\t\nworkflow_test2\t\n"
+      },
+      "dateCreated": "Jun 21, 2016 7:57:16 AM",
+      "dateStarted": "Jun 27, 2016 6:10:03 AM",
+      "dateFinished": "Jun 27, 2016 6:10:17 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "dateUpdated": "Jun 27, 2016 6:43:35 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467007803805_-496440354",
+      "id": "20160627-061003_1494359663",
+      "dateCreated": "Jun 27, 2016 6:10:03 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "presto",
+  "id": "VHD2GHJMQ11466495457",
+  "angularObjects": {
+    "2BQZ9DU8S405771468992126816": [],
+    "2BTTYCY86405771468992126835": [],
+    "2BRD6Y9UC405771468992126714": []
+  },
+  "config": {
+    "looknfeel": "default",
+    "releaseresource": false,
+    "cron": "0 0 0/1 * * ?",
+    "cron_updated_by_userid": "8758"
+  },
+  "info": {},
+  "source": "FCN"
+}
