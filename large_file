@@ -35,7 +35,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh\necho lol",
+      "dateUpdated": "Sep 7, 2016 2:50:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -43,27 +58,36 @@
       "jobName": "paragraph_1473163055661_287294766",
       "id": "20160906-172735_1343952765",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": ""
+        "msg": "lol\n"
       },
       "dateCreated": "Sep 6, 2016 5:27:35 PM",
-      "dateStarted": "Sep 7, 2016 5:25:50 PM",
-      "dateFinished": "Sep 7, 2016 5:25:50 PM",
-      "status": "ERROR",
-      "errorMessage": "",
+      "dateStarted": "Sep 7, 2016 2:50:28 PM",
+      "dateFinished": "Sep 7, 2016 2:50:28 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1473259828054_108309852",
+      "id": "20160907-145028_550727330",
+      "dateCreated": "Sep 7, 2016 2:50:28 PM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "note1",
-  "id": "2BUUWB3ZQnull1473154059820",
+  "id": "2BSTCXJNG97441470655366169",
   "angularObjects": {
-    "2BXAF4EAHnull1473091415102": [],
-    "2BW9D4TJDnull1473154060460": [],
-    "2BWRE4EWTnull1473091415084": [],
-    "2BVQQ5H62null1473091415088": [],
-    "2BU5PBWDEnull1473091415097": [],
-    "2BW3Q1Y4Anull1473091415093": []
+    "2BVUR7UEH97441473164346765": [],
+    "2BUVJUMUV97441473164353966": [],
+    "2BW7TPKZE97441473164355653": [],
+    "2BUVPZJR497441473164558959": []
   },
   "config": {},
   "info": {},
