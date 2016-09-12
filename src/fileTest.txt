@@ -58,7 +58,8 @@
     "looknfeel": "default",
     "releaseresource": false,
     "cron": "0 0 0/1 * * ?",
-    "cron_updated_by_userid": "8758"
+    "cron_updated_by_userid": "8758",
+    "cron_updated_by_useremail": "quboleregression+qa+permanent@gmail.com"
   },
   "info": {},
   "source": "FCN"
