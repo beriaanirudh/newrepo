@@ -1,0 +1,29 @@
+{
+  "paragraphs": [
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1473853591195_-1473500883",
+      "id": "20160914-171631_734095774",
+      "dateCreated": "Sep 14, 2016 5:16:31 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "",
+  "id": "2BVWX5SXJnull1473402100228",
+  "angularObjects": {
+    "2BXAF4EAHnull1473091415102": [],
+    "2BW9D4TJDnull1473154060460": [],
+    "2BWRE4EWTnull1473091415084": [],
+    "2BUZTB3KSnull1473318125858": [],
+    "2BVQQ5H62null1473091415088": [],
+    "2BU5PBWDEnull1473091415097": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
