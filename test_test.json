@@ -1,0 +1,65 @@
+{
+  "paragraphs": [
+    {
+      "text": "sc.version",
+      "dateUpdated": "Sep 27, 2016 7:59:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1474961732924_419579207",
+      "id": "20160927-073532_809938711",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res0: String \u003d 1.6.1\n"
+      },
+      "dateCreated": "Sep 27, 2016 7:35:32 AM",
+      "dateStarted": "Sep 27, 2016 8:02:31 AM",
+      "dateFinished": "Sep 27, 2016 8:03:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1474963163727_544110848",
+      "id": "20160927-075923_1764109562",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Sep 27, 2016 7:59:23 AM",
+      "dateStarted": "Sep 27, 2016 8:02:32 AM",
+      "dateFinished": "Sep 27, 2016 8:03:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "new note",
+  "id": "GEGF672EK61474961725",
+  "angularObjects": {
+    "2BX356719346371474961490728": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
