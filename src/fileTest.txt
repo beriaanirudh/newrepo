@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "show schemas;",
-      "dateUpdated": "Aug 18, 2016 7:32:23 AM",
+      "dateUpdated": "Oct 21, 2016 8:33:05 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,7 +15,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -35,32 +36,66 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "show schemas;",
+      "dateUpdated": "Oct 21, 2016 8:31:27 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1471505543091_-500722192",
       "id": "20160818-073223_740772758",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: not found: value show\n              show schemas;\n              ^\n"
+      },
       "dateCreated": "Aug 18, 2016 7:32:23 AM",
+      "dateStarted": "Oct 21, 2016 8:31:27 AM",
+      "dateFinished": "Oct 21, 2016 8:33:05 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1477038687005_199683663",
+      "id": "20161021-083127_1615581795",
+      "dateCreated": "Oct 21, 2016 8:31:27 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "presto",
-  "id": "EFACM354MZ1471514663",
+  "id": "89HJXA6UQ91475472968",
   "angularObjects": {
-    "2BUVJYXCT432181471510494314": [],
-    "2BUVECNPT432181471510492310": [],
-    "2BT8VRJHH432181471510495230": [],
-    "2BUNVANR8432181471510492280": []
+    "2BYRQRU71570141477035888195": [],
+    "2C1MK8X57570141477035888188": [],
+    "2BZ2J5QS1570141477035888191": [],
+    "2C1R9TT7E570141477035887908": []
   },
   "config": {
     "looknfeel": "default",
     "releaseresource": false,
     "cron": "0 0 0/1 * * ?",
-    "cron_updated_by_userid": "8758",
-    "cron_updated_by_useremail": "quboleregression+qa+permanent@gmail.com"
+    "cron_updated_by_userid": "10534",
+    "cron_updated_by_useremail": "monikak@qubole.com"
   },
   "info": {},
   "source": "FCN"
