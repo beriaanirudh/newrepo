@@ -36,40 +36,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "show schemas;",
-      "dateUpdated": "Oct 21, 2016 8:31:27 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1471505543091_-500722192",
-      "id": "20160818-073223_740772758",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "\u003cconsole\u003e:28: error: not found: value show\n              show schemas;\n              ^\n"
-      },
-      "dateCreated": "Aug 18, 2016 7:32:23 AM",
-      "dateStarted": "Oct 21, 2016 8:31:27 AM",
-      "dateFinished": "Oct 21, 2016 8:33:05 AM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "config": {},
       "settings": {
         "params": {},
@@ -83,18 +49,18 @@
     }
   ],
   "name": "presto",
-  "id": "89HJXA6UQ91475472968",
+  "id": "RRNK4KWVJ21477478135",
   "angularObjects": {
-    "2BYRQRU71570141477035888195": [],
-    "2C1MK8X57570141477035888188": [],
-    "2BZ2J5QS1570141477035888191": [],
-    "2C1R9TT7E570141477035887908": []
+    "2BYWAK6C7128311477474013255": [],
+    "2C26HKQ8V128311477474013211": [],
+    "2BY4THP2A128311477474013248": [],
+    "2BYEHZVDH128311477474013251": []
   },
   "config": {
     "looknfeel": "default",
     "releaseresource": false,
     "cron": "0 0 0/1 * * ?",
-    "cron_updated_by_userid": "10534",
+    "cron_updated_by_userid": "2223",
     "cron_updated_by_useremail": "monikak@qubole.com"
   },
   "info": {},
