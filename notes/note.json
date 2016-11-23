@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\nls",
-      "dateUpdated": "Nov 23, 2016 8:45:07 AM",
+      "text": "%sh\nls -al",
+      "dateUpdated": "Nov 23, 2016 11:41:50 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -26,11 +26,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "bin\nboot\ncgroup\ndev\netc\nhome\nindex.html\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nmotd.partww1ig\nopt\nproc\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n"
+        "msg": "total 48\ndrwxr-xr-x 12 ec2-user ec2-user 4096 Nov 23 09:14 .\ndrwxr-xr-x  3 root     root     4096 Nov 18 04:57 ..\ndrwxr-xr-x  2 ec2-user ec2-user 4096 Nov 11 06:27 bin\ndrwxr-xr-x  2 ec2-user ec2-user 4096 Nov 23 10:19 conf\ndrwxr-xr-x  6 ec2-user ec2-user 4096 Nov 11 06:27 example-notebook\ndrwxr-xr-x  2 ec2-user ec2-user 4096 Nov 11 06:27 hustler\ndrwxr-xr-x  9 ec2-user ec2-user 4096 Nov 11 06:27 interpreter\nlrwxrwxrwx  1 root     root       36 Nov 18 04:57 logs -\u003e /media/ephemeral0/logs/zeppelin/logs\nlrwxrwxrwx  1 root     root       40 Nov 18 04:57 notebook -\u003e /media/ephemeral0/logs/zeppelin/notebook\ndrwxr-xr-x  3 ec2-user ec2-user 4096 Nov 11 06:27 R\nlrwxrwxrwx  1 root     root       35 Nov 18 04:57 run -\u003e /media/ephemeral0/logs/zeppelin/run\ndrwxr-xr-x  3 root     root     4096 Nov 23 09:14 webapps\ndrwxr-xr-x  3 ec2-user ec2-user 4096 Nov 11 06:27 zeppelin-server\ndrwxr-xr-x  2 ec2-user ec2-user 4096 Nov 11 06:27 zeppelin-web\ndrwxr-xr-x  3 ec2-user ec2-user 4096 Nov 11 06:27 zeppelin-zengine\n"
       },
       "dateCreated": "Nov 21, 2016 11:08:17 AM",
-      "dateStarted": "Nov 23, 2016 8:45:07 AM",
-      "dateFinished": "Nov 23, 2016 8:45:07 AM",
+      "dateStarted": "Nov 23, 2016 11:41:50 AM",
+      "dateFinished": "Nov 23, 2016 11:41:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
