@@ -82,7 +82,7 @@
     },
     {
       "text": "%spark sc.version",
-      "dateUpdated": "Jan 20, 2017 3:40:43 AM",
+      "dateUpdated": "Jan 24, 2017 1:16:20 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -109,8 +109,8 @@
         "msg": "\nres0: String \u003d 2.0.0\n"
       },
       "dateCreated": "Jan 19, 2017 1:30:38 AM",
-      "dateStarted": "Jan 20, 2017 3:40:43 AM",
-      "dateFinished": "Jan 20, 2017 3:41:05 AM",
+      "dateStarted": "Jan 24, 2017 1:16:20 PM",
+      "dateFinished": "Jan 24, 2017 1:16:54 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
