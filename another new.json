@@ -1,0 +1,222 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark.sql select count(*) from employee",
+      "dateUpdated": "Jan 19, 2017 3:04:08 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "count(1)",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "count(1)",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484565933402_720218788",
+      "id": "20170116-165533_1781703731",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "count(1)\n10000000\n"
+      },
+      "dateCreated": "Jan 16, 2017 4:55:33 AM",
+      "dateStarted": "Jan 19, 2017 3:04:08 AM",
+      "dateFinished": "Jan 19, 2017 3:04:37 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\noutput \u003d 100\nprint output\n\n",
+      "dateUpdated": "Jan 19, 2017 3:04:41 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484565939039_1270425040",
+      "id": "20170116-165539_1834302453",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "pyspark is not responding "
+      },
+      "dateCreated": "Jan 16, 2017 4:55:39 AM",
+      "dateStarted": "Jan 19, 2017 3:04:41 AM",
+      "dateFinished": "Jan 19, 2017 3:04:55 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark sc.version",
+      "dateUpdated": "Jan 20, 2017 3:40:43 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484812838921_502038688",
+      "id": "20170119-133038_1372080718",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: String \u003d 2.0.0\n"
+      },
+      "dateCreated": "Jan 19, 2017 1:30:38 AM",
+      "dateStarted": "Jan 20, 2017 3:40:43 AM",
+      "dateFinished": "Jan 20, 2017 3:41:05 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo $PATH\n",
+      "dateUpdated": "Jan 19, 2017 1:52:29 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484813179057_104103225",
+      "id": "20170119-133619_493357012",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "/Users/beria/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin\n"
+      },
+      "dateCreated": "Jan 19, 2017 1:36:19 AM",
+      "dateStarted": "Jan 19, 2017 1:52:29 AM",
+      "dateFinished": "Jan 19, 2017 1:52:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark \nimport com.databricks.spark.csv._",
+      "dateUpdated": "Jan 20, 2017 3:58:05 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484814142125_1705402432",
+      "id": "20170119-135222_982395363",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nimport com.databricks.spark.csv._\n"
+      },
+      "dateCreated": "Jan 19, 2017 1:52:22 AM",
+      "dateStarted": "Jan 20, 2017 3:58:05 AM",
+      "dateFinished": "Jan 20, 2017 3:58:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "dateUpdated": "Jan 20, 2017 3:42:05 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484907115143_1613899185",
+      "id": "20170120-154155_1774282845",
+      "dateCreated": "Jan 20, 2017 3:41:55 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "New note",
+  "id": "2C957RPVVnull1484565933392",
+  "angularObjects": {
+    "2C8RBKWPP1484540422492:shared_process": [],
+    "2C65RVZW6null1484720620936:shared_process": [],
+    "2C9B188R1null1484565954528:shared_process": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
