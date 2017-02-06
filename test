@@ -73,7 +73,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 6, 2017 6:01:49 AM",
+      "text": "sc.version",
+      "dateUpdated": "Feb 6, 2017 6:07:05 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -99,12 +100,69 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": ""
+        "msg": "res8: String \u003d 1.5.1\n"
       },
       "dateCreated": "Feb 6, 2017 5:56:56 AM",
-      "dateStarted": "Feb 6, 2017 6:01:50 AM",
-      "dateFinished": "Feb 6, 2017 6:01:50 AM",
+      "dateStarted": "Feb 6, 2017 6:07:05 AM",
+      "dateFinished": "Feb 6, 2017 6:07:06 AM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql show tables",
+      "dateUpdated": "Feb 6, 2017 6:07:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "JOB UI",
+          "group": "spark",
+          "values": [
+            "https://in.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2Fec2-35-154-126-243.ap-south-1.compute.amazonaws.com%3A8088%2Fproxy%2Fapplication_1486111314712_0006/jobs/job?spark\u003dtrue\u0026id\u003d0"
+          ],
+          "interpreterSettingId": "2C7MJJSJU1521486111328349"
+        }
+      },
+      "jobName": "paragraph_1486361225706_-1934755656",
+      "id": "20170206-060705_1962278665",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\n"
+      },
+      "dateCreated": "Feb 6, 2017 6:07:05 AM",
+      "dateStarted": "Feb 6, 2017 6:07:14 AM",
+      "dateFinished": "Feb 6, 2017 6:07:16 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1486361234167_-1079828276",
+      "id": "20170206-060714_124121652",
+      "dateCreated": "Feb 6, 2017 6:07:14 AM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
