@@ -1,0 +1,122 @@
+{
+  "paragraphs": [
+    {
+      "text": "sc.version",
+      "dateUpdated": "Feb 6, 2017 6:01:49 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1486213152739_-1830698784",
+      "id": "20170204-125912_180210716",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res6: String \u003d 1.5.1\n"
+      },
+      "dateCreated": "Feb 4, 2017 12:59:12 PM",
+      "dateStarted": "Feb 6, 2017 6:01:49 AM",
+      "dateFinished": "Feb 6, 2017 6:01:50 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh ls",
+      "dateUpdated": "Feb 6, 2017 6:01:49 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1486360610009_1011359509",
+      "id": "20170206-055650_619079335",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Feb 6, 2017 5:56:50 AM",
+      "dateStarted": "Feb 6, 2017 6:01:49 AM",
+      "dateFinished": "Feb 6, 2017 6:01:49 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Feb 6, 2017 6:01:49 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1486360616800_-1082459330",
+      "id": "20170206-055656_605374194",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Feb 6, 2017 5:56:56 AM",
+      "dateStarted": "Feb 6, 2017 6:01:50 AM",
+      "dateFinished": "Feb 6, 2017 6:01:50 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "spark_sample_notebook",
+  "id": "2G483JDHVH1486111771",
+  "angularObjects": {
+    "2C8WP5FP31521486111328396": [],
+    "2C9ZB8PYF1521486111328393": [],
+    "2C7MJJSJU1521486111328349": [],
+    "2C9SKRZ8E1521486111328391": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
