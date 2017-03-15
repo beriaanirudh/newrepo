@@ -1,0 +1,253 @@
+{
+  "paragraphs": [
+    {
+      "text": "val sqlContext \u003d new org.apache.spark.sql.hive.HiveContext(sc)",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 15, 2017 10:38:09 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "database",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "tableName",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "database",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "tableName",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1489550774920_-1983375585",
+      "id": "20170315-093614_1021419176",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eval sqlContext \u003d new org.apache.spark.sql.hive.HiveContext(sc)\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 15, 2017 9:36:14 AM",
+      "dateStarted": "Mar 15, 2017 10:38:09 AM",
+      "dateFinished": "Mar 15, 2017 10:38:11 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\ndrop table if exists employee",
+      "dateUpdated": "Mar 15, 2017 9:50:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1489551640359_-396216853",
+      "id": "20170315-095040_1809817186",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Mar 15, 2017 9:50:40 AM",
+      "dateStarted": "Mar 15, 2017 9:50:59 AM",
+      "dateFinished": "Mar 15, 2017 9:51:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sqlContext.sql(\"CREATE TABLE IF NOT EXISTS employee(id INT, name STRING, age INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY \u0027,\u0027 LINES TERMINATED BY \u0027\\n\u0027\")",
+      "dateUpdated": "Mar 15, 2017 9:50:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1489550800143_1297039509",
+      "id": "20170315-093640_414405050",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres10: org.apache.spark.sql.DataFrame \u003d []\n"
+      },
+      "dateCreated": "Mar 15, 2017 9:36:40 AM",
+      "dateStarted": "Mar 15, 2017 9:51:00 AM",
+      "dateFinished": "Mar 15, 2017 9:51:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sqlContext.sql(\"LOAD DATA LOCAL INPATH \u0027/Users/beria/Desktop/employee.txt\u0027 INTO TABLE employee\")",
+      "dateUpdated": "Mar 15, 2017 9:50:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1489550882327_-1552872215",
+      "id": "20170315-093802_1448452420",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres12: org.apache.spark.sql.DataFrame \u003d []\n"
+      },
+      "dateCreated": "Mar 15, 2017 9:38:02 AM",
+      "dateStarted": "Mar 15, 2017 9:51:01 AM",
+      "dateFinished": "Mar 15, 2017 9:51:04 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql \nselect count(*) from employee",
+      "dateUpdated": "Mar 15, 2017 9:50:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "count(1)",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "count(1)",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1489550924450_-27465419",
+      "id": "20170315-093844_876914176",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "count(1)\n10000000\n"
+      },
+      "dateCreated": "Mar 15, 2017 9:38:44 AM",
+      "dateStarted": "Mar 15, 2017 9:51:02 AM",
+      "dateFinished": "Mar 15, 2017 9:51:05 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Mar 15, 2017 9:51:00 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1489551264260_-1842468832",
+      "id": "20170315-094424_998138275",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Mar 15, 2017 9:44:24 AM",
+      "dateStarted": "Mar 15, 2017 9:51:04 AM",
+      "dateFinished": "Mar 15, 2017 9:51:05 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "",
+  "id": "2C7NGSWC51484550426476",
+  "angularObjects": {
+    "2CB3J9A17null1489549756188:shared_process": [],
+    "2CDBPMGYHnull1489549756177:shared_process": [],
+    "2CD1A6HXKnull1489549756169:shared_process": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
