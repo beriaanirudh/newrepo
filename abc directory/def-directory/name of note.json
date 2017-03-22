@@ -1,0 +1,107 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark \nval a\u003d10",
+      "dateUpdated": "Mar 20, 2017 7:58:50 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490020092388_-152151211",
+      "id": "20170320-195812_415921893",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\na: Int \u003d 10\n"
+      },
+      "dateCreated": "Mar 20, 2017 7:58:12 PM",
+      "dateStarted": "Mar 20, 2017 7:58:50 PM",
+      "dateFinished": "Mar 20, 2017 7:58:50 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.getConf.get(\"master\")\n",
+      "dateUpdated": "Mar 20, 2017 8:01:29 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490020102587_1806620764",
+      "id": "20170320-195822_2133046860",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres14: String \u003d local[*]\n"
+      },
+      "dateCreated": "Mar 20, 2017 7:58:22 PM",
+      "dateStarted": "Mar 20, 2017 8:01:29 PM",
+      "dateFinished": "Mar 20, 2017 8:01:30 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490020208495_825050223",
+      "id": "20170320-200008_32865387",
+      "dateCreated": "Mar 20, 2017 8:00:08 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490020249293_-2087068230",
+      "id": "20170320-200049_1837020024",
+      "dateCreated": "Mar 20, 2017 8:00:49 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "new ntoe",
+  "id": "2CBYTJB161490020092320",
+  "angularObjects": {
+    "2CDBPMGYHnull1489549756177:shared_process": [],
+    "2CD1A6HXKnull1489549756169:shared_process": [],
+    "2CB3J9A17null1489549756188:shared_process": [],
+    "2CCJBJMCTnull1489549756144:shared_process": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
