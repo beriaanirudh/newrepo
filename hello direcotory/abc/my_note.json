@@ -1,0 +1,1286 @@
+{
+  "paragraphs": [
+    {
+      "title": "Reading data from a file",
+      "text": "%r\ndata1 \u003c- read.df(\"s3://dev.canopydata.com/vipulm/data/pypariris.parquet\", \"parquet\")\ndata2 \u003c- read.df(\"s3://dev.canopydata.com/vipulm/data/train.csv\", \"csv\")\ndata3 \u003c- read.df(\"s3://dev.canopydata.com/vipulm/data/test1.json\",\"json\")\nhead(data1)\nhead(data2)\nhead(data3)",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 16, 2017 6:55:18 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1486965717425_867470234",
+      "id": "20170213-060157_795207098",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1486965717425_867470234\u0027s Interpreter rqdas not found"
+      },
+      "dateCreated": "Feb 13, 2017 6:01:57 AM",
+      "dateStarted": "Feb 15, 2017 4:56:48 PM",
+      "dateFinished": "Feb 15, 2017 4:57:18 PM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Reading from a table to a spark dataframe using sql",
+      "text": "%r\nresult \u003c- sql(\"from src select key,value\")\nresult\nhead(result)",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:56 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484735882767_871009210",
+      "id": "20170118-103802_1713006561",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484735882767_871009210\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 18, 2017 10:38:02 AM",
+      "dateStarted": "Jan 23, 2017 6:14:49 AM",
+      "dateFinished": "Jan 23, 2017 6:14:56 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Display specific columns of a spark data frame",
+      "text": "%r\ndf \u003c- as.DataFrame(faithful)\ndf\n\nhead(select(df,\"eruptions\",\"waiting\"))\nhead(select(df,df$eruptions,df$waiting))\n#head(select(df,df$eruptions,\"waiting\"))\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:56 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484735921031_-1203374614",
+      "id": "20170118-103841_239112902",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484735921031_-1203374614\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 18, 2017 10:38:41 AM",
+      "dateStarted": "Feb 10, 2017 10:15:26 AM",
+      "dateFinished": "Feb 10, 2017 10:15:37 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Simple aggregations : sum, count",
+      "text": "%r\nhead(select(df,sum(df$eruptions)))\nhead(select(waitcount,waitcount$count))",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484736689987_-1991391791",
+      "id": "20170118-105129_1670717230",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484736689987_-1991391791\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 18, 2017 10:51:29 AM",
+      "dateStarted": "Jan 19, 2017 9:21:36 AM",
+      "dateFinished": "Jan 19, 2017 9:21:37 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Simple aggregations : groupBy, arrange",
+      "text": "%r\n\nwaitcount \u003c- summarize(groupBy(df,df$waiting),count \u003d n(df$waiting),sum(df$waiting))\nhead(waitcount)\nhead(arrange(waitcount,asc(waitcount$count)))\nwaitsec \u003c-select(df,df$waiting*60)\nhead(waitsec)\n\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484736099104_-597887114",
+      "id": "20170118-104139_322256261",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484736099104_-597887114\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 18, 2017 10:41:39 AM",
+      "dateStarted": "Jan 19, 2017 9:21:29 AM",
+      "dateFinished": "Jan 19, 2017 9:21:32 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "agg function: apply aggregation functions to grouped data",
+      "text": "%r\n\nirisdf \u003c- as.DataFrame(iris)\nd1 \u003c- filter(irisdf,irisdf$Sepal_Length\u003e\u003d5.0)\nd2 \u003c- agg(group_by(d1,d1$Species),count \u003d n(d1$Species), sum(d1$Sepal_Length)) \n\nhead(d2)\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484813591296_-2012619947",
+      "id": "20170119-081311_1261520151",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484813591296_-2012619947\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 19, 2017 8:13:11 AM",
+      "dateStarted": "Jan 23, 2017 6:48:21 AM",
+      "dateFinished": "Jan 23, 2017 6:48:22 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "sql in sparkR",
+      "text": "%r\n\nsql(\"CREATE TABLE ta1 (ID INT, name varchar)\")\nsql(\"INSERT INTO ta1 VALUES (1,\u0027a\u0027),(2,\u0027b\u0027),(3,\u0027c\u0027)\")\n\nsql(\"CREATE TABLE ta2 (ID INT, grade double)\")\nsql(\"INSERT INTO ta2 VALUES (1,7.8),(2,8.6),(3,9.5)\")\n\ndf1 \u003c- sql(\"select * from ta1\")\ndf2 \u003c- sql(\"select * from ta2\")\nhead(df1)\nhead(df2)\n\nsql(\"drop table ta1\")\nsql(\"drop table ta2\")\n\n#head(join(df1,df2))\njoin(df1,df2,df1$ID\u003d\u003ddf2$ID)\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484814170861_1281255902",
+      "id": "20170119-082250_581550195",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484814170861_1281255902\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 19, 2017 8:22:50 AM",
+      "dateStarted": "Jan 23, 2017 6:24:33 AM",
+      "dateFinished": "Jan 23, 2017 6:25:13 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "dapply",
+      "text": "%r\n\ndf \u003c- createDataFrame(faithful)\n\nschema \u003c- structType(structField(\"eruptions\", \"double\"), structField(\"waiting\", \"double\"),\n                     structField(\"waiting_secs\", \"double\"))\n                     \ndf1 \u003c- dapply(df, function(x) { x \u003c- cbind(x, x$waiting * 60) }, schema)\n\nhead(collect(df1))",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1486977871726_-2061090756",
+      "id": "20170213-092431_680365130",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1486977871726_-2061090756\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Feb 13, 2017 9:24:31 AM",
+      "dateStarted": "Feb 13, 2017 9:24:53 AM",
+      "dateFinished": "Feb 13, 2017 9:24:54 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "%\u003e% operator",
+      "text": "%r\nlibrary(magrittr)\ndf \u003c- createDataFrame(iris)\ndf %\u003e%\n  select(\"Sepal_Length\", \"Species\") %\u003e%\n  filter(df$Sepal_Length \u003e\u003d 5.5) %\u003e%\n  group_by(df$Species) %\u003e%\n  summarize(count \u003d n(df$Sepal_Length), mean \u003d mean(df$Sepal_Length)) %\u003e%\n  collect\n  \nhead(df)",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485152511564_1953492569",
+      "id": "20170123-062151_2074445077",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485152511564_1953492569\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 23, 2017 6:21:51 AM",
+      "dateStarted": "Jan 23, 2017 9:21:49 AM",
+      "dateFinished": "Jan 23, 2017 9:21:50 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "%\u003e% operator",
+      "text": "%r\n\nlibrary(magrittr)\n\nirisdf \u003c- as.DataFrame(iris)\nirisdf\nselect(irisdf,\"Sepal_Length\",\"Species\") %\u003e% filter(irisdf$Sepal_Length\u003e\u003d5.0) %\u003e% group_by(irisdf$Species) %\u003e% summarize(count \u003d n(irisdf$Species)) %\u003e% collect\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1484895578938_-1087411028",
+      "id": "20170120-065938_1627136636",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1484895578938_-1087411028\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 20, 2017 6:59:38 AM",
+      "dateStarted": "Jan 23, 2017 9:58:03 AM",
+      "dateFinished": "Jan 23, 2017 9:59:44 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Subsetting spark dataframe",
+      "text": "%r\n\ndf \u003c- createDataFrame(iris)\nhead(df)\n\n#filter rows\nhead(df[df$Species \u003d\u003d \"virginica\"])\nhead(df[df$Sepal_Length\u003e5.0])\n\n#select column\nhead(df[,\"Sepal_Length\"])\n\n#df can be subsetted on both rows and columns\nhead(df[df$Species \u003d\u003d \"virginica\" \u0026 (df$Sepal_Length\u003e7.0 | df$Sepal_Length\u003c5.0 ), c(1,5)])\nhead(df[df$Species %in% c(\"setosa\",\"virginica\"),1:2])\nhead(subset(df,df$Species %in% c(\"setosa\",\"virginica\"),1:2))",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485162581406_1959916320",
+      "id": "20170123-090941_365679851",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485162581406_1959916320\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 23, 2017 9:09:41 AM",
+      "dateStarted": "Jan 24, 2017 11:40:28 AM",
+      "dateFinished": "Jan 24, 2017 11:40:29 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Read hive table to spark df and write spark df to hive table",
+      "text": "%r\n\nresult \u003c- sql(\"from default_qubole_airline_origin_destination select *\")\nresult\nsaveAsTable(result,\"tableforresult\")\nreading \u003c- sql(\"select * from tableforresult\")\nhead(reading)\nsql(\"drop table tableforresult\")",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485328721721_1088557562",
+      "id": "20170125-071841_1531985325",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485328721721_1088557562\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 25, 2017 7:18:41 AM",
+      "dateStarted": "Feb 10, 2017 10:29:55 AM",
+      "dateFinished": "Feb 10, 2017 10:45:55 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Read and write a spark df to a hive table ",
+      "text": "%r\nrm(list\u003dls())\nresult \u003c- createDataFrame(iris)\nresult\nsaveAsTable(result,\"tableforiris\")\nreading \u003c- sql(\"from tableforiris select * \")\nhead(reading)\nsql(\"drop table tableforiris\")",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485334612058_1691487495",
+      "id": "20170125-085652_178272667",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485334612058_1691487495\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 25, 2017 8:56:52 AM",
+      "dateStarted": "Jan 25, 2017 9:57:45 AM",
+      "dateFinished": "Jan 25, 2017 9:58:25 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Write a spark df to a parquet file, read parquet file to a spark df ",
+      "text": "%r\n\npariris \u003c- createDataFrame(iris)\nwrite.parquet(pariris,\"pariris1.parquet\")\nparquetFile \u003c- read.parquet(\"pariris1.parquet\")\nparquetFile",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485336333153_-965184524",
+      "id": "20170125-092533_1424246286",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485336333153_-965184524\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 25, 2017 9:25:33 AM",
+      "dateStarted": "Jan 25, 2017 10:02:38 AM",
+      "dateFinished": "Jan 25, 2017 10:02:39 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Write spark df to parquet using saveDF()",
+      "text": "%r\n\npariris \u003c- createDataFrame(iris)\n#write.parquet(pariris,\"pariris1.parquet\")\nsaveDF(pariris,\"pariris2.parquet\",\"parquet\")\nparquetFile \u003c- read.parquet(\"pariris2.parquet\")\nparquetFile",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485338523187_1062505416",
+      "id": "20170125-100203_845087853",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485338523187_1062505416\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 25, 2017 10:02:03 AM",
+      "dateStarted": "Jan 25, 2017 10:10:34 AM",
+      "dateFinished": "Jan 25, 2017 10:10:35 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Write spark df to parquet using saveAsParquetFile(), read using parquetFile()",
+      "text": "%r\nsqlContext \u003c- sparkRSQL.init(sc)\npariris \u003c- createDataFrame(iris)\nsaveAsParquetFile(pariris, \"pariri.parquet\")\nparquetFile \u003c- parquetFile(sqlContext, \"pariri.parquet\")\n\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 15, 2017 4:38:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485339034314_-1090229266",
+      "id": "20170125-101034_1430281418",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "paragraph_1485339034314_-1090229266\u0027s Interpreter r not found"
+      },
+      "dateCreated": "Jan 25, 2017 10:10:34 AM",
+      "dateStarted": "Jan 25, 2017 10:37:11 AM",
+      "dateFinished": "Jan 25, 2017 10:37:11 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.version",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:05:42 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485342563424_1960437064",
+      "id": "20170125-110923_7847242",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Jan 25, 2017 11:09:23 AM",
+      "dateStarted": "Mar 23, 2017 7:05:42 AM",
+      "dateFinished": "Mar 23, 2017 7:05:42 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql show tables",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:05:38 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1487751255555_-740279664",
+      "id": "20170222-081415_825688879",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\nberia_test\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nproducts_orc\tfalse\nproducts_orc_pig\tfalse\ntest_table_qlog_151\tfalse\n"
+      },
+      "dateCreated": "Feb 22, 2017 8:14:15 AM",
+      "dateStarted": "Mar 23, 2017 7:05:38 AM",
+      "dateFinished": "Mar 23, 2017 7:05:39 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val sqlContext \u003d new org.apache.spark.sql.hive.HiveContext(sc)",
+      "dateUpdated": "Feb 22, 2017 9:53:28 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1487751456539_1702966152",
+      "id": "20170222-081736_388580414",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "warning: there was one deprecation warning; re-run with -deprecation for details\nsqlContext: org.apache.spark.sql.hive.HiveContext \u003d org.apache.spark.sql.hive.HiveContext@1659114d\n"
+      },
+      "dateCreated": "Feb 22, 2017 8:17:36 AM",
+      "dateStarted": "Feb 22, 2017 9:53:28 AM",
+      "dateFinished": "Feb 22, 2017 9:54:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sqlContext.sql(\"drop table if exists employee\")",
+      "dateUpdated": "Feb 22, 2017 9:55:05 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1487757220557_-690826839",
+      "id": "20170222-095340_1440121598",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res1: org.apache.spark.sql.DataFrame \u003d []\n"
+      },
+      "dateCreated": "Feb 22, 2017 9:53:40 AM",
+      "dateStarted": "Feb 22, 2017 9:55:05 AM",
+      "dateFinished": "Feb 22, 2017 9:55:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\nsqlContext.sql(\"CREATE TABLE IF NOT EXISTS employee(id INT, name STRING, age INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY \u0027,\u0027 LINES TERMINATED BY \u0027\\n\u0027\")",
+      "dateUpdated": "Feb 22, 2017 9:55:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1487757216766_2121702945",
+      "id": "20170222-095336_1442021912",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res3: org.apache.spark.sql.DataFrame \u003d []\n"
+      },
+      "dateCreated": "Feb 22, 2017 9:53:36 AM",
+      "dateStarted": "Feb 22, 2017 9:55:23 AM",
+      "dateFinished": "Feb 22, 2017 9:55:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark sqlContext.sql(\"LOAD DATA LOCAL INPATH \u0027/Users/beria/Desktop/employee.txt\u0027 INTO TABLE employee\")\n",
+      "dateUpdated": "Feb 22, 2017 9:55:45 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1487757208064_865482462",
+      "id": "20170222-095328_790469756",
+      "dateCreated": "Feb 22, 2017 9:53:28 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo lol",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Feb 26, 2017 11:48:12 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1488109688236_-1607925160",
+      "id": "20170226-114808_1494787469",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lol\n"
+      },
+      "dateCreated": "Feb 26, 2017 11:48:08 AM",
+      "dateStarted": "Feb 26, 2017 11:48:13 AM",
+      "dateFinished": "Feb 26, 2017 11:48:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark sc.version",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:04:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1488109692762_2004128162",
+      "id": "20170226-114812_182556844",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Feb 26, 2017 11:48:12 AM",
+      "dateStarted": "Mar 23, 2017 7:04:06 AM",
+      "dateFinished": "Mar 23, 2017 7:04:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nshow tables",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:04:20 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "tableName",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "isTemporary",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "tableName",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "isTemporary",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1488281179138_-1187270568",
+      "id": "20170228-112619_1407707709",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\nberia_test\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nproducts_orc\tfalse\nproducts_orc_pig\tfalse\ntest_table_qlog_151\tfalse\n"
+      },
+      "dateCreated": "Feb 28, 2017 11:26:19 AM",
+      "dateStarted": "Mar 23, 2017 7:04:20 AM",
+      "dateFinished": "Mar 23, 2017 7:04:20 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql select * from default_qubole_memetracker limit 10",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:03:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "site",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "ts",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "site",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "ts",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1488281373090_1184445890",
+      "id": "20170228-112933_2113472733",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT"
+      },
+      "dateCreated": "Feb 28, 2017 11:29:33 AM",
+      "dateStarted": "Mar 23, 2017 6:56:40 AM",
+      "dateFinished": "Mar 23, 2017 6:58:36 AM",
+      "status": "ERROR",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh \nsleep 10",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:03:00 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1488281390009_-1019380486",
+      "id": "20170228-112950_1257863382",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "java.lang.NumberFormatException: null\n\tat java.lang.Integer.parseInt(Integer.java:454)\n\tat java.lang.Integer.valueOf(Integer.java:582)\n\tat org.apache.zeppelin.shell.ShellInterpreter.open(ShellInterpreter.java:63)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:70)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:95)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:344)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:185)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler$JobRunner.run(ParallelScheduler.java:162)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
+      "dateCreated": "Feb 28, 2017 11:29:50 AM",
+      "dateStarted": "Mar 23, 2017 7:03:01 AM",
+      "dateFinished": "Mar 23, 2017 7:03:01 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\necho lol",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:00:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490251692619_318785583",
+      "id": "20170323-064812_510294549",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eecho lol\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 23, 2017 6:48:12 AM",
+      "dateStarted": "Mar 23, 2017 7:00:14 AM",
+      "dateFinished": "Mar 23, 2017 7:00:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%angular\nz.input(\"hello\")",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 23, 2017 7:04:50 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490252227513_-26155747",
+      "id": "20170323-065707_1413580704",
+      "result": {
+        "code": "SUCCESS",
+        "type": "ANGULAR",
+        "msg": "z.input(\"hello\")"
+      },
+      "dateCreated": "Mar 23, 2017 6:57:07 AM",
+      "dateStarted": "Mar 23, 2017 7:04:50 AM",
+      "dateFinished": "Mar 23, 2017 7:04:50 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.getConf.get(\"master\")",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 31, 2017 11:27:57 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490252440809_269086221",
+      "id": "20170323-070040_711403303",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres8: String \u003d local[*]\n"
+      },
+      "dateCreated": "Mar 23, 2017 7:00:40 AM",
+      "dateStarted": "Mar 31, 2017 11:27:57 AM",
+      "dateFinished": "Mar 31, 2017 11:27:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.version",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 31, 2017 10:20:20 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490252501808_571727075",
+      "id": "20170323-070141_626496582",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: String \u003d 2.0.0\n"
+      },
+      "dateCreated": "Mar 23, 2017 7:01:41 AM",
+      "dateStarted": "Mar 31, 2017 10:20:20 AM",
+      "dateFinished": "Mar 31, 2017 10:21:58 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql \n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 31, 2017 10:29:10 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "tableName",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "isTemporary",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "tableName",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "isTemporary",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490955620013_1501173101",
+      "id": "20170331-102020_98908922",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\nberia_test\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nproducts_orc\tfalse\nproducts_orc_pig\tfalse\ntest_table_qlog_151\tfalse\n"
+      },
+      "dateCreated": "Mar 31, 2017 10:20:20 AM",
+      "dateStarted": "Mar 31, 2017 10:28:32 AM",
+      "dateFinished": "Mar 31, 2017 10:28:43 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect * from default_qubole_memetracker where site \u003d \u0027beria\u0027 limit 10",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Mar 31, 2017 10:29:53 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490956105520_-2111945812",
+      "id": "20170331-102825_344967279",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "org.apache.spark.SparkException: Job 2 cancelled part of cancelled job group zeppelin-2KFWQFK8RM1487094702-20170331-102825_344967279\n\tat org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1476)\n\tat org.apache.spark.scheduler.DAGScheduler.handleJobCancellation(DAGScheduler.scala:1415)\n\tat org.apache.spark.scheduler.DAGScheduler$$anonfun$handleJobGroupCancelled$1.apply$mcVI$sp(DAGScheduler.scala:821)\n\tat org.apache.spark.scheduler.DAGScheduler$$anonfun$handleJobGroupCancelled$1.apply(DAGScheduler.scala:821)\n\tat org.apache.spark.scheduler.DAGScheduler$$anonfun$handleJobGroupCancelled$1.apply(DAGScheduler.scala:821)\n\tat scala.collection.mutable.HashSet.foreach(HashSet.scala:78)\n\tat org.apache.spark.scheduler.DAGScheduler.handleJobGroupCancelled(DAGScheduler.scala:821)\n\tat org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:1664)\n\tat org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1644)\n\tat org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1633)\n\tat org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)\n\tat org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:637)\n\tat org.apache.spark.SparkContext.runJob(SparkContext.scala:2018)\n\tat org.apache.spark.SparkContext.runJob(SparkContext.scala:2031)\n\tat org.apache.spark.SparkContext.runJob(SparkContext.scala:2044)\n\tat org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:347)\n\tat org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:39)\n\tat org.apache.spark.sql.Dataset$$anonfun$org$apache$spark$sql$Dataset$$execute$1$1.apply(Dataset.scala:2183)\n\tat org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:58)\n\tat org.apache.spark.sql.Dataset.withNewExecutionId(Dataset.scala:2532)\n\tat org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$execute$1(Dataset.scala:2182)\n\tat org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$collect(Dataset.scala:2189)\n\tat org.apache.spark.sql.Dataset$$anonfun$head$1.apply(Dataset.scala:1925)\n\tat org.apache.spark.sql.Dataset$$anonfun$head$1.apply(Dataset.scala:1924)\n\tat org.apache.spark.sql.Dataset.withTypedCallback(Dataset.scala:2562)\n\tat org.apache.spark.sql.Dataset.head(Dataset.scala:1924)\n\tat org.apache.spark.sql.Dataset.take(Dataset.scala:2139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:606)\n\tat org.apache.zeppelin.spark.ZeppelinContext.showDF(ZeppelinContext.java:223)\n\tat org.apache.zeppelin.spark.SparkSqlInterpreter.interpret(SparkSqlInterpreter.java:143)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:103)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:344)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:185)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:139)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
+      "dateCreated": "Mar 31, 2017 10:28:25 AM",
+      "dateStarted": "Mar 31, 2017 10:29:53 AM",
+      "dateFinished": "Mar 31, 2017 10:31:08 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1490956193162_-885211433",
+      "id": "20170331-102953_205943925",
+      "dateCreated": "Mar 31, 2017 10:29:53 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "another new note hello",
+  "id": "2KFWQFK8RM1487094702",
+  "angularObjects": {
+    "2CDKUVPXQ346371490261365965:shared_process": [],
+    "2CA8XRVK6346371488281037725:shared_process": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
