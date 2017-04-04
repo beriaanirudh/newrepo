@@ -1262,14 +1262,49 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh \necho 10",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 4, 2017 10:47:46 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1490956193162_-885211433",
       "id": "20170331-102953_205943925",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "10\n"
+      },
       "dateCreated": "Mar 31, 2017 10:29:53 AM",
+      "dateStarted": "Apr 4, 2017 10:47:46 AM",
+      "dateFinished": "Apr 4, 2017 10:47:47 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1491302866074_-776077094",
+      "id": "20170404-104746_1677426178",
+      "dateCreated": "Apr 4, 2017 10:47:46 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -1277,7 +1312,10 @@
   "name": "another new note hello",
   "id": "2KFWQFK8RM1487094702",
   "angularObjects": {
+    "2CAPC8MDP346371488281037764:shared_process": [],
     "2CDKUVPXQ346371490261365965:shared_process": [],
+    "2CCTKQC6B346371488281037772:shared_process": [],
+    "2CBXF8DJP346371488281037767:shared_process": [],
     "2CA8XRVK6346371488281037725:shared_process": []
   },
   "config": {},
