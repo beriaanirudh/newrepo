@@ -141,14 +141,84 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh echo second commit",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 1:16:39 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1493039090952_-1977585390",
       "id": "20170424-130450_1955094732",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "second commit\n"
+      },
       "dateCreated": "Apr 24, 2017 1:04:50 PM",
+      "dateStarted": "Apr 24, 2017 1:16:39 PM",
+      "dateFinished": "Apr 24, 2017 1:16:39 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh ls",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 1:16:45 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493039799742_128959166",
+      "id": "20170424-131639_282573953",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-interpreter\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Apr 24, 2017 1:16:39 PM",
+      "dateStarted": "Apr 24, 2017 1:16:45 PM",
+      "dateFinished": "Apr 24, 2017 1:16:45 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493039805454_342510130",
+      "id": "20170424-131645_957582612",
+      "dateCreated": "Apr 24, 2017 1:16:45 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
