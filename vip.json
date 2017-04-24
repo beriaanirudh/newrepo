@@ -38,7 +38,7 @@
     {
       "text": "sc.version",
       "user": "vipulm@qubole.com",
-      "dateUpdated": "Apr 24, 2017 12:01:46 PM",
+      "dateUpdated": "Apr 24, 2017 12:11:55 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -62,11 +62,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\nres4: String \u003d 2.0.0\n"
+        "msg": "\nres6: String \u003d 2.0.0\n"
       },
       "dateCreated": "Apr 24, 2017 12:00:39 PM",
-      "dateStarted": "Apr 24, 2017 12:01:54 PM",
-      "dateFinished": "Apr 24, 2017 12:03:18 PM",
+      "dateStarted": "Apr 24, 2017 12:11:56 PM",
+      "dateFinished": "Apr 24, 2017 12:11:56 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -106,14 +106,84 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh echo after first commit",
+      "user": "vipulm@qubole.com",
+      "dateUpdated": "Apr 24, 2017 12:12:29 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493035932428_-93267971",
+      "id": "20170424-121212_2132318418",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "after first commit\n"
+      },
+      "dateCreated": "Apr 24, 2017 12:12:12 PM",
+      "dateStarted": "Apr 24, 2017 12:12:29 PM",
+      "dateFinished": "Apr 24, 2017 12:12:29 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh ls",
+      "user": "vipulm@qubole.com",
+      "dateUpdated": "Apr 24, 2017 12:12:10 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1493035310615_-54267649",
       "id": "20170424-120150_1751353017",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-interpreter\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
       "dateCreated": "Apr 24, 2017 12:01:50 PM",
+      "dateStarted": "Apr 24, 2017 12:12:10 PM",
+      "dateFinished": "Apr 24, 2017 12:12:10 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493035930103_-662311594",
+      "id": "20170424-121210_1888899487",
+      "dateCreated": "Apr 24, 2017 12:12:10 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
