@@ -106,14 +106,119 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh echo lol",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:44:15 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1493034228012_624284915",
       "id": "20170424-114348_1860431450",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lol\n"
+      },
       "dateCreated": "Apr 24, 2017 11:43:48 AM",
+      "dateStarted": "Apr 24, 2017 11:44:16 AM",
+      "dateFinished": "Apr 24, 2017 11:44:16 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh ls\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:44:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034255962_2139487381",
+      "id": "20170424-114415_906361602",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-interpreter\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Apr 24, 2017 11:44:15 AM",
+      "dateStarted": "Apr 24, 2017 11:44:23 AM",
+      "dateFinished": "Apr 24, 2017 11:44:23 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo eh",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:44:30 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034263217_-554909167",
+      "id": "20170424-114423_51764222",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "eh\n"
+      },
+      "dateCreated": "Apr 24, 2017 11:44:23 AM",
+      "dateStarted": "Apr 24, 2017 11:44:30 AM",
+      "dateFinished": "Apr 24, 2017 11:44:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034270305_1334977431",
+      "id": "20170424-114430_447878330",
+      "dateCreated": "Apr 24, 2017 11:44:30 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
