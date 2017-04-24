@@ -1,0 +1,134 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:43:40 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034208243_895902315",
+      "id": "20170424-114328_1950258173",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-interpreter\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Apr 24, 2017 11:43:28 AM",
+      "dateStarted": "Apr 24, 2017 11:43:40 AM",
+      "dateFinished": "Apr 24, 2017 11:43:41 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo lol",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:43:44 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034215397_848593524",
+      "id": "20170424-114335_602145338",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lol\n"
+      },
+      "dateCreated": "Apr 24, 2017 11:43:35 AM",
+      "dateStarted": "Apr 24, 2017 11:43:44 AM",
+      "dateFinished": "Apr 24, 2017 11:43:44 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh hello",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:43:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034224556_-1099390157",
+      "id": "20170424-114344_2025365535",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "bash: hello: command not found\nExitValue: 127"
+      },
+      "dateCreated": "Apr 24, 2017 11:43:44 AM",
+      "dateStarted": "Apr 24, 2017 11:43:48 AM",
+      "dateFinished": "Apr 24, 2017 11:43:48 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493034228012_624284915",
+      "id": "20170424-114348_1860431450",
+      "dateCreated": "Apr 24, 2017 11:43:48 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "new github",
+  "id": "8DC52W85S71493034206",
+  "angularObjects": {
+    "2CDCRK89Unull1492596122032:shared_process": [],
+    "2CEZVUHBSnull1492596122037:shared_process": [],
+    "2CE4BDHWZnull1492596122044:shared_process": [],
+    "2CDTGU1YJ303341493029354347:shared_process": []
+  },
+  "config": {
+    "isDashboard": false
+  },
+  "info": {},
+  "source": "FCN"
+}
