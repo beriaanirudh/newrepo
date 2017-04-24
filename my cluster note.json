@@ -1,0 +1,257 @@
+{
+  "paragraphs": [
+    {
+      "text": "sc.getConf.get(\"spark.executor.cores\")",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:18:58 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1492770963024_19224291",
+      "id": "20170421-103603_1471998307",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres2: String \u003d 1\n"
+      },
+      "dateCreated": "Apr 21, 2017 10:36:03 AM",
+      "dateStarted": "Apr 24, 2017 11:18:58 AM",
+      "dateFinished": "Apr 24, 2017 11:18:59 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo lol\nsleep 4",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 8:05:07 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1492688847770_326565314",
+      "id": "20170420-114727_1596721884",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lol\n"
+      },
+      "dateCreated": "Apr 20, 2017 11:47:27 AM",
+      "dateStarted": "Apr 24, 2017 8:05:07 AM",
+      "dateFinished": "Apr 24, 2017 8:05:11 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.version",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 11:17:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1492688875389_-233983185",
+      "id": "20170420-114755_777052741",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: String \u003d 2.0.0\n"
+      },
+      "dateCreated": "Apr 20, 2017 11:47:55 AM",
+      "dateStarted": "Apr 24, 2017 11:17:48 AM",
+      "dateFinished": "Apr 24, 2017 11:18:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.stop",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 7:45:19 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493010771638_1336070831",
+      "id": "20170424-051251_1411754342",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Apr 24, 2017 5:12:51 AM",
+      "dateStarted": "Apr 24, 2017 7:45:20 AM",
+      "dateFinished": "Apr 24, 2017 7:46:20 AM",
+      "status": "ABORT",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect * from (select * from default_qubole_memetracker limit 1) where site \u003d \u0027beria\u0027",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 21, 2017 11:00:17 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "site",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "ts",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "site",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "ts",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1492688912949_-388005338",
+      "id": "20170420-114832_763209470",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "org.apache.spark.SparkException: Job 1 cancelled part of cancelled job group zeppelin-RUTDNGEEEP1492688845-20170420-114832_763209470\n\tat org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1476)\n\tat org.apache.spark.scheduler.DAGScheduler.handleJobCancellation(DAGScheduler.scala:1415)\n\tat org.apache.spark.scheduler.DAGScheduler$$anonfun$handleJobGroupCancelled$1.apply$mcVI$sp(DAGScheduler.scala:821)\n\tat org.apache.spark.scheduler.DAGScheduler$$anonfun$handleJobGroupCancelled$1.apply(DAGScheduler.scala:821)\n\tat org.apache.spark.scheduler.DAGScheduler$$anonfun$handleJobGroupCancelled$1.apply(DAGScheduler.scala:821)\n\tat scala.collection.mutable.HashSet.foreach(HashSet.scala:78)\n\tat org.apache.spark.scheduler.DAGScheduler.handleJobGroupCancelled(DAGScheduler.scala:821)\n\tat org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:1664)\n\tat org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1644)\n\tat org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1633)\n\tat org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)\n\tat org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:637)\n\tat org.apache.spark.SparkContext.runJob(SparkContext.scala:2018)\n\tat org.apache.spark.SparkContext.runJob(SparkContext.scala:2031)\n\tat org.apache.spark.SparkContext.runJob(SparkContext.scala:2044)\n\tat org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:347)\n\tat org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:39)\n\tat org.apache.spark.sql.Dataset$$anonfun$org$apache$spark$sql$Dataset$$execute$1$1.apply(Dataset.scala:2183)\n\tat org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:58)\n\tat org.apache.spark.sql.Dataset.withNewExecutionId(Dataset.scala:2532)\n\tat org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$execute$1(Dataset.scala:2182)\n\tat org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$collect(Dataset.scala:2189)\n\tat org.apache.spark.sql.Dataset$$anonfun$head$1.apply(Dataset.scala:1925)\n\tat org.apache.spark.sql.Dataset$$anonfun$head$1.apply(Dataset.scala:1924)\n\tat org.apache.spark.sql.Dataset.withTypedCallback(Dataset.scala:2562)\n\tat org.apache.spark.sql.Dataset.head(Dataset.scala:1924)\n\tat org.apache.spark.sql.Dataset.take(Dataset.scala:2139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:606)\n\tat org.apache.zeppelin.spark.ZeppelinContext.showDF(ZeppelinContext.java:223)\n\tat org.apache.zeppelin.spark.SparkSqlInterpreter.interpret(SparkSqlInterpreter.java:143)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:103)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:344)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:185)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:139)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
+      "dateCreated": "Apr 20, 2017 11:48:32 AM",
+      "dateStarted": "Apr 21, 2017 10:54:03 AM",
+      "dateFinished": "Apr 21, 2017 11:00:16 AM",
+      "status": "ABORT",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql show tables",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 20, 2017 12:32:40 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1492689010225_162893790",
+      "id": "20170420-115010_220366803",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\n3int_100m_sqooped\tfalse\n3int_200k_limited\tfalse\n3int_export\tfalse\n3int_export2\tfalse\n3int_sqooped_2\tfalse\n3int_t1\tfalse\n__rahulm\tfalse\na123\tfalse\nabc123\tfalse\nabc_test\tfalse\nabcabc\tfalse\nabcabc123\tfalse\naccount_level_limits\tfalse\naccounts\tfalse\nadubey123\tfalse\nadubey2\tfalse\nadubey4\tfalse\nadubeypinterest\tfalse\nadubeytest3\tfalse\nadv_import_test_table1\tfalse\nadv_import_test_table6\tfalse\nadv_import_test_table_hive1mysql\tfalse\nadv_import_test_table_hive1mysqlsingapore\tfalse\nadv_import_test_table_hive2mysql\tfalse\nadv_import_test_table_hive2mysqlsingapore\tfalse\nadv_import_test_table_hive3mysql\tfalse\nadv_import_test_table_hive3mysqlsingapore\tfalse\nadv_import_test_table_hive4mysql\tfalse\nadv_import_test_table_hive4mysqlsingapore\tfalse\nadv_import_test_table_hive5mysqlsingapore\tfalse\nadv_import_test_table_hive6mysqlsingapore\tfalse\nadv_import_test_table_hive7mysqlsingapore\tfalse\nadv_import_test_table_hive8mysql\tfalse\nadv_import_test_table_hive_ps_avro1mysql\tfalse\nadv_import_test_table_hive_ps_avro1mysqlsingapore\tfalse\nadv_import_test_table_hive_ps_avromysql\tfalse\nadv_import_test_table_hive_ps_avromysqlsingapore\tfalse\nadv_import_test_table_hive_psmysqlsingapore\tfalse\nadv_import_test_table_hivemysql\tfalse\nadv_import_test_table_hivemysqlsingapore\tfalse\nairline_small\tfalse\nairline_small_copy\tfalse\nairlines_lyft\tfalse\nairlines_lyft1\tfalse\nallepisodes\tfalse\nashishext\tfalse\nasjdgjdsiuqwebk\tfalse\nat_test\tfalse\navro_table1\tfalse\nbasket\tfalse\nbd_prod_web_userprofilestate_temp_a5f1147e_7735_48ff_8fbc_469a06edcd8e\tfalse\nbentracker_5\tfalse\nblah\tfalse\nca_demo\tfalse\nchec12354\tfalse\ncheckswitch\tfalse\ncity\tfalse\ncnt_dump\tfalse\ncnt_dump_imported\tfalse\ncompact_api\tfalse\ncontroller\tfalse\ncontroller_clean\tfalse\ncraftsvilla_demo\tfalse\ncsv\tfalse\ncustomer\tfalse\ncustomer_jss\tfalse\ncustomer_text\tfalse\ndaily_tick_data\tfalse\ndata1_30days_budweiser_test\tfalse\ndatalogixdlx_cluster_qcuh_temp_92cb8bcc_eb2a_499f_b859_a44e2dcdb5f7\tfalse\ndatalogixdlx_cluster_qcuh_temp_eba71c80_d873_4888_b3ad_cff77d76371a\tfalse\ndatalogixdlx_cluster_times_temp_54d8c122_7f56_4389_9681_2f8dc3998bd7\tfalse\ndatalogixdlx_cluster_times_temp_a81418c2_fc07_4e30_ac2f_f3142c35d539\tfalse\ndatalogixdlx_clusters_temp_7602dcfb_b523_4c73_a09f_99a197736d1b\tfalse\ndatalogixdlx_clusters_temp_832017d6_b2f5_4f84_9bb2_5ca6de15d4d4\tfalse\ndatalogixdlx_users_v2_temp_0150424f_c24a_457e_8b79_816f6a976324\tfalse\ndatalogixdlx_users_v2_temp_0ed91d61_c105_4d38_8493_19d497071bee\tfalse\ndatalogixdlx_users_v2_temp_14d05af9_9aba_4305_8957_e975ad1327aa\tfalse\ndatalogixdlx_users_v2_temp_19e6e4ba_1f8b_443f_bf4a_804540344a75\tfalse\ndatalogixdlx_users_v2_temp_2c4e7f7e_0249_4b52_82b0_a46d0fd2c62e\tfalse\ndatalogixdlx_users_v2_temp_2df5f817_3406_45a4_9c28_e52ccba782bc\tfalse\ndatalogixdlx_users_v2_temp_4b74cba4_f245_47c2_8487_39eb6086c95c\tfalse\ndatalogixdlx_users_v2_temp_4b9c2b10_dcf6_4a6f_8b77_96117a5c4af2\tfalse\ndatalogixdlx_users_v2_temp_4f9da32b_2900_4ec5_af28_7fbe14af8e95\tfalse\ndatalogixdlx_users_v2_temp_6541ab56_c0d9_45d4_ac6f_5ed1c9da06ea\tfalse\ndatalogixdlx_users_v2_temp_69fc6763_bd13_4039_a108_4bb09b646e2e\tfalse\ndatalogixdlx_users_v2_temp_6b69dea5_0c21_44d3_aab8_f686ebd4c086\tfalse\ndatalogixdlx_users_v2_temp_6de10f80_5480_4fb2_9c26_0170665e94ac\tfalse\ndatalogixdlx_users_v2_temp_8351ed31_da0a_4e6f_af49_a5eb471d03b2\tfalse\ndatalogixdlx_users_v2_temp_8ba49bfc_6580_49c6_a3b4_f277234be0cc\tfalse\ndatalogixdlx_users_v2_temp_9346f835_71e8_4b54_b845_6311fd502063\tfalse\ndatalogixdlx_users_v2_temp_cc069d83_d1f3_4e0d_9e5b_30a8eb1035e6\tfalse\ndatalogixdlx_users_v2_temp_d866dff4_71bd_4b92_9ff5_ff90910e7ebd\tfalse\ndatalogixdlx_users_v2_temp_e0c4335a_28f7_45a1_93a0_baec4f639868\tfalse\ndatalogixdlx_users_v2_temp_ea35e108_1f14_4e15_a571_653e4296023d\tfalse\ndatalogixdlx_users_v2_temp_ec0cd908_5fa6_4dd0_8a4d_95387a749185\tfalse\ndatalogixdlx_users_v2_temp_f994df3b_b9f9_483a_a94c_c86a7275e0de\tfalse\ndatalogixdlx_users_v2_temp_fdb6d9ea_7bba_443b_aa2e_522aeb020292\tfalse\ndataxu_metrics\tfalse\ndataxu_metrics_temp_0383efbd_23b3_485a_935b_c0ee1e951d06\tfalse\ndataxu_metrics_temp_15efba4c_5b13_4992_81b0_d46b7949a7ab\tfalse\ndataxu_metrics_temp_2d68d267_c0db_4761_9a63_24a5d44dcd34\tfalse\ndataxu_metrics_temp_3314a5b5_326e_4f6e_9d8d_305e89b3c4f8\tfalse\ndataxu_metrics_temp_3390906d_e2e6_4a13_8ac8_71d69340ea1e\tfalse\ndataxu_metrics_temp_380b7d11_d899_4e5a_9a34_121e373eb181\tfalse\ndataxu_metrics_temp_61a62fb3_8f01_4041_bf4c_9dea406d6f71\tfalse\ndataxu_metrics_temp_7948f315_e752_41be_b32c_a7593602cfdd\tfalse\ndataxu_metrics_temp_825269ff_bab7_4b5d_9468_96292528ea03\tfalse\ndataxu_metrics_temp_ac6f4629_cc91_4d5f_8da9_810a518aaa0d\tfalse\ndataxu_metrics_temp_b8293344_eaaa_4b79_bf32_3d96d6cd44cf\tfalse\ndataxu_metrics_temp_c022f47b_6548_422d_9efb_cf83cc6aa341\tfalse\ndataxu_metrics_temp_cbe6280e_b8dc_461d_a341_8199416f1a1c\tfalse\ndataxu_metrics_temp_d1fdd5b0_1954_4aec_a785_b9c61b73d2ff\tfalse\ndataxu_pjs\tfalse\ndataxu_pjs_temp_14851859_698f_42a4_8aad_8c42dd2be3ad\tfalse\ndataxu_pjs_temp_1d0eb845_f8b5_46f9_90ce_5ba9a039dfd0\tfalse\ndataxu_pjs_temp_1ff247a8_3c9e_415d_ae2b_340d1ac48412\tfalse\ndataxu_pjs_temp_2dd4de07_c66f_477d_bf00_cbbf7da07f79\tfalse\ndataxu_pjs_temp_47a6c76a_2e3c_4f62_b889_cf0c4e3908b7\tfalse\ndataxu_pjs_temp_4c29da68_e834_43f9_b8e7_44da309f80dc\tfalse\ndataxu_pjs_temp_53f70eb6_b7ed_4ae9_828a_6c19e6fa15ce\tfalse\ndataxu_pjs_temp_91900da8_ce09_4759_aeb4_e0073b1dfc3e\tfalse\ndataxu_pjs_temp_a8f11e7e_589d_40f8_a07f_127631b4aca4\tfalse\ndataxu_pjs_temp_b813cec1_4327_4490_8c42_e0786658a35e\tfalse\ndataxu_pjs_temp_b921b392_1ef9_4d75_b164_0d79aaf2eef0\tfalse\ndataxu_pjs_temp_f0c883e0_089e_468c_a4c3_ec03fd5af19f\tfalse\ndataxu_pjs_temp_f17cfc5d_9a6e_4587_b5fe_561873ffaedc\tfalse\ndataxu_pjs_temp_f90e752f_220a_4a5b_bef7_4e81d0b2dfe3\tfalse\ndataxu_qhist\tfalse\ndataxu_qhist_temp_077d4856_746f_4175_b83c_4cfe1bb718c1\tfalse\ndataxu_qhist_temp_28cf1d42_eaa6_4939_8cb2_91481a80668c\tfalse\ndataxu_qhist_temp_4485ab96_64e1_4ad4_8f24_fce484d83148\tfalse\ndataxu_qhist_temp_64c7c49b_703f_4ef6_916a_41cc64fd3261\tfalse\ndataxu_qhist_temp_6b7b3ecc_e507_43a9_8d63_ff04b3f5ff21\tfalse\ndataxu_qhist_temp_7031d874_c730_4c92_82b5_4d914b58956b\tfalse\ndataxu_qhist_temp_7ec54c00_ecda_4596_8263_52e2b666b977\tfalse\ndataxu_qhist_temp_b4ce2f60_87da_47cd_8cba_87d0dabe9d3f\tfalse\ndataxu_qhist_temp_b9451b56_e48f_4312_9567_44ac1276d9ca\tfalse\ndataxu_qhist_temp_c26394f0_1b1c_4352_a6dc_133558c58df9\tfalse\ndataxu_qhist_temp_c2eefdc9_e228_4bce_ae7e_1d5f2da6fce9\tfalse\ndataxu_qhist_temp_cb1604fe_f8b5_40e5_a6d2_f776fbfe5238\tfalse\ndataxu_qhist_temp_d79804dd_00bc_4e67_b41b_e10af1d72b4b\tfalse\ndataxu_qhist_temp_e6cacac5_1156_4242_a5fa_7149944ce6a0\tfalse\ndb_export_multi_part_orc_small_table1mysql\tfalse\ndb_export_multi_part_orc_small_table1mysqlsingapore\tfalse\ndb_export_multi_part_orc_small_table2mysql\tfalse\ndb_export_multi_part_orc_small_table2mysqlsingapore\tfalse\ndb_export_multi_part_orc_small_tablemysql\tfalse\ndb_export_multi_part_orc_small_tablemysqlsingapore\tfalse\ndb_export_orc_small_tablemysql\tfalse\ndb_export_orc_small_tablemysqlsingapore\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\ndefaultud1_temp_198bbaa0_84a6_4999_942a_62b2879a5178\tfalse\ndefaultud1_temp_2512e45c_be9d_4a1a_8e90_4434d245c070\tfalse\ndefaultud3_temp_ceb00fd8_28cc_4590_a52b_3593a23adf13\tfalse\ndemo_data1\tfalse\ndemo_data3\tfalse\ndemo_memetracker\tfalse\ndx_123\tfalse\nenglish_1grams\tfalse\nens_deleteme1\tfalse\nens_deleteme2\tfalse\nffo_xx\tfalse\nfiltered_pagecounts\tfalse\nfoo_bar\tfalse\nfoo_bar_p\tfalse\nhad144\tfalse\nhad144_orig\tfalse\nhad458\tfalse\nhdpsmt01\tfalse\nhhid_scores\tfalse\nhike_metrics\tfalse\nhike_pjs\tfalse\nhike_qhist\tfalse\nhive345\tfalse\nhive_1172\tfalse\nhivegis\tfalse\nhours\tfalse\nhustler_clean\tfalse\nhustler_raw\tfalse\nideelit\tfalse\nimpermiumt\tfalse\nimport_test_hive_table_basic1mysql\tfalse\nimport_test_hive_table_basic2mysql\tfalse\nimport_test_hive_table_basic3mysql\tfalse\nimport_test_hive_table_basic4mysql\tfalse\nimport_test_hive_table_basic6mysql\tfalse\nimport_test_hive_table_basic_orc1mysql\tfalse\nimport_test_hive_table_basic_orcmysql\tfalse\nimport_test_hive_table_basic_part_spec_avro1mysql\tfalse\nimport_test_hive_table_basic_part_spec_avromysql\tfalse\nimport_test_hive_table_basic_part_specmysql\tfalse\nimport_test_hive_table_basicmysql\tfalse\ninsightera_mongo\tfalse\ninsightera_test\tfalse\njson_tes_582\tfalse\njunk_temp\tfalse\nkomlimetrics\tfalse\nkomlimetrics_temp_1e92fae6_6eb5_44d4_b5c9_06505e92dd0b\tfalse\nkomlimetrics_temp_4c30cbb5_0d71_4449_964b_7967f17e66a9\tfalse\nkomlimetrics_temp_73c9e9ec_d565_4aea_8c42_a3657d9d2eb3\tfalse\nkomlimetrics_temp_87a140b5_f284_4d4e_b984_d96d1f3c3e87\tfalse\nkomlimetrics_temp_96e743e3_0db7_465a_8f13_5cf769e15d90\tfalse\nkomlimetrics_temp_a85fee35_aedd_402b_a989_cd3eb080f158\tfalse\nkomlimetrics_temp_b05580f4_7906_4535_86fa_64518a42f7c7\tfalse\nkomlimetrics_temp_b13de520_4290_4d5e_aeb0_852205ddf17a\tfalse\nkomlimetrics_temp_c0b3987c_c1a2_41fa_b0a9_ada68d09126f\tfalse\nkomlimetrics_temp_e3e1b1d8_06b1_4475_8eda_2ba9461a1660\tfalse\nkomlimetrics_temp_e59011f8_aba9_498e_9bb9_6859a9a1f4b6\tfalse\nkomlimetrics_temp_f384cdac_499c_4ff8_b7b4_ccfa566e3f73\tfalse\nkomlimetrics_temp_f895650b_2255_4288_b19d_7db9db17ed1b\tfalse\nlanguages\tfalse\nlineitem\tfalse\nlineitem1g\tfalse\nlineitem_jss\tfalse\nlineitem_text\tfalse\nlyft_meme\tfalse\nma\tfalse\nma_sqoop_imported_3int_100m\tfalse\nmanager_lzo\tfalse\nmanager_lzo1\tfalse\nmanager_lzo2\tfalse\nmanagerlzo\tfalse\nmanagerlzo1\tfalse\nmanagerlzo2\tfalse\nmem1111\tfalse\nmeme009\tfalse\nmeme089\tfalse\nmeme092\tfalse\nmeme093\tfalse\nmeme096\tfalse\nmeme097\tfalse\nmeme098\tfalse\nmeme099\tfalse\nmeme1001\tfalse\nmeme123\tfalse\nmeme1234\tfalse\nmeme12345\tfalse\nmeme123456\tfalse\nmeme1234567\tfalse\nmeme196\tfalse\nmeme256\tfalse\nmeme257\tfalse\nmeme265\tfalse\nmeme269\tfalse\nmeme271\tfalse\nmeme291\tfalse\nmeme313\tfalse\nmeme334\tfalse\nmeme347\tfalse\nmeme348\tfalse\nmeme386\tfalse\nmeme397\tfalse\nmeme491\tfalse\nmeme555\tfalse\nmeme891\tfalse\nmeme892\tfalse\nmemea\tfalse\nmemetracker\tfalse\nmemetracker12345\tfalse\nmemetracker3\tfalse\nmemetracker_10\tfalse\nmemetracker_12\tfalse\nmemetracker_5\tfalse\nmemetracker_6\tfalse\nmemetracker_7\tfalse\nmemetracker_9\tfalse\nmemtracker_11\tfalse\nminiwikistats\tfalse\nminiwikistats_imp\tfalse\nminiwikistats_imp_advanced\tfalse\nminiwikistats_imp_advanced1\tfalse\nminiwikistats_imp_advanced_temp_03f8aa1e_ffda_4a5b_a270_d40931ff2240\tfalse\nminiwikistats_imp_advanced_temp_051a80f3_e816_4695_90ee_e4ef531462d6\tfalse\nminiwikistats_imp_advanced_temp_05698146_0ca5_4dc5_b0c8_d83949cf7002\tfalse\nminiwikistats_imp_advanced_temp_08bcfa58_5282_4eca_99b9_d68f8658b9d8\tfalse\nminiwikistats_imp_advanced_temp_0940b52c_6301_4d6c_9fd2_7adab6c24961\tfalse\nminiwikistats_imp_advanced_temp_09802422_7b2a_41b1_b83c_a8727d6a9c7b\tfalse\nminiwikistats_imp_advanced_temp_09f12876_7ac2_486e_ba10_845e4780b53c\tfalse\nminiwikistats_imp_advanced_temp_0b39930a_e86f_4ee6_a4d8_b7de7f3ed95b\tfalse\nminiwikistats_imp_advanced_temp_0b883654_8c71_43c7_bc12_5fb6be56d4dd\tfalse\nminiwikistats_imp_advanced_temp_0ce1bc91_9171_4963_a247_1c7c80353595\tfalse\nminiwikistats_imp_advanced_temp_0e07fd21_a558_409c_b83a_dda8fc22da5f\tfalse\nminiwikistats_imp_advanced_temp_0f496176_34fe_49a2_8dcd_9a65cf4f9801\tfalse\nminiwikistats_imp_advanced_temp_104720b9_974f_4bef_9cc3_fbfe9e4d34a6\tfalse\nminiwikistats_imp_advanced_temp_15b0ba76_964b_46d8_ab77_61b192ac29ac\tfalse\nminiwikistats_imp_advanced_temp_166019d3_861d_4e4a_8bf7_0e62036707fe\tfalse\nminiwikistats_imp_advanced_temp_1952d746_cd03_482d_ac44_1d7b7c450e3d\tfalse\nminiwikistats_imp_advanced_temp_19702718_11e9_4485_8bca_905f6a176e98\tfalse\nminiwikistats_imp_advanced_temp_19884d23_646e_47aa_a89f_e0f674fd0c7d\tfalse\nminiwikistats_imp_advanced_temp_1b6881b0_576b_47fd_b91d_1d770d9e3219\tfalse\nminiwikistats_imp_advanced_temp_1c574eff_d899_47e4_b95a_33eea2b4dbe8\tfalse\nminiwikistats_imp_advanced_temp_1cac3784_ebe0_4fdf_a31b_7d6df465f1ea\tfalse\nminiwikistats_imp_advanced_temp_1d011a5f_2ffe_4e4c_88e8_67953af4c825\tfalse\nminiwikistats_imp_advanced_temp_1d5a8f4e_42bf_49db_b6ca_9f243e17c48d\tfalse\nminiwikistats_imp_advanced_temp_1e96a2ea_ab8e_48d4_a931_7642ffbfba37\tfalse\nminiwikistats_imp_advanced_temp_1ea20ee9_cfbc_4dd7_8c58_fb5c66e116ed\tfalse\nminiwikistats_imp_advanced_temp_1f3a33b5_405e_4620_82b0_91b5c5dd597f\tfalse\nminiwikistats_imp_advanced_temp_1faee1f2_c6e1_4737_bab5_4e99cf282840\tfalse\nminiwikistats_imp_advanced_temp_21138fab_9633_464e_ad4f_7f9c0deffb99\tfalse\nminiwikistats_imp_advanced_temp_213b582b_31ba_45a2_adab_c2c246597688\tfalse\nminiwikistats_imp_advanced_temp_22408dc8_c6c1_4c82_8aac_37ed6e6ce3ea\tfalse\nminiwikistats_imp_advanced_temp_22a61380_b5d2_4a9d_8bf5_e608ae5d510d\tfalse\nminiwikistats_imp_advanced_temp_237b8135_e673_4709_a4ff_5ca016711f2b\tfalse\nminiwikistats_imp_advanced_temp_23dbb0cd_ea31_42e7_90d3_a8f82811c5ba\tfalse\nminiwikistats_imp_advanced_temp_248c9acd_4341_4fcc_b888_2383a0daefd9\tfalse\nminiwikistats_imp_advanced_temp_251a826b_8471_44ec_9762_1a08622f7ea2\tfalse\nminiwikistats_imp_advanced_temp_25825e12_667a_4d76_91a7_4d15ad38b255\tfalse\nminiwikistats_imp_advanced_temp_25b81465_2bf8_42d4_9c5e_df4162694a2d\tfalse\nminiwikistats_imp_advanced_temp_274deaa9_6275_4bb7_9771_575affd8fe9c\tfalse\nminiwikistats_imp_advanced_temp_284c7ecc_adc8_4001_b10a_f1aac1ae6513\tfalse\nminiwikistats_imp_advanced_temp_28c67d77_d079_494f_a96a_507da8a44bce\tfalse\nminiwikistats_imp_advanced_temp_291d68f1_2e49_4bbe_a74a_d0b4c9d59226\tfalse\nminiwikistats_imp_advanced_temp_2a4055a0_3f97_43ff_a22e_3c3fa13e1f20\tfalse\nminiwikistats_imp_advanced_temp_2d2ee7b3_c5e4_4704_b617_73ff0d275f72\tfalse\nminiwikistats_imp_advanced_temp_2f1d8d49_6f42_470f_93b4_46db6664b3a1\tfalse\nminiwikistats_imp_advanced_temp_355cc40e_30ed_425f_8912_c161976942df\tfalse\nminiwikistats_imp_advanced_temp_36ac31ed_1681_4f9d_b701_2a9cf59cf874\tfalse\nminiwikistats_imp_advanced_temp_36e8c67c_e662_4e03_a3cb_328b970f9158\tfalse\nminiwikistats_imp_advanced_temp_379775f6_23a2_4112_8cd0_d09659821ae9\tfalse\nminiwikistats_imp_advanced_temp_3798af6c_790b_4feb_bba2_9e5463899a76\tfalse\nminiwikistats_imp_advanced_temp_38716d14_0d9c_41ad_9c03_8cd9f36a08b9\tfalse\nminiwikistats_imp_advanced_temp_38a13bc2_131f_4971_8734_34cdb8350c06\tfalse\nminiwikistats_imp_advanced_temp_39c03a85_c3eb_4bcf_b181_309b9ba74aaa\tfalse\nminiwikistats_imp_advanced_temp_3b1e1481_5e6a_4203_8541_bd404a982456\tfalse\nminiwikistats_imp_advanced_temp_3bfdb6d1_a09e_4561_b5bd_be4b7b1348a3\tfalse\nminiwikistats_imp_advanced_temp_3c4b95f7_9bfc_4fef_82de_6fbf6d3e0fca\tfalse\nminiwikistats_imp_advanced_temp_3c841a86_3b64_47b6_bb69_f110a147afe0\tfalse\nminiwikistats_imp_advanced_temp_3cdbdfed_e302_4fe2_803e_5a81afd24fd3\tfalse\nminiwikistats_imp_advanced_temp_3e8898c8_fd59_49f3_8fdf_41b8aa96ecfa\tfalse\nminiwikistats_imp_advanced_temp_3f985892_794c_4894_b4d6_e3a99de1992c\tfalse\nminiwikistats_imp_advanced_temp_3ff71a4d_e9ec_46f4_94f2_a5979f3880e0\tfalse\nminiwikistats_imp_advanced_temp_404af63f_bc73_4a88_9ff4_784c240bd6a5\tfalse\nminiwikistats_imp_advanced_temp_404c0aee_5773_4b32_9c9c_82fb9497c6b8\tfalse\nminiwikistats_imp_advanced_temp_405d3ca5_605f_45dd_afc8_3b5daf458e6e\tfalse\nminiwikistats_imp_advanced_temp_40f19e5f_891c_4379_8957_2835c3830339\tfalse\nminiwikistats_imp_advanced_temp_4174595e_c20a_4a0c_9838_bd1e399dc76a\tfalse\nminiwikistats_imp_advanced_temp_41a43ab8_9546_43f5_aba1_b664dccea0c3\tfalse\nminiwikistats_imp_advanced_temp_42132be3_bd45_4aed_ad48_f450027a5510\tfalse\nminiwikistats_imp_advanced_temp_42f86a41_9f8f_4c31_9280_fd85c9145c27\tfalse\nminiwikistats_imp_advanced_temp_44072633_5aa7_4cb7_b974_05b54659a821\tfalse\nminiwikistats_imp_advanced_temp_4768eb6f_8226_41b6_b131_3311250eec5b\tfalse\nminiwikistats_imp_advanced_temp_4816103b_0d57_415e_87f1_de391f88c25e\tfalse\nminiwikistats_imp_advanced_temp_4a9e2bd4_c836_4306_a288_dc8535eb2909\tfalse\nminiwikistats_imp_advanced_temp_4be85c08_1e6c_4ad0_b7cd_a988aa4a38bb\tfalse\nminiwikistats_imp_advanced_temp_4c08361c_be3b_4492_a0f0_4206baf85cd5\tfalse\nminiwikistats_imp_advanced_temp_4ce991b0_979a_494c_b24d_c5974585102d\tfalse\nminiwikistats_imp_advanced_temp_4d3186ce_6b6b_46c0_bf73_ef6fdf33f89d\tfalse\nminiwikistats_imp_advanced_temp_4e1a1410_254c_4c73_be77_f88f66895d42\tfalse\nminiwikistats_imp_advanced_temp_4f1a31d3_eecb_420c_ba85_bd886385452c\tfalse\nminiwikistats_imp_advanced_temp_4f88c274_7554_4642_9f72_a47fcd871ff8\tfalse\nminiwikistats_imp_advanced_temp_50abb0bf_2122_4613_b118_a65491520991\tfalse\nminiwikistats_imp_advanced_temp_51cc5f09_c069_4392_8dd6_ae6cd9df2a67\tfalse\nminiwikistats_imp_advanced_temp_527b752f_bcea_4bb8_b5fc_995d85364753\tfalse\nminiwikistats_imp_advanced_temp_53e94db0_43c3_48a7_9883_3226d45d8370\tfalse\nminiwikistats_imp_advanced_temp_54132a5e_e5d7_4f81_bd50_55d2284f6f52\tfalse\nminiwikistats_imp_advanced_temp_54191163_1dfb_479b_abaa_691f08b6fac7\tfalse\nminiwikistats_imp_advanced_temp_55dd5e1a_8e97_4c6f_aeff_f479f97cda93\tfalse\nminiwikistats_imp_advanced_temp_560e08a3_a8a8_419e_b2e0_cbcd9d73106a\tfalse\nminiwikistats_imp_advanced_temp_56833014_0176_411d_bb6f_8016ca20ccbf\tfalse\nminiwikistats_imp_advanced_temp_57c13472_19ac_42dc_9c46_65d3b8ca3f41\tfalse\nminiwikistats_imp_advanced_temp_584577ed_c2bc_458e_87e7_573ec45673f4\tfalse\nminiwikistats_imp_advanced_temp_59200448_cbb6_4025_93d6_46a20f6e0bd8\tfalse\nminiwikistats_imp_advanced_temp_5a5236ca_0f79_4443_a783_4afbdc50c209\tfalse\nminiwikistats_imp_advanced_temp_5cdc660a_2d13_4c39_8d0a_6dc5d1630686\tfalse\nminiwikistats_imp_advanced_temp_5d121942_cb58_4dac_ba03_95ac5f5674ea\tfalse\nminiwikistats_imp_advanced_temp_5d6ae3d4_cf7f_404f_ae56_145937183d88\tfalse\nminiwikistats_imp_advanced_temp_5df4da25_6cd8_4223_9d6f_73b150c42cb2\tfalse\nminiwikistats_imp_advanced_temp_5f5af0bd_540c_4dfd_bd28_bd4bf1988bc7\tfalse\nminiwikistats_imp_advanced_temp_5f757175_03cf_4dd1_b01e_78c4efa512f7\tfalse\nminiwikistats_imp_advanced_temp_6161321e_3419_45a1_9e8d_758a663c1999\tfalse\nminiwikistats_imp_advanced_temp_62be7e53_20b9_4cee_9c2d_9fb7e7126528\tfalse\nminiwikistats_imp_advanced_temp_64c22829_26ad_4cb5_bf23_025b0f58985f\tfalse\nminiwikistats_imp_advanced_temp_68303cc1_05fb_4970_ac0e_6ccfa62c951f\tfalse\nminiwikistats_imp_advanced_temp_6aa9a1b0_b532_4297_aa7c_650d25a81770\tfalse\nminiwikistats_imp_advanced_temp_6d1691ce_2ace_4dd2_abfc_451b1ea238fe\tfalse\nminiwikistats_imp_advanced_temp_6df02720_15b0_45c5_8c2b_b161fd028cb5\tfalse\nminiwikistats_imp_advanced_temp_6e04d55e_01e3_4e51_bffb_762b414eb06c\tfalse\nminiwikistats_imp_advanced_temp_6e6f1962_ec3e_47eb_896e_b55e32de4ed7\tfalse\nminiwikistats_imp_advanced_temp_70792ef6_78a4_4f8d_8381_ed959d8726d4\tfalse\nminiwikistats_imp_advanced_temp_7201fbd5_ef77_4247_902d_3978bafad8c6\tfalse\nminiwikistats_imp_advanced_temp_726784fc_b247_4440_9bc9_9c1f1757f957\tfalse\nminiwikistats_imp_advanced_temp_731f0dcd_8cc5_4f7e_8171_37bcaac6df73\tfalse\nminiwikistats_imp_advanced_temp_73c8e776_62a5_409a_8855_9f8b1a2d8dc1\tfalse\nminiwikistats_imp_advanced_temp_74879029_4409_49e5_a159_5ec6308018c8\tfalse\nminiwikistats_imp_advanced_temp_74f3abb2_e64e_4c96_b7ba_544c59d836f3\tfalse\nminiwikistats_imp_advanced_temp_76db3711_6a64_49fa_b065_3bf994b36495\tfalse\nminiwikistats_imp_advanced_temp_788f91ed_7c27_4f6a_85ee_9aa2bc20c859\tfalse\nminiwikistats_imp_advanced_temp_7944a782_9d1e_439a_96b2_1727eac1b250\tfalse\nminiwikistats_imp_advanced_temp_79965742_c867_4f7c_b1dd_dc17fb17ed84\tfalse\nminiwikistats_imp_advanced_temp_7b2228ae_bcbf_4b4a_a351_fda0ef41a5f9\tfalse\nminiwikistats_imp_advanced_temp_7c6b6970_2b4c_4644_9221_256c7d14f2e8\tfalse\nminiwikistats_imp_advanced_temp_7cb07142_4667_4fec_a3ff_d7d86c93aa85\tfalse\nminiwikistats_imp_advanced_temp_7d370637_baa0_47f9_a56a_ec5e33ffa26a\tfalse\nminiwikistats_imp_advanced_temp_7d742001_5bb7_46ff_885e_b30a4291649f\tfalse\nminiwikistats_imp_advanced_temp_7e83195a_7101_4f2a_864e_316036c20a29\tfalse\nminiwikistats_imp_advanced_temp_7eaa0554_9ad0_4b49_8f09_8878cedb3dd4\tfalse\nminiwikistats_imp_advanced_temp_80024f2b_8fc3_416a_a10a_9ade5d11b316\tfalse\nminiwikistats_imp_advanced_temp_8047c9e9_f586_4616_8219_0ac218887877\tfalse\nminiwikistats_imp_advanced_temp_80c9aa69_c240_4ba3_b261_58f26d7d5869\tfalse\nminiwikistats_imp_advanced_temp_82789001_fe15_4228_b7fb_bbf6374b043b\tfalse\nminiwikistats_imp_advanced_temp_85eeec6d_6167_47da_b9aa_ab13387c7ea5\tfalse\nminiwikistats_imp_advanced_temp_87591150_a683_4696_9598_7fa6dfcd6133\tfalse\nminiwikistats_imp_advanced_temp_8862575e_e46d_4510_944f_e5024ca32da0\tfalse\nminiwikistats_imp_advanced_temp_89382d27_ad8d_44e9_b630_e4dc52400c64\tfalse\nminiwikistats_imp_advanced_temp_8974f2bd_8a62_4d4f_a562_a73e91ce41cb\tfalse\nminiwikistats_imp_advanced_temp_8a0aec15_285f_49d7_aed8_01927600e1c7\tfalse\nminiwikistats_imp_advanced_temp_8a212df6_0a05_4a5d_8efb_5131efe3b838\tfalse\nminiwikistats_imp_advanced_temp_8b3f806c_ff2e_4dab_b246_7ae9e1f017b6\tfalse\nminiwikistats_imp_advanced_temp_8cd0e110_14bf_49d4_b734_3586de4c3fc0\tfalse\nminiwikistats_imp_advanced_temp_8d13017e_a4ce_4519_9beb_2f3e96e3d950\tfalse\nminiwikistats_imp_advanced_temp_8eee3c4e_64f6_4a41_901b_fa8e3c914ef8\tfalse\nminiwikistats_imp_advanced_temp_917212ba_9df3_480b_bee7_c2310650419f\tfalse\nminiwikistats_imp_advanced_temp_9390d11b_a079_4b7e_8951_abb3c73913c3\tfalse\nminiwikistats_imp_advanced_temp_95cf4f98_8db3_4871_ac6c_61496a8dc4aa\tfalse\nminiwikistats_imp_advanced_temp_95efb86b_7ea5_41c0_8c55_13b0fd0c8a49\tfalse\nminiwikistats_imp_advanced_temp_96aaafc4_ea5f_4b8c_9f4b_079a6b99a28c\tfalse\nminiwikistats_imp_advanced_temp_97316c76_84db_4872_8fd7_1060d4119630\tfalse\nminiwikistats_imp_advanced_temp_98672ffe_913f_466e_951b_5edf6371c8a3\tfalse\nminiwikistats_imp_advanced_temp_9a1d6245_ff0d_48ae_91c0_c59c0d841e39\tfalse\nminiwikistats_imp_advanced_temp_9ba8b81b_e3d4_4477_a003_23296d1a681f\tfalse\nminiwikistats_imp_advanced_temp_9d6be0cd_2f64_46bf_8828_956414e56ae4\tfalse\nminiwikistats_imp_advanced_temp_9f9c27d6_f650_4bdb_80b9_c00abb99d149\tfalse\nminiwikistats_imp_advanced_temp_a1b49a74_347f_4704_a604_061daeb79fdc\tfalse\nminiwikistats_imp_advanced_temp_a1cd5bfb_d671_4cf3_a340_44ae48dde025\tfalse\nminiwikistats_imp_advanced_temp_a2a2567c_c361_49f4_9ff3_833bb0c9d8d6\tfalse\nminiwikistats_imp_advanced_temp_a36aa001_a416_45c8_993b_e0fcaae53fdd\tfalse\nminiwikistats_imp_advanced_temp_a43ad8e5_79e9_4636_9aa7_a8f7c529d133\tfalse\nminiwikistats_imp_advanced_temp_a4e88130_b64c_45d1_ad63_2f09cf93c93c\tfalse\nminiwikistats_imp_advanced_temp_a5ad07fe_e390_4772_825a_fdd3d57d21be\tfalse\nminiwikistats_imp_advanced_temp_a8044371_8522_45c7_8ccf_590ab9d09424\tfalse\nminiwikistats_imp_advanced_temp_a8aa5678_c522_47ed_8511_f386a48cc983\tfalse\nminiwikistats_imp_advanced_temp_a90ed1aa_ec62_4a46_beb2_50ff0c27275c\tfalse\nminiwikistats_imp_advanced_temp_aa03d9ac_1cf6_43b9_b3e0_f2f002e26bb1\tfalse\nminiwikistats_imp_advanced_temp_ac24edb7_67db_4f77_80f1_d15e4dd247e9\tfalse\nminiwikistats_imp_advanced_temp_aed06990_436d_4e48_8b2b_d9d14815c840\tfalse\nminiwikistats_imp_advanced_temp_aedca2ca_198e_4747_9222_17f26a40bccc\tfalse\nminiwikistats_imp_advanced_temp_af039bfc_92ba_4bbb_af72_4bcf1fe7c2bb\tfalse\nminiwikistats_imp_advanced_temp_af2efd90_94a0_48ce_93f6_233c14148f20\tfalse\nminiwikistats_imp_advanced_temp_afe1eaa8_9024_46b3_8276_c2182b09d03e\tfalse\nminiwikistats_imp_advanced_temp_b2816ded_2413_434d_96bd_14001ffa3d77\tfalse\nminiwikistats_imp_advanced_temp_b31bb502_2c05_4f11_a028_c901f1858c05\tfalse\nminiwikistats_imp_advanced_temp_b4b0671c_0c92_48c4_b49e_a75edf23c242\tfalse\nminiwikistats_imp_advanced_temp_b6bee1ad_7e2f_4506_9b54_c06837e65daa\tfalse\nminiwikistats_imp_advanced_temp_bab4c6c2_169a_46b6_80a6_6740092167cc\tfalse\nminiwikistats_imp_advanced_temp_be495e31_7d05_4acd_9a2b_58e1eaf70ebc\tfalse\nminiwikistats_imp_advanced_temp_bef17052_b2ec_4d38_aa45_c5a253a16361\tfalse\nminiwikistats_imp_advanced_temp_bf4b7286_fa64_4ef2_9ad8_654939083450\tfalse\nminiwikistats_imp_advanced_temp_c0ce4860_7878_45d9_b0d8_3f5289b92b3e\tfalse\nminiwikistats_imp_advanced_temp_c2e0b1ed_f87a_4860_ac32_0ad05c439dea\tfalse\nminiwikistats_imp_advanced_temp_c4b12a44_79c5_4713_99cc_eca7755caf33\tfalse\nminiwikistats_imp_advanced_temp_c4f84f71_30e1_4b39_8a17_43701fc7f1ef\tfalse\nminiwikistats_imp_advanced_temp_c57feadb_51c9_45b7_8c47_5470b42f7056\tfalse\nminiwikistats_imp_advanced_temp_c6968fff_80fe_4fdb_b32c_d4774b1434d6\tfalse\nminiwikistats_imp_advanced_temp_c6cf241e_3457_4cb2_89db_7f21ff5e31d0\tfalse\nminiwikistats_imp_advanced_temp_c7ffd198_c4d1_4132_a90c_a985cf89d4cf\tfalse\nminiwikistats_imp_advanced_temp_c92ee0a1_d85c_4538_9e84_364c4953d7b9\tfalse\nminiwikistats_imp_advanced_temp_caaa4e9b_9ff3_4c1f_a182_16f1da2bfd49\tfalse\nminiwikistats_imp_advanced_temp_cac0aebb_b390_4caa_8c8d_aa0a90f65d90\tfalse\nminiwikistats_imp_advanced_temp_cddd3dfb_c86b_47cb_b5ba_8e48b68a60dc\tfalse\nminiwikistats_imp_advanced_temp_d1683fdd_a674_442f_b581_58ff3168fc1d\tfalse\nminiwikistats_imp_advanced_temp_d5041f6e_3419_4596_958b_1f5b64d9504d\tfalse\nminiwikistats_imp_advanced_temp_d6aab2cd_03cb_49ab_ad8e_d8509d399783\tfalse\nminiwikistats_imp_advanced_temp_d86fee34_752a_46fe_b009_e47d8054f67e\tfalse\nminiwikistats_imp_advanced_temp_d8d57e61_08e4_434b_96d2_1492dba32b12\tfalse\nminiwikistats_imp_advanced_temp_d9ce66bd_1ae4_44ea_b396_f2672c615abc\tfalse\nminiwikistats_imp_advanced_temp_d9db7f4d_731e_45a9_a610_bdb592709dd6\tfalse\nminiwikistats_imp_advanced_temp_dad17763_3610_4121_9864_9a7d24fbd6f2\tfalse\nminiwikistats_imp_advanced_temp_dc3a9ad5_bcfd_4c36_93f0_a091a3bc446c\tfalse\nminiwikistats_imp_advanced_temp_dc457ef2_ad51_47b7_93bd_ec650d8dca77\tfalse\nminiwikistats_imp_advanced_temp_dc67b5fc_2fab_4f7c_a9d8_bd2d24da6a71\tfalse\nminiwikistats_imp_advanced_temp_dcab1865_ab62_4ff4_b421_8fe87754319f\tfalse\nminiwikistats_imp_advanced_temp_dd095695_ffee_4dcd_8192_3ecf18c8a205\tfalse\nminiwikistats_imp_advanced_temp_dfd42f93_765c_4b66_9e04_ea580c9920ad\tfalse\nminiwikistats_imp_advanced_temp_e14415b7_627e_4da8_be6a_c78c08161fdb\tfalse\nminiwikistats_imp_advanced_temp_e184ce6c_65d7_473f_b4d0_275687d66a8b\tfalse\nminiwikistats_imp_advanced_temp_e2a791be_383c_41a2_b531_d756ebc06e78\tfalse\nminiwikistats_imp_advanced_temp_e35e7287_ee10_4f64_8384_6c3d07e4cba3\tfalse\nminiwikistats_imp_advanced_temp_e3901de7_f8ef_4c88_b413_ea8f113880e1\tfalse\nminiwikistats_imp_advanced_temp_e48e9faa_5159_4bc9_bc51_838c80da0d57\tfalse\nminiwikistats_imp_advanced_temp_e5dd219c_78ee_465f_a966_af09a2d7df65\tfalse\nminiwikistats_imp_advanced_temp_e61781bb_a374_417e_bd24_a6397b230824\tfalse\nminiwikistats_imp_advanced_temp_e6a433d7_5752_4eeb_91ef_94d9213d27d8\tfalse\nminiwikistats_imp_advanced_temp_e6eef53c_77fd_4a50_b03f_062ae6f15953\tfalse\nminiwikistats_imp_advanced_temp_e7318c37_4880_4b08_8e6f_12f15a46f89e\tfalse\nminiwikistats_imp_advanced_temp_e7488a06_0c66_42f8_b720_866045e709f2\tfalse\nminiwikistats_imp_advanced_temp_e7fce62f_190d_46fb_9bca_a88dc770f614\tfalse\nminiwikistats_imp_advanced_temp_e901cee7_84df_45ad_8da2_8b31f842a16f\tfalse\nminiwikistats_imp_advanced_temp_ead934f4_ee5b_4f32_8f6d_e3b9cadb7a08\tfalse\nminiwikistats_imp_advanced_temp_ec28bd8f_52de_4076_a74e_2f98599de809\tfalse\nminiwikistats_imp_advanced_temp_ed730b4d_2d86_4d11_be41_0639c3f3eea3\tfalse\nminiwikistats_imp_advanced_temp_f091ef6d_beaf_4e0d_a250_49805d8cd302\tfalse\nminiwikistats_imp_advanced_temp_f1736aab_d170_486c_89ce_5f240b0b4af3\tfalse\nminiwikistats_imp_advanced_temp_f255ca0f_81a7_46d2_99b6_b41a2b4c5ad1\tfalse\nminiwikistats_imp_advanced_temp_f63412e1_3fdd_49c2_9a47_951a7ac8c5ba\tfalse\nminiwikistats_imp_advanced_temp_f6b19ddb_f812_4042_9c61_e9b001eed821\tfalse\nminiwikistats_imp_advanced_temp_f6c87ff1_778d_4fbc_8ebc_2161428263cb\tfalse\nminiwikistats_imp_advanced_temp_f701984b_a9ca_4470_b0ce_38e83d19f247\tfalse\nminiwikistats_imp_advanced_temp_f776b361_e053_4640_9a22_bbd9794d47e2\tfalse\nminiwikistats_imp_advanced_temp_f8343f47_2d66_437c_9e6f_4ae00cbf7a99\tfalse\nminiwikistats_imp_advanced_temp_f85fb05d_bf51_4b95_bc50_e3f4ade6a352\tfalse\nminiwikistats_imp_advanced_temp_f991ec0a_df7f_4e6b_b55c_4a48da47cf8e\tfalse\nminiwikistats_imp_advanced_temp_fa56c362_df6b_4384_8a9b_f1474c8cfdb0\tfalse\nminiwikistats_imp_advanced_temp_fa66ce3b_324d_4b9e_865c_fc649cdf7dd3\tfalse\nminiwikistats_imp_advanced_temp_fac3bde8_da6e_4ed3_853f_47492cf2a62c\tfalse\nminiwikistats_imp_advanced_temp_fc53c766_4657_401d_9ee9_07766365fdaf\tfalse\nminiwikistats_imp_advanced_temp_fd0f2626_a284_4e83_aab0_fc422c5cd6bb\tfalse\nminiwikistats_imp_advanced_temp_febf992f_9168_4583_8a35_3dc1c1efca77\tfalse\nminiwikistats_imp_advanced_temp_ff465c35_a03b_4efe_97e2_d39675261216\tfalse\nminiwikistats_imp_advancedp\tfalse\nminiwikistats_imp_advancedp_temp_2f74dae6_fb7f_4fbf_ae26_55501867644e\tfalse\nminiwikistats_imp_advancedp_temp_3f2ce2ce_79af_4cb1_b8c0_7be7b315b946\tfalse\nminiwikistats_imp_advancedp_temp_45efee09_f0d3_4b59_b708_e6af27376bf5\tfalse\nminiwikistats_imp_advancedp_temp_6057ce98_0441_4f17_bbf6_358a5fd31537\tfalse\nminiwikistats_imp_advancedp_temp_6f28a286_e242_4e30_8cc5_8fc19cc63e12\tfalse\nminiwikistats_imp_advancedp_temp_75f4e104_036f_4229_9a01_91172b362ec5\tfalse\nminiwikistats_imp_advancedp_temp_81fc4fb3_645e_4f53_ae1c_bffd083c63f2\tfalse\nminiwikistats_imp_advancedp_temp_85fd78bf_3aee_4094_b37a_888050aa081b\tfalse\nminiwikistats_imp_advancedp_temp_8a402d2b_8e56_409a_8c35_238195b6ac84\tfalse\nminiwikistats_imp_advancedp_temp_901acc03_cb27_4a73_8a9c_b28e43db7f32\tfalse\nminiwikistats_imp_advancedp_temp_9d4994a8_be83_4b35_b98e_f06b016ff5c7\tfalse\nminiwikistats_imp_advancedp_temp_a1e669c6_88ef_47e0_b056_44fcfdd8edaf\tfalse\nminiwikistats_imp_advancedp_temp_a46339e9_ead0_46aa_9b6e_17eb32748650\tfalse\nminiwikistats_imp_advancedp_temp_a87c3a84_2c31_49b0_b2b0_a2176d6e6d4a\tfalse\nminiwikistats_imp_advancedp_temp_afd7b128_3fea_43c9_a289_5bd56a93f317\tfalse\nminiwikistats_imp_advancedp_temp_d3d7af68_d3e9_44d3_b503_b80b3541cf01\tfalse\nminiwikistats_imp_advancedp_temp_f2707667_bf0e_4060_954e_62cb0c9e56a4\tfalse\nminiwikistats_imp_simple\tfalse\nminiwikistats_imp_simple_01\tfalse\nminiwikistats_v03\tfalse\nminiwikistats_v03_temp_21b8c790_a601_45f3_83a6_3d34a99fe087\tfalse\nminiwikistats_v04\tfalse\nminiwikistats_v05\tfalse\nmm1\tfalse\nmm10\tfalse\nmm134\tfalse\nmm2\tfalse\nmm4\tfalse\nmm456\tfalse\nmm_path\tfalse\nmmt1\tfalse\nmongo123\tfalse\nmongo1233\tfalse\nmongo1234\tfalse\nmongoqd\tfalse\nmongotest\tfalse\nmongotest3456\tfalse\nmongotest_db_import_qtest_zips_86_191679\tfalse\nmongotest_db_import_qtest_zips_86_191682\tfalse\nmongotest_db_import_qtest_zips_86_191684\tfalse\nmongotest_db_import_qtest_zips_86_191685\tfalse\nmongotest_db_import_test_zips_75_163440\tfalse\nmongotest_db_import_test_zips_75_163441\tfalse\nmongotest_db_import_test_zips_75_163442\tfalse\nmongotest_db_import_test_zips_75_163463\tfalse\nmongotest_db_import_test_zips_75_165936\tfalse\nmongotest_db_import_test_zips_75_188004\tfalse\nmongotest_db_import_test_zips_75_334400\tfalse\nmongotest_db_import_test_zips_75_432241\tfalse\nmonthly_test\tfalse\nmortgage_count\tfalse\nmt99\tfalse\nmtmongo04\tfalse\nmtmongo05\tfalse\nmtmongo06\tfalse\nmy_json_log\tfalse\nmyt2\tfalse\nnation\tfalse\nnation_abc\tfalse\nnation_jss\tfalse\nnation_new_np\tfalse\nnation_new_p\tfalse\nnation_old_np\tfalse\nnation_old_p\tfalse\nnation_tbl\tfalse\nnation_text\tfalse\nnew123\tfalse\nnew2\tfalse\nnew_table\tfalse\nnew_table_nitin\tfalse\nnew_test_table\tfalse\nnews_cycle_01\tfalse\nnewscycle\tfalse\nnewtypesorc\tfalse\nnon_loyalty_csh\tfalse\nnormalized_pagecounts\tfalse\nnsvaknf\tfalse\nnulltest\tfalse\noffer_prices\tfalse\norc_create\tfalse\norder_join\tfalse\norders\tfalse\norders_jss\tfalse\norders_text\tfalse\npage\tfalse\npage_lookup\tfalse\npage_lookup_nonredirect\tfalse\npage_lookup_redirect\tfalse\npagecount_demo\tfalse\npagecounts\tfalse\npagestats\tfalse\npart\tfalse\npart2_table1mysql\tfalse\npart2_tablemysqlsingapore\tfalse\npart_abc\tfalse\npart_jss\tfalse\npart_text\tfalse\npartitioneddata\tfalse\npartsupp\tfalse\npartsupp_jss\tfalse\npartsupp_text\tfalse\npavan_test\tfalse\npg\tfalse\npint_json\tfalse\npinterest\tfalse\npinterest_processeddate\tfalse\npinterest_test1\tfalse\npinterest_test2\tfalse\npinterestdata\tfalse\npinterestmetrics\tfalse\npinterestmetrics_temp_13ae35ed_0646_4853_ac0e_03995218e5d8\tfalse\npinterestmetrics_temp_16f78caf_9482_4232_907e_ab6d449350d3\tfalse\npinterestmetrics_temp_19f55238_61b4_429e_b27b_dc16d988b3b3\tfalse\npinterestmetrics_temp_1d9f3e40_6179_4f3a_b07a_2246eaa78e2a\tfalse\npinterestmetrics_temp_1e19eb52_6d66_4a69_b0d6_6d4057f165b1\tfalse\npinterestmetrics_temp_2b02d2bb_9e79_4826_909c_f92ede54335c\tfalse\npinterestmetrics_temp_4dcf5115_2d61_4ee5_8f0e_9d7d21e7e388\tfalse\npinterestmetrics_temp_87ea0d59_c9c1_4300_a640_32ef6e283914\tfalse\npinterestmetrics_temp_9cfc16f5_dd31_42a5_8056_8848805f99bd\tfalse\npinterestmetrics_temp_a7a190e0_e0d4_4d23_a41f_4350dc233f72\tfalse\npinterestmetrics_temp_b3e07ba5_453f_4efa_bb29_0bb34116e82b\tfalse\npinterestmetrics_temp_c49faf6f_b95f_4c3f_af42_c73b4265ab18\tfalse\npinterestmetrics_temp_c7d02ffc_8e45_4731_9f08_6c84797d0c86\tfalse\npinterestmetrics_temp_ce243bee_cef5_40dd_aaff_6a5078a2a7e7\tfalse\npinterestreport\tfalse\npinterestreport_hadoop\tfalse\npinterestreport_hadoop_temp_0e4504d6_6502_45af_8531_bb86d7b2a2d2\tfalse\npinterestreport_hadoop_temp_1a2a4425_e7e7_46b5_a69b_439dc5a9a9f4\tfalse\npinterestreport_hadoop_temp_38a7438c_cd33_490c_b937_b587d56d791c\tfalse\npinterestreport_hadoop_temp_41d2f875_02ab_4125_8c78_bb929cbd9da0\tfalse\npinterestreport_hadoop_temp_4d869536_027e_4790_86a2_be8b1e57d51f\tfalse\npinterestreport_hadoop_temp_5cea2a26_32c1_4da6_a52a_fc1dc08509bd\tfalse\npinterestreport_hadoop_temp_6a82d895_f72e_4988_92c7_f2a9c5710f4b\tfalse\npinterestreport_hadoop_temp_6d6d9245_088e_44ca_8c32_8c04575cc2fa\tfalse\npinterestreport_hadoop_temp_6f6e5c4f_4055_462c_a00f_859d81d0ae6a\tfalse\npinterestreport_hadoop_temp_9b9903df_c7bd_49bc_ad0f_1af81da60d4c\tfalse\npinterestreport_hadoop_temp_b2ac3d5c_63e3_42e2_bf2a_ea2ac956975e\tfalse\npinterestreport_hadoop_temp_d052a79f_95bd_4cea_b94d_69bec938b4ab\tfalse\npinterestreport_hadoop_temp_d7afbfb7_8401_43eb_addc_4be5c6dbc734\tfalse\npinterestreport_hadoop_temp_eb3f90fc_6225_4c57_88ef_79ca70d9a630\tfalse\npinterestreport_hive\tfalse\npinterestreport_hive_temp_008b8cb6_f5f7_4fa5_8941_57200bbc76d8\tfalse\npinterestreport_hive_temp_150ce1b6_ad2e_45a4_9af5_11c490221f79\tfalse\npinterestreport_hive_temp_199bf85f_c42c_4a29_b675_1f083759e646\tfalse\npinterestreport_hive_temp_2b383a81_81bf_4a2d_8432_082682bc93c9\tfalse\npinterestreport_hive_temp_2bba8f32_4565_41ec_87db_19b0708ed274\tfalse\npinterestreport_hive_temp_7c159fb3_05f1_4e2b_a33f_68c80fabd227\tfalse\npinterestreport_hive_temp_8cd5575c_d96c_4da9_9707_eb8e164c7dd1\tfalse\npinterestreport_hive_temp_8da98324_7e68_41cb_a1eb_10c64260171f\tfalse\npinterestreport_hive_temp_93f9b010_b4b1_4969_96d6_291f30f27d8b\tfalse\npinterestreport_hive_temp_9580745a_cbb1_4622_931c_ae5e00da2464\tfalse\npinterestreport_hive_temp_b2b0158a_cb73_48b9_8185_ce3fa9413b29\tfalse\npinterestreport_hive_temp_d720c996_dedd_4da6_a378_2c5aaeb2875f\tfalse\npinterestreport_hive_temp_ec3d4668_e83e_4285_b50c_18897376a5d7\tfalse\npinterestreport_hive_temp_f05814c8_5e5a_4696_ab51_70d675ddcad1\tfalse\npinterestreportmetrics\tfalse\npstudents\tfalse\nq11_part_tmp\tfalse\nq11_sum_tmp\tfalse\nq21_tmp1\tfalse\nq21_tmp2\tfalse\nq22_customer_tmp\tfalse\nq22_customer_tmp1\tfalse\nq22_orders_tmp\tfalse\nq2_minimum_cost_supplier_tmp1\tfalse\nq2_minimum_cost_supplier_tmp2\tfalse\nq4_order_priority_tmp\tfalse\nqbol_cloudtrail\tfalse\nqd_30g\tfalse\nquora_backfill\tfalse\nquora_table\tfalse\nquora_table_temp_0c596f62_514e_4dc0_8aab_93630de5e86c\tfalse\nquora_table_temp_2c821888_5211_4cbc_8f03_12efcf662eff\tfalse\nquora_table_temp_2e2d68bf_0e5b_4bbd_9529_2641843ddcf7\tfalse\nquora_table_temp_3f4b1044_f637_4e9d_ad7a_552a1fc026d1\tfalse\nquora_table_temp_4ac5bc88_0f66_4583_8212_03cf096b178f\tfalse\nquora_table_temp_5f3eb56f_656d_4391_bda5_865050c49932\tfalse\nquora_table_temp_7bf8e01e_3ec8_4382_986a_05ca8d9cb57f\tfalse\nquora_table_temp_9a55fd27_4962_4f92_885e_bfbec2c5f3e0\tfalse\nquora_table_temp_a61d18e2_f32d_45a7_8c9f_5a808fb98881\tfalse\nquora_table_temp_ae529098_511f_4d8b_a94a_0dd4177638fd\tfalse\nquora_table_temp_afce2238_4d8e_45e1_af01_a235a4e857da\tfalse\nquora_table_temp_cd2c7dc0_7825_49e8_8053_03a993d8f0fe\tfalse\nquora_table_temp_ee505077_425f_4d9e_b464_9081adb77bd8\tfalse\nquora_table_temp_f1432e96_6c19_41b7_94c0_409991c47ddf\tfalse\nrahulm\tfalse\nraj_tst\tfalse\nrange_int\tfalse\nredirect\tfalse\nregion\tfalse\nregion_jss\tfalse\nregion_text\tfalse\nrjain_twitter_1m\tfalse\nrjtest\tfalse\ns3hivesample\tfalse\nsample_123\tfalse\nsampleairlines\tfalse\nsathvik_demo\tfalse\nsegment_feed\tfalse\nsegment_feed_joy\tfalse\nsemicolontest\tfalse\nsent_emails\tfalse\nsmalltable\tfalse\nsmalltable_1\tfalse\nsmalltable_2\tfalse\nsmalltable_3\tfalse\nsnappytest\tfalse\nsnappytest2\tfalse\nspar613\tfalse\nspark_test_persons131\tfalse\nsqoop_imported_3int_100m\tfalse\nss\tfalse\nsswow091\tfalse\nsswow93\tfalse\nstream_srcp_tw_0\tfalse\nstring_ts\tfalse\nstudents\tfalse\nsupplier\tfalse\nsupplier_jss\tfalse\nsupplier_text\tfalse\nsureshr_miniwikistats\tfalse\nsureshr_staging_billing_data\tfalse\nswoop\tfalse\nt1\tfalse\nt123\tfalse\ntable_with_more_than20mb_result_size\tfalse\ntbl\tfalse\ntbl1\tfalse\ntes707\tfalse\ntest002\tfalse\ntest111\tfalse\ntest11123\tfalse\ntest123\tfalse\ntest_017\tfalse\ntest_018\tfalse\ntest_123\tfalse\ntest_94151\tfalse\ntest_avro_form\tfalse\ntest_cris\tfalse\ntest_csv\tfalse\ntest_csv_date\tfalse\ntest_csv_dyn_part\tfalse\ntest_csv_managed\tfalse\ntest_csv_mapred_merge\tfalse\ntest_csv_part_location\tfalse\ntest_csv_partitioned\tfalse\ntest_csv_static_part\tfalse\ntest_csv_supersmall\tfalse\ntest_csv_target_false\tfalse\ntest_csv_target_insert_overwrite_into\tfalse\ntest_csv_target_true\tfalse\ntest_csv_target_union_all\tfalse\ntest_data\tfalse\ntest_dbexport_memetracker\tfalse\ntest_events\tfalse\ntest_expt123\tfalse\ntest_expt_tbl\tfalse\ntest_jobs_1\tfalse\ntest_jobs_prod\tfalse\ntest_load\tfalse\ntest_memetracker\tfalse\ntest_mm10\tfalse\ntest_mm2\tfalse\ntest_mmm11\tfalse\ntest_obj_rocket_zips\tfalse\ntest_orcl\tfalse\ntest_parquet_table\tfalse\ntest_recover_partition2\tfalse\ntest_recover_partition_prep2\tfalse\ntest_recover_partition_source2\tfalse\ntest_rg\tfalse\ntest_sshankar_loader\tfalse\ntest_sshankar_loader_1\tfalse\ntest_sshankar_monthly\tfalse\ntest_tab4\tfalse\ntest_table2\tfalse\ntest_table_hive1mysql\tfalse\ntest_table_hivemysql\tfalse\ntest_table_hivemysqlsingapore\tfalse\ntest_test2\tfalse\ntest_test_11\tfalse\ntest_tt11\tfalse\ntest_tt2\tfalse\ntestdata\tfalse\ntestdata1\tfalse\ntestinter\tfalse\ntestonly\tfalse\ntestonly1\tfalse\ntestxyz\tfalse\ntheaudience_insights1\tfalse\ntheaudience_pages\tfalse\ntheaudience_pages2\tfalse\ntlogs\tfalse\ntmp1\tfalse\ntmp_csv\tfalse\ntmp_pinterestmetrics\tfalse\ntmp_pinterestreport_hadoop\tfalse\ntmp_pinterestreport_hive\tfalse\ntraw1\tfalse\ntraw2\tfalse\ntraw3\tfalse\ntraw4\tfalse\ntruck_data\tfalse\ntruck_info\tfalse\ntst\tfalse\ntst_jss\tfalse\ntt1\tfalse\ntttt12\tfalse\ntwitraw\tfalse\ntwitraw1\tfalse\ntwitraw2\tfalse\ntwitter_bigd\tfalse\ntwitter_stock\tfalse\ntwitterlogs\tfalse\nud1\tfalse\nud2\tfalse\nud3\tfalse\nud4\tfalse\nue_readonly_20120101\tfalse\nunix_ts\tfalse\nuser_action_error\tfalse\nuserevent\tfalse\nvkparttest\tfalse\nwalmart_tw\tfalse\nwalmart_tw_rel\tfalse\nwiki123\tfalse\nwiki_mini\tfalse\nwiki_mini_demo01\tfalse\nwiki_mini_demo02\tfalse\nwiki_mini_rdbms_05\tfalse\nwiki_stats\tfalse\nwikistats\tfalse\nwikistats_v1\tfalse\nxemail_click\tfalse\nxt1\tfalse\nxxx\tfalse\nxyz\tfalse\nydw_count\tfalse\nzip01\tfalse\nzip02\tfalse\nzip03\tfalse\nzip986\tfalse\nzip987\tfalse\nzip_04\tfalse\n"
+      },
+      "dateCreated": "Apr 20, 2017 11:50:10 AM",
+      "dateStarted": "Apr 20, 2017 12:32:44 PM",
+      "dateFinished": "Apr 20, 2017 12:33:09 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1492689212186_-499568840",
+      "id": "20170420-115332_2051593278",
+      "dateCreated": "Apr 20, 2017 11:53:32 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "my cluster note",
+  "id": "RUTDNGEEEP1492688845",
+  "angularObjects": {},
+  "config": {
+    "isDashboard": false
+  },
+  "info": {},
+  "source": "FCN"
+}
