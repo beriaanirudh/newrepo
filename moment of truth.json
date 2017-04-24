@@ -1,0 +1,169 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 12:57:37 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493038651394_2061684231",
+      "id": "20170424-125731_1273890037",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nconf\nexample-notebook\nhustler\ninterpreter\nlogs\nnotebook\nR\nrun\nwebapps\nzeppelin-interpreter\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
+      },
+      "dateCreated": "Apr 24, 2017 12:57:31 PM",
+      "dateStarted": "Apr 24, 2017 12:57:37 PM",
+      "dateFinished": "Apr 24, 2017 12:57:37 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo lol",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 12:57:42 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493038657581_-1896227705",
+      "id": "20170424-125737_273979150",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lol\n"
+      },
+      "dateCreated": "Apr 24, 2017 12:57:37 PM",
+      "dateStarted": "Apr 24, 2017 12:57:42 PM",
+      "dateFinished": "Apr 24, 2017 12:57:42 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh echo 3rd",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 12:57:49 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493038662889_488292737",
+      "id": "20170424-125742_265002758",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "3rd\n"
+      },
+      "dateCreated": "Apr 24, 2017 12:57:42 PM",
+      "dateStarted": "Apr 24, 2017 12:57:49 PM",
+      "dateFinished": "Apr 24, 2017 12:57:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh ls -al\n",
+      "user": "beria@qubole.com",
+      "dateUpdated": "Apr 24, 2017 12:57:54 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493038669605_-1564357970",
+      "id": "20170424-125749_278712948",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 64\ndrwxr-sr-x 16 ec2-user ec2-user 4096 Apr 24 12:56 .\ndrwxr-xr-x  3 root     root     4096 Apr 24 12:00 ..\ndrwxr-sr-x  2 ec2-user ec2-user 4096 Apr 19 10:06 bin\ndrwxr-sr-x  2 ec2-user ec2-user 4096 Apr 19 10:06 conf\ndrwxr-sr-x  7 ec2-user ec2-user 4096 Apr 19 10:06 example-notebook\ndrwxr-sr-x  2 ec2-user ec2-user 4096 Apr 19 10:06 hustler\ndrwxr-sr-x  7 ec2-user ec2-user 4096 Apr 19 10:06 interpreter\ndrwxr-sr-x  2 root     ec2-user 4096 Apr 24 12:01 logs\ndrwxr-sr-x  9 root     ec2-user 4096 Apr 24 12:57 notebook\ndrwxr-sr-x  3 ec2-user ec2-user 4096 Apr 19 10:06 R\ndrwxr-sr-x  2 root     ec2-user 4096 Apr 24 12:57 run\ndrwxr-sr-x  3 root     ec2-user 4096 Apr 24 12:56 webapps\ndrwxr-sr-x  4 ec2-user ec2-user 4096 Apr 19 10:06 zeppelin-interpreter\ndrwxr-sr-x  3 ec2-user ec2-user 4096 Apr 19 10:06 zeppelin-server\ndrwxr-sr-x  2 ec2-user ec2-user 4096 Apr 19 10:06 zeppelin-web\ndrwxr-sr-x  3 ec2-user ec2-user 4096 Apr 19 10:06 zeppelin-zengine\n"
+      },
+      "dateCreated": "Apr 24, 2017 12:57:49 PM",
+      "dateStarted": "Apr 24, 2017 12:57:54 PM",
+      "dateFinished": "Apr 24, 2017 12:57:54 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1493038674467_-911423762",
+      "id": "20170424-125754_1687552606",
+      "dateCreated": "Apr 24, 2017 12:57:54 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "moment of truth",
+  "id": "GV2C4BUKAY1493038650",
+  "angularObjects": {
+    "2CDCRK89Unull1492596122032:shared_process": [],
+    "2CEZVUHBSnull1492596122037:shared_process": [],
+    "2CE4BDHWZnull1492596122044:shared_process": [],
+    "2CGK24TW1303341493035220984:shared_process": []
+  },
+  "config": {
+    "isDashboard": false
+  },
+  "info": {},
+  "source": "FCN"
+}
