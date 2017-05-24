@@ -63,9 +63,40 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "%pyspark\nimport time\nfor i in range(10):\n  print(i)\n  time.sleep(2)",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "May 24, 2017 5:47:13 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1495604744775_1331388447",
+      "id": "20170524-054544_501076036",
+      "dateCreated": "May 24, 2017 5:45:44 AM",
+      "dateStarted": "May 24, 2017 5:47:13 AM",
+      "dateFinished": "May 24, 2017 5:47:33 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%sh ls",
       "user": "monikak@qubole.com",
-      "dateUpdated": "May 24, 2017 6:26:01 AM",
+      "dateUpdated": "May 24, 2017 6:42:33 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -92,43 +123,8 @@
         "msg": "bin\nboot\ncgroup\ndev\netc\nhome\nindex.html\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n"
       },
       "dateCreated": "May 24, 2017 5:46:32 AM",
-      "dateStarted": "May 24, 2017 6:26:01 AM",
-      "dateFinished": "May 24, 2017 6:26:01 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "sc.version",
-      "user": "monikak@qubole.com",
-      "dateUpdated": "May 24, 2017 6:41:06 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1495607161946_-2121006944",
-      "id": "20170524-062601_1695551728",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "\nres0: String \u003d 2.1.0\n"
-      },
-      "dateCreated": "May 24, 2017 6:26:01 AM",
-      "dateStarted": "May 24, 2017 6:41:06 AM",
-      "dateFinished": "May 24, 2017 6:41:41 AM",
+      "dateStarted": "May 24, 2017 6:42:33 AM",
+      "dateFinished": "May 24, 2017 6:42:33 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -138,9 +134,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1495608066584_497106986",
-      "id": "20170524-064106_601456584",
-      "dateCreated": "May 24, 2017 6:41:06 AM",
+      "jobName": "paragraph_1495608153616_-881524944",
+      "id": "20170524-064233_41414603",
+      "dateCreated": "May 24, 2017 6:42:33 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
