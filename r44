@@ -94,16 +94,50 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sh ls",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "May 24, 2017 6:26:01 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1495604792948_1596757919",
       "id": "20170524-054632_814541102",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nboot\ncgroup\ndev\netc\nhome\nindex.html\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n"
+      },
       "dateCreated": "May 24, 2017 5:46:32 AM",
+      "dateStarted": "May 24, 2017 6:26:01 AM",
+      "dateFinished": "May 24, 2017 6:26:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1495607161946_-2121006944",
+      "id": "20170524-062601_1695551728",
+      "dateCreated": "May 24, 2017 6:26:01 AM",
       "status": "READY",
-      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
