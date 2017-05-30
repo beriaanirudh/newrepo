@@ -2,9 +2,9 @@
   "paragraphs": [
     {
       "title": "Introduction",
-      "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
+      "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify  \n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
       "user": "monikak+foldering+v3@qubole.com",
-      "dateUpdated": "May 30, 2017 1:01:23 PM",
+      "dateUpdated": "May 30, 2017 3:52:00 PM",
       "config": {
         "looknfeel": "default",
         "colWidth": 12.0,
@@ -32,11 +32,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eThis notebook supports multiple language backend\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edefault: scala with SparkContext available as sc\u003c/li\u003e\n\u003cli\u003e%md: markdown\u003c/li\u003e\n\u003cli\u003e%sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\u003c/li\u003e\n\u003cli\u003e%pyspark: pyspark\u003c/li\u003e\n\u003cli\u003e%sh: shell\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eNote that\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eIf you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch3\u003eThis notebook supports multiple language backend\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edefault: scala with SparkContext available as sc\u003c/li\u003e\n\u003cli\u003e%md: markdown\u003c/li\u003e\n\u003cli\u003e%sql: hive on spark by default. hiveContext object is also available by default. If you specify\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eNote that\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eIf you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Dec 30, 2014 10:23:00 AM",
-      "dateStarted": "May 30, 2017 1:01:11 PM",
-      "dateFinished": "May 30, 2017 1:01:11 PM",
+      "dateStarted": "May 30, 2017 3:52:00 PM",
+      "dateFinished": "May 30, 2017 3:52:00 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
