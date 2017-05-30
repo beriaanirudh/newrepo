@@ -1,6 +1,18 @@
 {
   "paragraphs": [
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1496159897332_1409988913",
+      "id": "20170530-155817_824613395",
+      "dateCreated": "May 30, 2017 3:58:17 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "title": "Introduction",
       "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify  \n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
       "user": "monikak+foldering+v3@qubole.com",
