@@ -1,0 +1,154 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh \nls",
+      "user": "quboleregression+qa+permanent@gmail.com",
+      "dateUpdated": "Jun 2, 2017 9:03:44 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1496394105921_1834809361",
+      "id": "20170602-090145_445774516",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "bin\nboot\ncgroup\ndev\netc\nhome\nindex.html\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n"
+      },
+      "dateCreated": "Jun 2, 2017 9:01:45 AM",
+      "dateStarted": "Jun 2, 2017 9:03:44 AM",
+      "dateFinished": "Jun 2, 2017 9:03:46 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nshow tables",
+      "user": "quboleregression+qa+permanent@gmail.com",
+      "dateUpdated": "Jun 2, 2017 10:34:22 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "JOB UI",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "https://qa.qubole.net/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2Fec2-54-221-151-71.compute-1.amazonaws.com%3A8088%2Fproxy%2Fapplication_1496391898114_0006/jobs/job?spark\u003dtrue\u0026id\u003d0"
+          ],
+          "interpreterSettingId": "2CM8ATKRBnull1496341151339"
+        }
+      },
+      "jobName": "paragraph_1496394224230_1308826967",
+      "id": "20170602-090344_325255266",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "database\ttableName\tisTemporary\ndefault\t5_parition_table\tfalse\ndefault\tabc\tfalse\ndefault\tavrotest\tfalse\ndefault\tcsvtsvtable\tfalse\ndefault\tdaily_tick_data\tfalse\ndefault\tdefault_qubole_airline_origin_destination\tfalse\ndefault\tdefault_qubole_memetracker\tfalse\ndefault\tempty1\tfalse\ndefault\tfooo1\tfalse\ndefault\thivedep\tfalse\ndefault\thivehtmltable\tfalse\ndefault\tint_table\tfalse\ndefault\tnew_tbl\tfalse\ndefault\tnewhiveschemaform1488_201509221159\tfalse\ndefault\tnewhiveschemaform1495_201509240345\tfalse\ndefault\tnewhiveschemaform1500_201510090716\tfalse\ndefault\tnewhiveschemaform1549_201512091103\tfalse\ndefault\tnewhiveschemaraw\tfalse\ndefault\tnewtable\tfalse\ndefault\tstore_sales_2002_plus\tfalse\ndefault\ttable_with_comments\tfalse\ndefault\ttest123\tfalse\ndefault\ttest_header\tfalse\ndefault\ttest_parquet_table\tfalse\ndefault\ttest_table_hive\tfalse\ndefault\ttpcds_orc_1000item_temp_091079ee_9cfb_43e0_9a33_1350d4ffa742\tfalse\ndefault\ttpcds_orc_1000item_temp_4823a39b_d307_40b3_a365_b5ab2b5d0df5\tfalse\ndefault\ttpcds_orc_1000item_temp_85ab951f_26a6_400f_8540_117cfd461efd\tfalse\ndefault\ttpcds_orc_1000item_temp_92526419_b598_49dc_978a_a5530bb72e52\tfalse\ndefault\ttpcds_orc_1000item_temp_f8669bd7_dd3a_4233_a5da_ef9e5b47dbd0\tfalse\ndefault\ttpcds_orc_1000item_temp_fd935cb3_b8ba_441e_9362_b5f0e292593f\tfalse\ndefault\tworkflow_test1\tfalse\ndefault\tworkflow_test2\tfalse\n"
+      },
+      "dateCreated": "Jun 2, 2017 9:03:44 AM",
+      "dateStarted": "Jun 2, 2017 10:34:22 AM",
+      "dateFinished": "Jun 2, 2017 10:35:04 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ${key}",
+      "user": "quboleregression+qa+permanent@gmail.com",
+      "dateUpdated": "Jun 2, 2017 10:38:15 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {
+          "key": "wuiergrui"
+        },
+        "forms": {
+          "key": {
+            "name": "key",
+            "defaultValue": "",
+            "hidden": false
+          }
+        }
+      },
+      "jobName": "paragraph_1496399662204_-328900269",
+      "id": "20170602-103422_980268733",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ewuiergrui\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 2, 2017 10:34:22 AM",
+      "dateStarted": "Jun 2, 2017 10:38:15 AM",
+      "dateFinished": "Jun 2, 2017 10:38:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1496399865013_-840738376",
+      "id": "20170602-103745_303601174",
+      "dateCreated": "Jun 2, 2017 10:37:45 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "viewport",
+  "id": "7EMVZYYG3H1496394104",
+  "angularObjects": {
+    "2CJJ8S6WTnull1496341151352:shared_process": [],
+    "2CJ5T6YGDnull1496341151356:shared_process": [],
+    "2CJZBCRFAnull1496341151360:shared_process": [],
+    "2CM8ATKRBnull1496341151339:shared_process": []
+  },
+  "config": {
+    "isDashboard": false
+  },
+  "info": {},
+  "source": "FCN"
+}
