@@ -1,6 +1,48 @@
 {
   "paragraphs": [
     {
+      "text": "sc.version",
+      "user": "mukundag+qa+test@qubole.com",
+      "dateUpdated": "Apr 3, 2018 6:41:19 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v0",
+      "jobName": "paragraph_1522737671925_828751980",
+      "id": "20180403-064111_2061936483_q_KJGEMGNCSW1522737167",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: String \u003d 2.1.1\n"
+      },
+      "dateCreated": "Apr 3, 2018 6:41:11 AM",
+      "dateSubmitted": "Apr 3, 2018 6:41:19 AM",
+      "dateStarted": "Apr 3, 2018 6:41:31 AM",
+      "dateFinished": "Apr 3, 2018 6:42:41 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "text": "%sh ls -al",
       "user": "mukundag+qa+test@qubole.com",
       "dateUpdated": "Apr 3, 2018 6:39:41 AM",
