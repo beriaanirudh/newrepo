@@ -1,0 +1,27 @@
+{
+  "paragraphs": [
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1523533949192_-284369092",
+      "id": "20180412-115229_1083966913_q_5SXBESEJ241523533948",
+      "dateCreated": "Apr 12, 2018 11:52:29 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "SN4Mv",
+  "id": "5SXBESEJ241523533948",
+  "angularObjects": {},
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
