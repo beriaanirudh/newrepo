@@ -3,43 +3,6 @@
     {
       "text": "%sh ls -al",
       "user": "monikak+r52@qubole.com",
-      "dateUpdated": "May 24, 2018 4:53:50 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1527137622965_-120509708",
-      "id": "20180524-045342_1145882701_q_RQM5JM436J1527137177",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "total 224\ndrwxr-xr-x.  8 root root  4096 May 24 04:48 .\ndr-xr-xr-x. 17 root root  4096 May 22 07:13 ..\n-rwxr-xr-x.  1 root root    18 Apr 30  2014 .bash_logout\n-rwxr-xr-x.  1 root root   176 Apr 30  2014 .bash_profile\n-rwxr-xr-x.  1 root root   176 Apr 30  2014 .bashrc\ndrwxr-xr-x.  3 root root    17 May 15 04:26 .cache\n-rwxr-xr-x   1 root root 21067 May 24 04:48 cloudman_debug.log\n-rwxr-xr-x   1 root root     0 May 24 04:48 cloudman_scaling.log\n-rwxr-xr-x   1 root root 13833 May 24 04:48 compressed.sh\n-rwxr-xr-x   1 root root 53125 May 24 04:48 config.json\ndrwxr-xr-x.  2 root root     6 May 15 04:30 .continuum\n-rwxr-xr-x.  1 root root   100 Apr 30  2014 .cshrc\n-rwxr-xr-x   1 root root   298 May 24 04:48 current_node_config.json\n-rwxr-xr-x   1 root root 55328 May 24 04:48 extracted.sh\ndrwxr-xr-x   3 root root    18 May 24 04:48 node_bootstrap\n-rwxr-xr-x   1 root root     2 May 24 04:48 node_config.json\n-rwxr-xr-x   1 root root   571 May 24 04:48 node_setup_script.sh\ndrwxr-xr-x.  3 root root    19 May 15 03:37 .pki\ndrwxr-xr-x   2 root root     6 May 24 04:48 previous_nodes\n-rw-r--r--   1 root root 35703 May 24 04:48 qbol_config.sh\ndrwxr-xr-x   2 root root    29 May 24 04:48 .ssh\n-rwxr-xr-x.  1 root root   129 Apr 30  2014 .tcshrc\n"
-      },
-      "dateCreated": "May 24, 2018 4:53:42 AM",
-      "dateSubmitted": "May 24, 2018 4:53:50 AM",
-      "dateStarted": "May 24, 2018 4:53:50 AM",
-      "dateFinished": "May 24, 2018 4:53:50 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "%sh ls -al",
-      "user": "monikak+r52@qubole.com",
       "dateUpdated": "May 24, 2018 4:52:12 AM",
       "config": {
         "colWidth": 12.0,
