@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+flags@gmail.com",
+      "dateUpdated": "May 27, 2018 5:48:32 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1527400045953_-564019084",
+      "id": "20180527-054725_1911981073_q_ZDJN7S1ERQ1527399800",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 124\ndr-xr-xr-x  26 root root  4096 May 27 05:45 .\ndr-xr-xr-x  26 root root  4096 May 27 05:45 ..\n-rw-r--r--   1 root root     0 May 27 05:45 .autofsck\n-rw-r--r--   1 root root     0 Oct 16  2013 .autorelabel\ndr-xr-xr-x   2 root root  4096 Jan 29 16:09 bin\ndr-xr-xr-x   4 root root  4096 May 10 07:33 boot\ndrwxr-xr-x   2 root root  4096 Jul 28  2011 cgroup\ndrwxr-xr-x  16 root root  2540 May 27 05:45 dev\ndrwxr-xr-x 104 root root 12288 May 27 05:46 etc\ndrwxr-xr-x   5 root root  4096 Nov  5  2014 home\ndr-xr-xr-x  12 root root  4096 May 10 07:33 lib\ndr-xr-xr-x  10 root root 12288 May 10 07:32 lib64\ndrwxr-xr-x   2 root root  4096 Oct 28  2011 local\ndrwx------   2 root root 16384 Oct 28  2011 lost+found\ndrwxr-xr-x   3 root root  4096 May 27 05:45 media\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 mnt\n-rw-------   1 root root     0 May 25 10:51 motd.part4Ys26\ndrwxr-xr-x   5 root root  4096 Jun  6  2016 opt\ndr-xr-xr-x 142 root root     0 May 27 05:44 proc\ndrwxr-xr-x   1 root root     0 Aug 30  1754 qfs\ndr-xr-x---  14 root root  4096 May 27 05:45 root\ndrwxr-xr-x   3 root root  4096 Jun  6  2016 run\ndr-xr-xr-x   2 root root 12288 May 10 08:04 sbin\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 selinux\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 srv\ndr-xr-xr-x  13 root root     0 May 27 05:44 sys\ndrwxrwxrwt  13 root root  4096 May 27 05:48 tmp\ndrwxr-xr-x  16 root root  4096 Dec 20 00:27 usr\ndrwxr-xr-x  23 root root  4096 Aug 31  2016 var\n"
+      },
+      "dateCreated": "May 27, 2018 5:47:25 AM",
+      "dateSubmitted": "May 27, 2018 5:48:33 AM",
+      "dateStarted": "May 27, 2018 5:48:35 AM",
+      "dateFinished": "May 27, 2018 5:48:35 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1527400112977_-2066204673",
+      "id": "20180527-054832_929476623_q_ZDJN7S1ERQ1527399800",
+      "dateCreated": "May 27, 2018 5:48:32 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "n99pf",
+  "id": "ZDJN7S1ERQ1527399800",
+  "angularObjects": {
+    "2DGEXEBWX1092191527400040480:shared_process": [],
+    "2DGBSJNB61092191527400046042:shared_process": [],
+    "2DGKRK51R1092191527400040474:shared_process": [],
+    "2DDWB9V4K1092191527400040487:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": ""
+  },
+  "info": {},
+  "source": "FCN"
+}
