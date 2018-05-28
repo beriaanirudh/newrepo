@@ -8,19 +8,18 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1526906556152_-1185472795",
-      "id": "20180521-124236_578789362_q_7BABGNTVR91526906552",
-      "dateCreated": "May 21, 2018 12:42:36 PM",
+      "jobName": "paragraph_1527499590372_-467375783",
+      "id": "20180528-092630_1657272328_q_3W5HM5BYEY1527499587",
+      "dateCreated": "May 28, 2018 9:26:30 AM",
       "status": "READY",
-      "progressUpdateIntervalMs": 1000
+      "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "NOTEBOOK_sboeo",
-  "id": "7BABGNTVR91526906552",
+  "name": "NOTEBOOK_v7npy",
+  "id": "3W5HM5BYEY1527499587",
   "angularObjects": {},
   "config": {
-    "isDashboard": false,
-    "defaultLang": "spark"
+    "isDashboard": false
   },
   "info": {},
   "source": "FCN"
