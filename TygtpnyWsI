@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Aug 16, 2018 2:49:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1534387692733_1878663759",
+      "id": "20180816-024812_1238443975_q_NQ31QBS9C61534387481",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 232\ndrwxr-xr-x.  8 root root  4096 Aug 16 02:49 .\ndr-xr-xr-x. 17 root root  4096 Aug 15 01:40 ..\n-rwxr-xr-x.  1 root root    18 Apr 30  2014 .bash_logout\n-rwxr-xr-x.  1 root root   176 Apr 30  2014 .bash_profile\n-rwxr-xr-x.  1 root root   176 Apr 30  2014 .bashrc\ndrwxr-xr-x.  3 root root    17 Aug 13 13:13 .cache\n-rwxr-xr-x   1 root root 25157 Aug 16 02:47 cloudman_debug.log\n-rwxr-xr-x   1 root root     0 Aug 16 02:47 cloudman_scaling.log\n-rwxr-xr-x   1 root root 13757 Aug 16 02:47 compressed.sh\n-rwxr-xr-x   1 root root 39029 Aug 16 02:47 config.json\ndrwxr-xr-x.  2 root root     6 Aug 13 13:17 .continuum\n-rwxr-xr-x.  1 root root   100 Apr 30  2014 .cshrc\n-rwxr-xr-x   1 root root   298 Aug 16 02:47 current_node_config.json\n-rwxr-xr-x   1 root root 41292 Aug 16 02:47 extracted.sh\n-rw-r--r--   1 root root  3698 Aug 14 09:23 index.html\n-rw-r--r--   1 root root  3698 Aug 14 09:23 index.html.1\n-rw-r--r--   1 root root    32 Aug 16 02:48 .monit.id\n-rw-------   1 root root  4328 Aug 16 02:49 .monit.state\ndrwxr-xr-x   3 root root    27 Aug 16 02:48 node_bootstrap\n-rwxr-xr-x   1 root root     2 Aug 16 02:47 node_config.json\n-rwxr-xr-x   1 root root   506 Aug 16 02:47 node_setup_script.sh\ndrwxr-xr-x.  3 root root    19 Aug 13 12:35 .pki\ndrwxr-xr-x   2 root root     6 Aug 16 02:47 previous_nodes\n-rw-r--r--   1 root root 43061 Aug 16 02:47 qbol_config.json\ndrwxr-xr-x   2 root root    29 Aug 16 02:47 .ssh\n-rwxr-xr-x.  1 root root   129 Apr 30  2014 .tcshrc\n"
+      },
+      "dateCreated": "Aug 16, 2018 2:48:12 AM",
+      "dateSubmitted": "Aug 16, 2018 2:49:23 AM",
+      "dateStarted": "Aug 16, 2018 2:49:24 AM",
+      "dateFinished": "Aug 16, 2018 2:49:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1534387763225_-248720179",
+      "id": "20180816-024923_171893180_q_NQ31QBS9C61534387481",
+      "dateCreated": "Aug 16, 2018 2:49:23 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "9MWXF",
+  "id": "NQ31QBS9C61534387481",
+  "angularObjects": {
+    "2DME66JFT52841534387692904:shared_process": [],
+    "2DQHQH3HJ52841534387681686:shared_process": [],
+    "2DQMJBN8K52841534387681679:shared_process": [],
+    "2DQPHEJHZ52841534387681674:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
