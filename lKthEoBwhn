@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+notebooks_fr@qu-test.com",
+      "dateUpdated": "Aug 22, 2018 2:38:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1534905465554_2039925945",
+      "id": "20180822-023745_101565076_q_5ZKFJTRF9Q1534905165",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 136\ndr-xr-xr-x  26 root root  4096 Aug 22 02:39 .\ndr-xr-xr-x  26 root root  4096 Aug 22 02:39 ..\n-rw-r--r--   1 root root     0 Aug 22 02:34 .autofsck\n-rw-r--r--   1 root root     0 Oct 16  2013 .autorelabel\ndr-xr-xr-x   2 root root  4096 Jan 29  2018 bin\ndr-xr-xr-x   4 root root  4096 Aug 19 16:01 boot\ndrwxr-xr-x   2 root root  4096 Jul 28  2011 cgroup\ndrwxr-xr-x  16 root root  2580 Aug 22 02:34 dev\ndrwxr-xr-x 104 root root 12288 Aug 22 02:37 etc\ndrwxr-xr-x   5 root root  4096 Nov  5  2014 home\n-rw-r--r--   1 root root  3698 Aug 17 13:28 index.html\n-rw-r--r--   1 root root  3698 Aug 17 13:28 index.html.1\ndr-xr-xr-x  12 root root  4096 May 31 09:24 lib\ndr-xr-xr-x  10 root root 12288 May 31 09:24 lib64\ndrwxr-xr-x   2 root root  4096 Oct 28  2011 local\ndrwx------   2 root root 16384 Oct 28  2011 lost+found\ndrwxr-xr-x   3 root root  4096 Aug 22 02:35 media\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 mnt\ndrwxr-xr-x   5 root root  4096 Jun  6  2016 opt\ndr-xr-xr-x 156 root root     0 Aug 22 02:34 proc\ndrwxrwxrwx   2 root root  4096 Jan 29  2018 qfs\ndr-xr-x---  14 root root  4096 Aug 22 02:35 root\ndrwxr-xr-x   3 root root  4096 Aug 22 02:39 run\ndr-xr-xr-x   2 root root 12288 Aug 19 16:27 sbin\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 selinux\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 srv\ndr-xr-xr-x  13 root root     0 Aug 22 02:34 sys\ndrwxrwxrwt  15 root root  4096 Aug 22 02:39 tmp\ndrwxr-xr-x  16 root root  4096 Dec 20  2017 usr\ndrwxr-xr-x  23 root root  4096 Aug 31  2016 var\n"
+      },
+      "dateCreated": "Aug 22, 2018 2:37:45 AM",
+      "dateSubmitted": "Aug 22, 2018 2:38:59 AM",
+      "dateStarted": "Aug 22, 2018 2:39:11 AM",
+      "dateFinished": "Aug 22, 2018 2:39:11 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1534905539147_-1725703486",
+      "id": "20180822-023859_1952697525_q_5ZKFJTRF9Q1534905165",
+      "dateCreated": "Aug 22, 2018 2:38:59 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "4DItC",
+  "id": "5ZKFJTRF9Q1534905165",
+  "angularObjects": {
+    "2DQ5NXZ6R1320421534905461007:shared_process": [],
+    "2DPAB6S881320421534905461015:shared_process": [],
+    "2DRANEDY11320421534905461000:shared_process": [],
+    "2DMTJ5HH11320421534905465758:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
