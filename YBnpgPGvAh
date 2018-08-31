@@ -3,43 +3,6 @@
     {
       "text": "%sh ls -al",
       "user": "anupamp+user@qubole.com",
-      "dateUpdated": "Aug 31, 2018 1:16:57 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1535721404928_1337895150",
-      "id": "20180831-131644_1921183354_q_4UCCB1EFPY1535720874",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "total 236\ndrwxr-xr-x.  8 root root  4096 Aug 31 13:14 .\ndr-xr-xr-x. 17 root root  4096 Aug 30 06:55 ..\n-rwxr-xr-x.  1 root root    18 Apr 30  2014 .bash_logout\n-rwxr-xr-x.  1 root root   176 Apr 30  2014 .bash_profile\n-rwxr-xr-x.  1 root root   176 Apr 30  2014 .bashrc\ndrwxr-xr-x.  3 root root    17 Aug 30 06:01 .cache\n-rwxr-xr-x   1 root root 25570 Aug 31 13:13 cloudman_debug.log\n-rwxr-xr-x   1 root root     0 Aug 31 13:13 cloudman_scaling.log\n-rwxr-xr-x   1 root root  4185 Aug 31 13:13 compressed.sh\n-rwxr-xr-x   1 root root 39459 Aug 31 13:13 config.json\ndrwxr-xr-x.  2 root root     6 Aug 30 06:06 .continuum\n-rwxr-xr-x.  1 root root   100 Apr 30  2014 .cshrc\n-rwxr-xr-x   1 root root   296 Aug 31 13:13 current_node_config.json\n-rwxr-xr-x   1 root root 45588 Aug 31 13:13 encrypted-config.json\n-rwxr-xr-x   1 root root  5271 Aug 31 13:13 extracted.sh\n-rw-r--r--   1 root root  3698 Aug 17 13:28 index.html\n-rw-r--r--   1 root root  3698 Aug 17 13:28 index.html.1\n-rw-r--r--   1 root root    32 Aug 31 13:13 .monit.id\n-rw-------   1 root root  4720 Aug 31 13:15 .monit.state\ndrwxr-xr-x   3 root root    27 Aug 31 13:14 node_bootstrap\n-rwxr-xr-x   1 root root     2 Aug 31 13:13 node_config.json\n-rwxr-xr-x   1 root root   506 Aug 31 13:13 node_setup_script.sh\ndrwxr-xr-x.  3 root root    19 Aug 30 05:18 .pki\ndrwxr-xr-x   2 root root     6 Aug 31 13:13 previous_nodes\n-rw-r--r--   1 root root 43434 Aug 31 13:13 qbol_config.json\ndrwxr-xr-x   2 root root    29 Aug 31 13:13 .ssh\n-rwxr-xr-x.  1 root root   129 Apr 30  2014 .tcshrc\n"
-      },
-      "dateCreated": "Aug 31, 2018 1:16:44 PM",
-      "dateSubmitted": "Aug 31, 2018 1:16:57 PM",
-      "dateStarted": "Aug 31, 2018 1:16:57 PM",
-      "dateFinished": "Aug 31, 2018 1:16:57 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "%sh ls -al",
-      "user": "anupamp+user@qubole.com",
       "dateUpdated": "Aug 31, 2018 1:15:22 PM",
       "config": {
         "colWidth": 12.0,
