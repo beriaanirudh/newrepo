@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "anupamp+user@qubole.com",
+      "dateUpdated": "Oct 14, 2018 8:59:07 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1539507285331_368842138",
+      "id": "20181014-085445_1171044873_q_PCYXAG9JN51539506793",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 588\ndrwxr-xr-x.  9 root root   4096 Oct 14 08:58 .\ndr-xr-xr-x. 17 root root   4096 Oct 10 14:07 ..\n-rwxr-xr-x.  1 root root     18 Dec 29  2013 .bash_logout\n-rwxr-xr-x.  1 root root    176 Dec 29  2013 .bash_profile\n-rwxr-xr-x.  1 root root    176 Dec 29  2013 .bashrc\ndrwxr-xr-x.  3 root root     17 Mar 20  2018 .cache\n-rwxr-xr-x   1 root root   1461 Oct 14 08:51 compressed.sh\ndrwxr-xr-x   3 root root     34 Oct 14 08:52 .config\n-rwxr-xr-x   1 root root  39094 Oct 14 08:52 config.json\ndrwxr-xr-x.  2 root root      6 Mar 20  2018 .continuum\n-rwxr-xr-x.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    245 Oct 14 08:52 current_node_config.json\n-rwxr-xr-x   1 root root 372249 Oct 14 08:58 custom_data.log\n-rwxr-xr-x   1 root root   1590 Oct 14 08:51 custom_data.sh\n-rwxr-xr-x   1 root root  44224 Oct 14 08:52 encrypted-config.json\n-rwxr-xr-x   1 root root   2242 Oct 14 08:51 extracted.sh\n-rwxr-xr-x   1 root root     10 Oct 14 08:52 launchtime_azure\n-rw-r--r--   1 root root     32 Oct 14 08:53 .monit.id\n-rw-------   1 root root   2368 Oct 14 08:59 .monit.state\ndrwxr-xr-x   3 root root     27 Oct 14 08:58 node_bootstrap\n-rwxr-xr-x   1 root root      2 Oct 14 08:52 node_config.json\n-rwxr-xr-x   1 root root    478 Oct 14 08:52 node_setup_script.sh\ndrwxr-xr-x.  3 root root     19 Mar 20  2018 .pki\ndrwxr-xr-x   2 root root      6 Oct 14 08:52 previous_nodes\n-rw-r--r--   1 root root  46512 Oct 14 08:53 qbol_config.json\n-rwxr-xr-x   1 root root   5787 Oct 14 08:51 rc_local.log\ndrwxr-xr-x   2 root root     29 Oct 14 08:53 .ssh\n-rwxr-xr-x.  1 root root    129 Dec 29  2013 .tcshrc\n"
+      },
+      "dateCreated": "Oct 14, 2018 8:54:45 AM",
+      "dateSubmitted": "Oct 14, 2018 8:59:07 AM",
+      "dateStarted": "Oct 14, 2018 8:59:13 AM",
+      "dateFinished": "Oct 14, 2018 8:59:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1539507547264_-1737690383",
+      "id": "20181014-085907_2111636944_q_PCYXAG9JN51539506793",
+      "dateCreated": "Oct 14, 2018 8:59:07 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "7Hpzg",
+  "id": "PCYXAG9JN51539506793",
+  "angularObjects": {
+    "2DSNS6DRP306731539507277129:shared_process": [],
+    "2DV3V88QY306731539507276794:shared_process": [],
+    "2DU1SP2RT306731539507276785:shared_process": [],
+    "2DV3MWAHF306731539507285618:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
