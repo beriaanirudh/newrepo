@@ -3,6 +3,43 @@
     {
       "text": "%sh ls -al",
       "user": "monikak+azurevnext+qa@qubole.com",
+      "dateUpdated": "Oct 18, 2018 2:00:50 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1539871242590_716338477",
+      "id": "20181018-140042_1465707391_q_YNHJ3389B11539869923",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 568\ndrwxr-xr-x. 10 root root   4096 Oct 18 13:50 .\ndr-xr-xr-x. 17 root root   4096 Oct 10 14:07 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwx------.  3 root root     17 Mar 20  2018 .cache\n-rwxr-xr-x   1 root root   1573 Oct 18 13:42 compressed.sh\ndrwxr-xr-x   3 root root     34 Oct 18 13:43 .config\n-rwxr-xr-x   1 root root  25857 Oct 18 13:43 config.json\ndrwxr-xr-x.  2 root root      6 Mar 20  2018 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    242 Oct 18 13:43 current_node_config.json\n-rw-r--r--   1 root root 417277 Oct 18 13:51 custom_data.log\n-rwxr-xr-x   1 root root   1702 Oct 18 13:42 custom_data.sh\n-rwxr-xr-x   1 root root  29120 Oct 18 13:43 encrypted-config.json\n-rwxr-xr-x   1 root root   2419 Oct 18 13:42 extracted.sh\n-rw-r--r--   1 root root   3698 Oct 14 14:05 index.html\n-rw-r--r--   1 root root   3698 Oct 14 14:05 index.html.1\n-rw-r--r--   1 root root     10 Oct 18 13:43 launchtime_azure\n-rw-r--r--   1 root root     32 Oct 18 13:44 .monit.id\n-rw-------   1 root root   2368 Oct 18 13:50 .monit.state\ndrwxr-xr-x   3 root root     27 Oct 18 13:49 node_bootstrap\n-rwxr-xr-x   1 root root      2 Oct 18 13:43 node_config.json\n-rwxr-xr-x   1 root root    464 Oct 18 13:43 node_setup_script.sh\ndrwxr-xr-x   2 root root     40 Oct 18 13:49 .oracle_jre_usage\ndrwxr-----.  3 root root     19 Mar 20  2018 .pki\ndrwxr-xr-x   2 root root      6 Oct 18 13:43 previous_nodes\n-rw-r--r--   1 root root  17029 Oct 18 13:44 qbol_config.json\n-rw-r--r--   1 root root   6159 Oct 18 13:51 rc_local.log\ndrwxr-xr-x   2 root root     29 Oct 18 13:44 .ssh\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
+      },
+      "dateCreated": "Oct 18, 2018 2:00:42 PM",
+      "dateSubmitted": "Oct 18, 2018 2:00:50 PM",
+      "dateStarted": "Oct 18, 2018 2:00:50 PM",
+      "dateFinished": "Oct 18, 2018 2:00:50 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sh ls -al",
+      "user": "monikak+azurevnext+qa@qubole.com",
       "dateUpdated": "Oct 18, 2018 1:59:30 PM",
       "config": {
         "colWidth": 12.0,
