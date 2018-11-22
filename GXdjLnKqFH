@@ -3,43 +3,6 @@
     {
       "text": "%sh ls -al",
       "user": "anupamp+user@qubole.com",
-      "dateUpdated": "Nov 22, 2018 9:17:37 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1542878250125_-317868599",
-      "id": "20181122-091730_1893514377_q_5GPENY9PMN1542877808",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "total 164\ndrwxr-xr-x.  8 root root  4096 Nov 22 09:16 .\ndr-xr-xr-x. 17 root root  4096 Nov 19 10:08 ..\n-rw-r--r--.  1 root root    18 Apr 30  2014 .bash_logout\n-rw-r--r--.  1 root root   176 Apr 30  2014 .bash_profile\n-rw-r--r--.  1 root root   176 Apr 30  2014 .bashrc\ndrwx------.  3 root root    17 Oct 24 04:40 .cache\n-rwxr-xr-x   1 root root  4321 Nov 22 09:13 compressed.sh\n-rwxr-xr-x   1 root root 29748 Nov 22 09:13 config.json\ndrwxr-xr-x.  2 root root     6 Oct 24 04:44 .continuum\n-rw-r--r--.  1 root root   100 Apr 30  2014 .cshrc\n-rwxr-xr-x   1 root root   298 Nov 22 09:13 current_node_config.json\n-rwxr-xr-x   1 root root 34260 Nov 22 09:13 encrypted-config.json\n-rwxr-xr-x   1 root root  5444 Nov 22 09:13 extracted.sh\n-rw-r--r--   1 root root  3698 Oct 29 21:29 index.html\n-rw-r--r--   1 root root  3698 Oct 29 21:29 index.html.1\n-rw-r--r--   1 root root    32 Nov 22 09:13 .monit.id\n-rw-------   1 root root  5112 Nov 22 09:17 .monit.state\ndrwxr-xr-x   3 root root    27 Nov 22 09:16 node_bootstrap\n-rwxr-xr-x   1 root root     2 Nov 22 09:13 node_config.json\n-rwxr-xr-x   1 root root   509 Nov 22 09:13 node_setup_script.sh\ndrwxr-----.  3 root root    19 Oct 24 04:31 .pki\ndrwxr-xr-x   2 root root     6 Nov 22 09:13 previous_nodes\n-rw-r--r--   1 root root 18879 Nov 22 09:13 qbol_config.json\ndrwx------   2 root root    29 Nov 22 09:13 .ssh\n-rw-r--r--.  1 root root   129 Apr 30  2014 .tcshrc\n"
-      },
-      "dateCreated": "Nov 22, 2018 9:17:30 AM",
-      "dateSubmitted": "Nov 22, 2018 9:17:37 AM",
-      "dateStarted": "Nov 22, 2018 9:17:37 AM",
-      "dateFinished": "Nov 22, 2018 9:17:37 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "%sh ls -al",
-      "user": "anupamp+user@qubole.com",
       "dateUpdated": "Nov 22, 2018 9:16:15 AM",
       "config": {
         "colWidth": 12.0,
