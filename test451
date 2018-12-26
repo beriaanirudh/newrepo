@@ -1,43 +1,6 @@
 {
   "paragraphs": [
     {
-      "text": "%md \n### This notebook supports multiple language backend",
-      "user": "monikak@qubole.com",
-      "dateUpdated": "Dec 26, 2018 11:03:21 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v1",
-      "jobName": "paragraph_1545808483252_1575155836",
-      "id": "20181226-071443_154745649_q_HBQE9PZ8J91545820671",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eThis notebook supports multiple language backend\u003c/h3\u003e\n\u003c/div\u003e"
-      },
-      "dateCreated": "Dec 26, 2018 7:14:43 AM",
-      "dateSubmitted": "Dec 26, 2018 11:03:21 AM",
-      "dateStarted": "Dec 26, 2018 11:03:21 AM",
-      "dateFinished": "Dec 26, 2018 11:03:21 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
       "text": "sc.version",
       "user": "monikak@qubole.com",
       "dateUpdated": "Dec 26, 2018 11:01:55 AM",
