@@ -1,0 +1,493 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \n### This notebook supports multiple language backend",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 11:03:21 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808483252_1575155836",
+      "id": "20181226-071443_154745649_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eThis notebook supports multiple language backend\u003c/h3\u003e\n\u003c/div\u003e"
+      },
+      "dateCreated": "Dec 26, 2018 7:14:43 AM",
+      "dateSubmitted": "Dec 26, 2018 11:03:21 AM",
+      "dateStarted": "Dec 26, 2018 11:03:21 AM",
+      "dateFinished": "Dec 26, 2018 11:03:21 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "sc.version",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 11:01:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545807885140_781159988",
+      "id": "20181226-070445_1390505841_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: String \u003d 2.3.1\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:04:45 AM",
+      "dateSubmitted": "Dec 26, 2018 11:01:55 AM",
+      "dateStarted": "Dec 26, 2018 11:01:59 AM",
+      "dateFinished": "Dec 26, 2018 11:02:39 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "sqlContext.sql(\"show tables\").collect",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:15:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808270352_478531170",
+      "id": "20181226-071110_956413274_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres2: Array[org.apache.spark.sql.Row] \u003d Array()\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:11:10 AM",
+      "dateSubmitted": "Dec 26, 2018 7:15:55 AM",
+      "dateStarted": "Dec 26, 2018 7:15:55 AM",
+      "dateFinished": "Dec 26, 2018 7:16:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%pyspark\nfrom random import random\nfrom operator import add\nsc.version\nsys.version\npartitions \u003d 10\nn \u003d 100000 * partitions\n\ndef f(_):\n    x \u003d random() * 2 - 1\n    y \u003d random() * 2 - 1\n    return 1 if x ** 2 + y ** 2 \u003c 1 else 0\n\ncount \u003d sc.parallelize(xrange(1, n + 1), partitions).map(f).reduce(add)\nprint \"Pi is roughly %f\" % (4.0 * count / n)",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:16:44 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "runtimeInfos": {},
+      "paragraphProgress": {
+        "jobs": [
+          {
+            "id": 0,
+            "jobUrl": "https://alphabet.qubole.net/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.142.0.4%3A8088%2Fproxy%2Fapplication_1545808004869_0001/jobs/job?spark\u003dtrue\u0026id\u003d0",
+            "numTasks": 10,
+            "numCompletedTasks": 10,
+            "stages": [
+              {
+                "id": 0,
+                "completed": true,
+                "stageUrl": "https://alphabet.qubole.net/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.142.0.4%3A8088%2Fproxy%2Fapplication_1545808004869_0001/stages/stage/?id\u003d0\u0026attempt\u003d0",
+                "numCompleteTasks": 10,
+                "numActiveTasks": 0,
+                "numFailedTasks": 0,
+                "numTotalTasks": 10
+              }
+            ],
+            "status": "Success"
+          }
+        ],
+        "numCompletedTasks": 10,
+        "numTasks": 10,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808571397_-972327929",
+      "id": "20181226-071611_310204408_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "----------------------------------------\nException happened during processing of request from (\u0027127.0.0.1\u0027, 38816)\nTraceback (most recent call last):\n  File \"/usr/lib64/python2.7/SocketServer.py\", line 295, in _handle_request_noblock\n    self.process_request(request, client_address)\n  File \"/usr/lib64/python2.7/SocketServer.py\", line 321, in process_request\n    self.finish_request(request, client_address)\n  File \"/usr/lib64/python2.7/SocketServer.py\", line 334, in finish_request\n    self.RequestHandlerClass(request, client_address, self)\n  File \"/usr/lib64/python2.7/SocketServer.py\", line 649, in __init__\n    self.handle()\n  File \"/usr/lib/spark/python/pyspark/accumulators.py\", line 266, in handle\n    poll(authenticate_and_accum_updates)\n  File \"/usr/lib/spark/python/pyspark/accumulators.py\", line 241, in poll\n    if func():\n  File \"/usr/lib/spark/python/pyspark/accumulators.py\", line 254, in authenticate_and_accum_updates\n    received_token \u003d self.rfile.read(len(auth_token))\nTypeError: object of type \u0027NoneType\u0027 has no len()\n----------------------------------------\nPi is roughly 3.144560\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:16:11 AM",
+      "dateSubmitted": "Dec 26, 2018 7:16:44 AM",
+      "dateStarted": "Dec 26, 2018 7:16:45 AM",
+      "dateFinished": "Dec 26, 2018 7:16:50 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sh\nwget http://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip -o /tmp/bank.zip\nrm -rf /tmp/data\nmkdir /tmp/data\nunzip bank.zip -d /tmp/data\nrm /tmp/bank.zip\nls /tmp/data\nhadoop dfs -put -f /tmp/data/bank-full.csv /tmp",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:22:17 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808928915_244909201",
+      "id": "20181226-072208_412408096_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Archive:  bank.zip\n  inflating: /tmp/data/bank-full.csv  \n  inflating: /tmp/data/bank-names.txt  \n  inflating: /tmp/data/bank.csv      \nbank.csv\nbank-full.csv\nbank-names.txt\nDEPRECATED: Use of this script to execute hdfs command is deprecated.\nInstead use the hdfs command for it.\n\nlog4j:WARN No such property [rollingPolicy] in org.apache.log4j.RollingFileAppender.\n18/12/26 07:22:21 INFO Configuration.deprecation: fs.default.name is deprecated. Instead, use fs.defaultFS\nDec 26, 2018 7:22:22 AM com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystemBase \u003cclinit\u003e\nINFO: GHFS version: hadoop2-1.9.8\n18/12/26 07:22:22 INFO Configuration.deprecation: fs.default.name is deprecated. Instead, use fs.defaultFS\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:22:08 AM",
+      "dateSubmitted": "Dec 26, 2018 7:22:17 AM",
+      "dateStarted": "Dec 26, 2018 7:22:19 AM",
+      "dateFinished": "Dec 26, 2018 7:22:23 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "val bankText \u003d sc.textFile(\"/tmp/bank-full.csv\")\n\ncase class Bank(age: Integer, job: String, marital: String, education: String, balance: Integer)\n\nval bank \u003d bankText.map(s \u003d\u003e s.split(\";\")).filter(s \u003d\u003e s(0) !\u003d \"\\\"age\\\"\").map(\n    s \u003d\u003e Bank(s(0).toInt, \n            s(1).replaceAll(\"\\\"\", \"\"),\n            s(2).replaceAll(\"\\\"\", \"\"),\n            s(3).replaceAll(\"\\\"\", \"\"),\n            s(5).replaceAll(\"\\\"\", \"\").toInt\n        )\n).toDF()\nbank.registerTempTable(\"bank\")",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:22:32 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808945497_-1743073041",
+      "id": "20181226-072225_1222714004_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nbankText: org.apache.spark.rdd.RDD[String] \u003d /tmp/bank-full.csv MapPartitionsRDD[7] at textFile at \u003cconsole\u003e:25\n\ndefined class Bank\n\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string ... 3 more fields]\n\nwarning: there was one deprecation warning; re-run with -deprecation for details\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:22:25 AM",
+      "dateSubmitted": "Dec 26, 2018 7:22:32 AM",
+      "dateStarted": "Dec 26, 2018 7:22:32 AM",
+      "dateFinished": "Dec 26, 2018 7:22:35 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere age \u003c ${maxAge\u003d30} \ngroup by age \norder by age",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:22:51 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {
+          "maxAge": {
+            "name": "maxAge",
+            "defaultValue": "30",
+            "hidden": false
+          }
+        }
+      },
+      "runtimeInfos": {},
+      "paragraphProgress": {
+        "jobs": [
+          {
+            "id": 1,
+            "jobUrl": "https://alphabet.qubole.net/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.142.0.4%3A8088%2Fproxy%2Fapplication_1545808004869_0001/jobs/job?spark\u003dtrue\u0026id\u003d1",
+            "numTasks": 202,
+            "numCompletedTasks": 202,
+            "stages": [
+              {
+                "id": 1,
+                "completed": true,
+                "stageUrl": "https://alphabet.qubole.net/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.142.0.4%3A8088%2Fproxy%2Fapplication_1545808004869_0001/stages/stage/?id\u003d1\u0026attempt\u003d0",
+                "numCompleteTasks": 2,
+                "numActiveTasks": 0,
+                "numFailedTasks": 0,
+                "numTotalTasks": 2
+              },
+              {
+                "id": 2,
+                "completed": true,
+                "stageUrl": "https://alphabet.qubole.net/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.142.0.4%3A8088%2Fproxy%2Fapplication_1545808004869_0001/stages/stage/?id\u003d2\u0026attempt\u003d0",
+                "numCompleteTasks": 200,
+                "numActiveTasks": 0,
+                "numFailedTasks": 0,
+                "numTotalTasks": 200
+              }
+            ],
+            "status": "Success"
+          }
+        ],
+        "numCompletedTasks": 202,
+        "numTasks": 202,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808960226_1503453502",
+      "id": "20181226-072240_118859375_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "{\"exceeded\":-1,\"data\":[[\"age\",\"value\"],[\"18\",\"12\"],[\"19\",\"35\"],[\"20\",\"50\"],[\"21\",\"79\"],[\"22\",\"129\"],[\"23\",\"202\"],[\"24\",\"302\"],[\"25\",\"527\"],[\"26\",\"805\"],[\"27\",\"909\"],[\"28\",\"1038\"],[\"29\",\"1185\"]]}"
+      },
+      "dateCreated": "Dec 26, 2018 7:22:40 AM",
+      "dateSubmitted": "Dec 26, 2018 7:22:51 AM",
+      "dateStarted": "Dec 26, 2018 7:22:51 AM",
+      "dateFinished": "Dec 26, 2018 7:22:58 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "println(\"%table age\\tnumbers\\n2\\t10\\n3\\t20\\n8\\t70\\n12\\t50\\n20\\t10\")",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:23:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808991718_-216896748",
+      "id": "20181226-072311_2061242212_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "age\tnumbers\n2\t10\n3\t20\n8\t70\n12\t50\n20\t10\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:23:11 AM",
+      "dateSubmitted": "Dec 26, 2018 7:23:14 AM",
+      "dateStarted": "Dec 26, 2018 7:23:14 AM",
+      "dateFinished": "Dec 26, 2018 7:23:14 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%r\nlibrary(ggplot2)",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:23:39 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/r"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545809018411_-616620207",
+      "id": "20181226-072338_2008880119_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "org.apache.zeppelin.interpreter.InterpreterException: sparkr is not responding \n\n\n\n\n\n\n\n\n\nR version 3.5.1 (2018-07-02) -- \"Feather Spray\"\nCopyright (C) 2018 The R Foundation for Statistical Computing\nPlatform: x86_64-redhat-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType \u0027license()\u0027 or \u0027licence()\u0027 for distribution details.\n\n\n\n\n\n\n\n\n\n\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType \u0027contributors()\u0027 for more information and\n\u0027citation()\u0027 on how to cite R or R packages in publications.\n\nType \u0027demo()\u0027 for some demos, \u0027help()\u0027 for on-line help, or\n\u0027help.start()\u0027 for an HTML browser interface to help.\nType \u0027q()\u0027 to quit R.\n\n\n\n\u003e #\n\u003e # Licensed to the Apache Software Foundation (ASF) under one\n\n\n\n\n\n\u003e # or more contributor license agreements.  See the NOTICE file\n\u003e # distributed with this work for additional information\n\u003e # regarding copyright ownership.  The ASF licenses this file\n\u003e # to you under the Apache License, Version 2.0 (the\n\u003e # \"License\"); you may not use this file except in compliance\n\n\n\u003e # with the License.  You may obtain a copy of the License at\n\u003e #\n\n\u003e #     http://www.apache.org/licenses/LICENSE-2.0\n\n\u003e #\n\n\u003e # Unless required by applicable law or agreed to in writing, software\n\n\u003e # distributed under the License is distributed on an \"AS IS\" BASIS,\n\n\u003e # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n\n\u003e # See the License for the specific language governing permissions and\n\n\u003e # limitations under the License.\n\n\u003e #\n\n\u003e \n\n\u003e args \u003c- commandArgs(trailingOnly \u003d TRUE)\n\n\u003e \n\n\u003e hashCode \u003c- as.integer(args[1])\n\n\u003e port \u003c- as.integer(args[2])\n\n\u003e libPath \u003c- args[3]\n\n\u003e version \u003c- as.integer(args[4])\n\n\u003e connectionTimeout \u003c- as.integer(args[5])\n\n\u003e authSecret \u003c- args[6]\n\n\u003e \n\n\u003e rm(args)\n\n\u003e \n\n\u003e print(paste(\"Port \", toString(port)))\n\n\n[1] \"Port  44811\"\n\u003e print(paste(\"LibPath \", libPath))\n\n\n[1] \"LibPath  /usr/lib/spark/R/lib\"\n\u003e \n\n\u003e .libPaths(c(file.path(libPath), .libPaths()))\n\n\u003e library(SparkR)\n\n\n\n\nAttaching package: ‘SparkR’\n\n\n\n\n\nThe following objects are masked from ‘package:stats’:\n\n    cov, filter, lag, na.omit, predict, sd, var, window\n\n\n\n\n\n\nThe following objects are masked from ‘package:base’:\n\n    as.data.frame, colnames, colnames\u003c-, drop, endsWith, intersect,\n    rank, rbind, sample, startsWith, subset, summary, transform, union\n\n\n\u003e \n\n\u003e if (is.na(authSecret)) {\n\n+   SparkR:::connectBackend(\"localhost\", port, connectionTimeout)\n\n+ } else {\n\n+   SparkR:::connectBackend(\"localhost\", port, connectionTimeout, toString(authSecret))\n\n+ }\n\n\tat org.apache.zeppelin.spark.ZeppelinR.waitForRScriptInitialized(ZeppelinR.java:314)\n\tat org.apache.zeppelin.spark.ZeppelinR.request(ZeppelinR.java:254)\n\tat org.apache.zeppelin.spark.ZeppelinR.eval(ZeppelinR.java:202)\n\tat org.apache.zeppelin.spark.ZeppelinR.open(ZeppelinR.java:191)\n\tat org.apache.zeppelin.spark.SparkRInterpreter.open(SparkRInterpreter.java:106)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:74)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:123)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:424)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:195)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:139)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:23:38 AM",
+      "dateSubmitted": "Dec 26, 2018 7:23:39 AM",
+      "dateStarted": "Dec 26, 2018 7:23:39 AM",
+      "dateFinished": "Dec 26, 2018 7:23:49 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%r\nR.version",
+      "user": "monikak@qubole.com",
+      "dateUpdated": "Dec 26, 2018 7:21:49 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/r"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1545808604942_-1905097180",
+      "id": "20181226-071644_887176134_q_HBQE9PZ8J91545820671",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "java.lang.RuntimeException: Error in library(\"knitr\"): there is no package called ‘knitr’\n\n\tat org.apache.zeppelin.spark.ZeppelinR.request(ZeppelinR.java:277)\n\tat org.apache.zeppelin.spark.ZeppelinR.eval(ZeppelinR.java:202)\n\tat org.apache.zeppelin.spark.SparkRInterpreter.open(SparkRInterpreter.java:113)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:74)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:123)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:424)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:195)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:139)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+      },
+      "dateCreated": "Dec 26, 2018 7:16:44 AM",
+      "dateSubmitted": "Dec 26, 2018 7:21:49 AM",
+      "dateStarted": "Dec 26, 2018 7:21:49 AM",
+      "dateFinished": "Dec 26, 2018 7:21:50 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1545808909848_2042810163",
+      "id": "20181226-072149_1068928058_q_HBQE9PZ8J91545820671",
+      "dateCreated": "Dec 26, 2018 7:21:49 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "NOTEBOOK",
+  "id": "HBQE9PZ8J91545820671",
+  "angularObjects": {
+    "2E1J3VHFC9251545821665235:shared_process": [],
+    "2E12MX3HT9251545821665252:shared_process": [],
+    "2E1EZXADJ9251545821665249:shared_process": [],
+    "2E1VE8D589251545821665277:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
