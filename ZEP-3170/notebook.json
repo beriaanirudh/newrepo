@@ -1,0 +1,74 @@
+{
+  "paragraphs": [
+    {
+      "text": "sc.version",
+      "user": "quboleregression+notebooks@qu-test.com",
+      "dateUpdated": "Jan 2, 2019 7:17:34 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1546413441699_-1852442077",
+      "id": "20190102-071721_1327579928_q_KHHJCYP1AT1546413659",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: String \u003d 2.1.1\n"
+      },
+      "dateCreated": "Jan 2, 2019 7:17:21 AM",
+      "dateSubmitted": "Jan 2, 2019 7:17:34 AM",
+      "dateStarted": "Jan 2, 2019 7:17:39 AM",
+      "dateFinished": "Jan 2, 2019 7:18:49 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1546413454796_750784306",
+      "id": "20190102-071734_1048768137_q_KHHJCYP1AT1546413659",
+      "dateCreated": "Jan 2, 2019 7:17:34 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "26603-cron_notebook",
+  "id": "KHHJCYP1AT1546413659",
+  "angularObjects": {},
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "",
+    "looknfeel": "default",
+    "cron": "0 0 0 * * ?",
+    "cronExecutingUser": "4920",
+    "cron_updated_by_useremail": "quboleregression+notebooks@qu-test.com"
+  },
+  "info": {},
+  "source": "FCN"
+}
