@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%md\nshow tables",
+      "text": "%md\n",
       "user": "namratas@qubole.com",
-      "dateUpdated": "Nov 14, 2018 8:36:16 AM",
+      "dateUpdated": "Feb 17, 2019 4:14:54 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,8 +15,7 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -38,9 +37,9 @@
       "progressUpdateIntervalMs": 1000
     },
     {
-      "text": "%sh\necho \"hello world\"\n",
+      "text": "%sh\n\n",
       "user": "namratas@qubole.com",
-      "dateUpdated": "Jan 28, 2019 4:51:01 AM",
+      "dateUpdated": "Feb 17, 2019 4:14:54 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -239,6 +238,7 @@
   "name": "new1212",
   "id": "MD3P8ZRABX1540794767",
   "angularObjects": {
+    "2E3MTXMU3141550418503224:shared_process": [],
     "2DQNF58ZE141535617763948:shared_process": [],
     "2DRQSHWNQ141535617763888:shared_process": [],
     "2DNY1H4TU141535617763940:shared_process": [],
