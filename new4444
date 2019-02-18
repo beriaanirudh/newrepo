@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\necho \"hello\"",
+      "text": "",
       "user": "namratas@qubole.com",
-      "dateUpdated": "Feb 18, 2019 12:21:56 PM",
+      "dateUpdated": "Feb 18, 2019 12:24:18 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,7 +16,7 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/sh"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
