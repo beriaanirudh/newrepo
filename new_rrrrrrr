@@ -13,11 +13,30 @@
       "dateCreated": "Feb 19, 2019 9:47:00 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1550570297064_1118377010",
+      "id": "20190219-095817_303425390_q_SCAV124XTH1550569615",
+      "dateCreated": "Feb 19, 2019 9:58:17 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
     }
   ],
   "name": "new77",
   "id": "SCAV124XTH1550569615",
-  "angularObjects": {},
+  "angularObjects": {
+    "2E3MTXMU3141550418503224:shared_process": [],
+    "2DQNF58ZE141535617763948:shared_process": [],
+    "2DNY1H4TU141535617763940:shared_process": [],
+    "2DNX34S7C141535617763932:shared_process": []
+  },
   "config": {
     "isDashboard": false,
     "defaultLang": "spark"
