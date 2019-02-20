@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+notebooks@qu-test.com",
+      "dateUpdated": "Feb 20, 2019 6:05:52 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1550685742428_-1316637236",
+      "id": "20190220-180222_2081145865_q_RBTNKD38151550685276",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 616\ndrwxr-xr-x.  9 root root   4096 Feb 20 18:05 .\ndr-xr-xr-x. 17 root root   4096 Jan  7 10:36 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwx------.  3 root root     17 Mar 20  2018 .cache\n-rwxr-xr-x   1 root root   1561 Feb 20 17:58 compressed.sh\ndrwxr-xr-x   3 root root     34 Feb 20 17:59 .config\n-rwxr-xr-x   1 root root  30231 Feb 20 17:59 config.json\ndrwxr-xr-x.  2 root root      6 Mar 20  2018 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    246 Feb 20 17:59 current_node_config.json\n-rw-r--r--   1 root root 399586 Feb 20 18:05 custom_data.log\n-rwxr-xr-x   1 root root   1690 Feb 20 17:58 custom_data.sh\n-rwxr-xr-x   1 root root  33792 Feb 20 17:59 encrypted-config.json\n-rwxr-xr-x   1 root root   2423 Feb 20 17:58 extracted.sh\n-rwxr-xr-x   1 root root     22 Feb 18 18:57 image_bake_metadata.json\n-rw-r--r--   1 root root     10 Feb 20 17:59 launchtime_azure\n-rw-r--r--   1 root root     32 Nov 20 11:46 .monit.id\n-rw-------   1 root root   2368 Feb 20 18:05 .monit.state\ndrwxr-xr-x   3 root root     27 Feb 20 18:05 node_bootstrap\n-rwxr-xr-x   1 root root      2 Feb 20 17:59 node_config.json\n-rwxr-xr-x   1 root root    467 Feb 20 17:59 node_setup_script.sh\ndrwxr-----.  3 root root     19 Mar 20  2018 .pki\ndrwxr-xr-x   2 root root      6 Feb 20 17:59 previous_nodes\n-rw-r--r--   1 root root  20794 Feb 20 17:59 qbol_config.json\n-rw-r--r--   1 root root   6087 Feb 20 17:58 rc_local.log\ndrwxr-xr-x   2 root root     29 Feb 20 17:59 .ssh\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
+      },
+      "dateCreated": "Feb 20, 2019 6:02:22 PM",
+      "dateSubmitted": "Feb 20, 2019 6:05:52 PM",
+      "dateStarted": "Feb 20, 2019 6:05:55 PM",
+      "dateFinished": "Feb 20, 2019 6:05:55 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1550685952626_761466550",
+      "id": "20190220-180552_1976135470_q_RBTNKD38151550685276",
+      "dateCreated": "Feb 20, 2019 6:05:52 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "29sBB",
+  "id": "RBTNKD38151550685276",
+  "angularObjects": {
+    "2E4T8CXKJ763881550685725223:shared_process": [],
+    "2E6772B4N763881550685725222:shared_process": [],
+    "2E722R6E8763881550685725222:shared_process": [],
+    "2E6SV75CQ763881550685742581:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
