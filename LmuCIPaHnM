@@ -3,6 +3,43 @@
     {
       "text": "%sh ls -al",
       "user": "quboleregression+notebooks@qu-test.com",
+      "dateUpdated": "Feb 21, 2019 9:23:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1550741027428_396075299",
+      "id": "20190221-092347_1996237542_q_8SBGA9NZ2R1550740498",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 180\ndrwxr-xr-x.  8 root root  4096 Feb 21 08:43 .\ndr-xr-xr-x. 17 root root  4096 Feb  7 19:42 ..\n-rw-r--r--.  1 root root    18 Apr 30  2014 .bash_logout\n-rw-r--r--.  1 root root   176 Apr 30  2014 .bash_profile\n-rw-r--r--.  1 root root   176 Apr 30  2014 .bashrc\ndrwx------.  3 root root    17 Jan  7 09:07 .cache\n-rwxr-xr-x   1 root root  4401 Feb 21 08:40 compressed.sh\n-rwxr-xr-x   1 root root 35187 Feb 21 08:40 config.json\ndrwxr-xr-x.  2 root root     6 Jan  7 09:11 .continuum\n-rw-r--r--.  1 root root   100 Apr 30  2014 .cshrc\n-rwxr-xr-x   1 root root   298 Feb 21 08:40 current_node_config.json\n-rwxr-xr-x   1 root root 40256 Feb 21 08:40 encrypted-config.json\n-rwxr-xr-x   1 root root  5531 Feb 21 08:40 extracted.sh\n-rwxr-xr-x   1 root root    27 Feb  7 19:48 image_bake_metadata.json\n-rw-r--r--   1 root root  3698 Jan 31 10:56 index.html\n-rw-r--r--   1 root root  3698 Jan 31 10:56 index.html.1\n-rw-r--r--   1 root root    32 Feb  7 19:41 .monit.id\n-rw-------   1 root root  5112 Feb 21 08:45 .monit.state\ndrwxr-xr-x   3 root root    27 Feb 21 08:43 node_bootstrap\n-rwxr-xr-x   1 root root     2 Feb 21 08:40 node_config.json\n-rwxr-xr-x   1 root root   503 Feb 21 08:40 node_setup_script.sh\ndrwxr-----.  3 root root    19 Jan  7 08:23 .pki\ndrwxr-xr-x   2 root root     6 Feb 21 08:40 previous_nodes\n-rw-r--r--   1 root root 21909 Feb 21 08:40 qbol_config.json\ndrwx------   2 root root    29 Feb 21 08:40 .ssh\n-rw-r--r--.  1 root root   129 Apr 30  2014 .tcshrc\n"
+      },
+      "dateCreated": "Feb 21, 2019 9:23:47 AM",
+      "dateSubmitted": "Feb 21, 2019 9:23:55 AM",
+      "dateStarted": "Feb 21, 2019 9:23:55 AM",
+      "dateFinished": "Feb 21, 2019 9:23:55 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+notebooks@qu-test.com",
       "dateUpdated": "Feb 21, 2019 9:15:45 AM",
       "config": {
         "colWidth": 12.0,
