@@ -3,43 +3,6 @@
     {
       "text": "%sh ls -al",
       "user": "quboleregression+notebooks@qu-test.com",
-      "dateUpdated": "Feb 25, 2019 8:30:16 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v1",
-      "jobName": "paragraph_1551083409149_-1150211649",
-      "id": "20190225-083009_966161667_q_M2BF87PMTD1551083294",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "total 136\ndr-xr-xr-x  26 root root  4096 Feb 25 08:20 .\ndr-xr-xr-x  26 root root  4096 Feb 25 08:20 ..\n-rw-r--r--   1 root root     0 Feb 25 08:15 .autofsck\n-rw-r--r--   1 root root     0 Oct 16  2013 .autorelabel\ndr-xr-xr-x   2 root root  4096 Jan 29  2018 bin\ndr-xr-xr-x   4 root root  4096 Jan  4 05:19 boot\ndrwxr-xr-x  10 root root  4096 Feb  5 23:53 cgroup\ndrwxr-xr-x  16 root root  2780 Feb 25 08:20 dev\ndrwxr-xr-x 106 root root 12288 Feb 25 08:18 etc\ndrwxr-xr-x   5 root root  4096 Nov  5  2014 home\n-rw-r--r--   1 root root  3698 Jan 31 13:24 index.html\n-rw-r--r--   1 root root  3698 Jan 31 13:24 index.html.1\ndr-xr-xr-x  12 root root  4096 Jan  4 05:18 lib\ndr-xr-xr-x  10 root root 12288 Jan  4 05:18 lib64\ndrwxr-xr-x   2 root root  4096 Oct 28  2011 local\ndrwx------   2 root root 16384 Oct 28  2011 lost+found\ndrwxr-xr-x   3 root root  4096 Feb 25 08:16 media\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 mnt\n-rw-------   1 root root     0 Feb 20 08:29 motd.part0edp8\n-rw-------   1 root root     0 Feb  6 00:21 motd.partHzuPp\n-rw-------   1 root root     0 Feb  7 09:44 motd.partj7czy\n-rw-------   1 root root     0 Feb 18 13:25 motd.partUl6cz\ndrwxr-xr-x   5 root root  4096 Jun  6  2016 opt\ndr-xr-xr-x 148 root root     0 Feb 25 08:15 proc\ndrwxrwxrwx   2 root root  4096 Jan 29  2018 qfs\ndr-xr-x---  13 root root  4096 Feb 25 08:16 root\ndrwxr-xr-x   4 root root  4096 Feb 25 08:20 run\ndr-xr-xr-x   2 root root 12288 Jan  7 04:52 sbin\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 selinux\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 srv\ndr-xr-xr-x  13 root root     0 Feb 25 08:28 sys\ndrwxrwxrwt  20 root root  4096 Feb 25 08:30 tmp\ndrwxr-xr-x  16 root root  4096 Oct  6 13:59 usr\ndrwxr-xr-x  23 root root  4096 Aug 31  2016 var\n"
-      },
-      "dateCreated": "Feb 25, 2019 8:30:09 AM",
-      "dateSubmitted": "Feb 25, 2019 8:30:16 AM",
-      "dateStarted": "Feb 25, 2019 8:30:16 AM",
-      "dateFinished": "Feb 25, 2019 8:30:16 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "%sh ls -al",
-      "user": "quboleregression+notebooks@qu-test.com",
       "dateUpdated": "Feb 25, 2019 8:28:48 AM",
       "config": {
         "colWidth": 12.0,
