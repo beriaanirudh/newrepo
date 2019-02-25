@@ -23,7 +23,7 @@
         "forms": {}
       },
       "jobName": "paragraph_1491475994036_-471668697",
-      "id": "20170406-105314_182008467",
+      "id": "20170406-105314_182008467_q_XR4975H9RZ1504854430",
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
@@ -58,7 +58,7 @@
         "forms": {}
       },
       "jobName": "paragraph_1491476008545_652213488",
-      "id": "20170406-105328_1857955558",
+      "id": "20170406-105328_1857955558_q_XR4975H9RZ1504854430",
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
@@ -71,20 +71,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1491476199163_-1170297723",
-      "id": "20170406-105639_1046312338",
+      "id": "20170406-105639_1046312338_q_XR4975H9RZ1504854430",
       "dateCreated": "Apr 6, 2017 10:56:39 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "new_nb",
-  "id": "BP7F95FAHV1491475992",
+  "id": "XR4975H9RZ1504854430",
   "angularObjects": {
     "2CCMWDVBD655891491474866326": [],
     "2CE9BMYJ6655891491474866320": [],
