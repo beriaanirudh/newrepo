@@ -1,45 +1,6 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\nsudo jps | grep SparkSubmit",
-      "user": "monikak+masterqa@qubole.com",
-      "dateUpdated": "May 15, 2019 9:25:50 AM",
-      "config": {
-        "colWidth": 10.0,
-        "fontSize": 10.0,
-        "enabled": true,
-        "results": {},
-        "editorSetting": {
-          "language": "sh",
-          "editOnDblClick": false,
-          "completionSupport": false
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "results": {
-        "code": "ERROR",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "ExitValue: 1"
-          }
-        ]
-      },
-      "apps": [],
-      "version": "v1",
-      "jobName": "paragraph_1557902804571_-990609641",
-      "id": "20190515-064644_882496398_q_BDH2Q7PKB61557900973",
-      "dateCreated": "May 15, 2019 6:46:44 AM",
-      "dateSubmitted": "May 15, 2019 9:25:50 AM",
-      "dateStarted": "May 15, 2019 9:25:55 AM",
-      "dateFinished": "May 15, 2019 9:25:55 AM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
       "title": "Introduction",
       "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\nUser can configure parameters with which sc object is created by going to interpreters. \nUser can create as many sc interpreters as they want with different settings\nQubole Notes supports auto assist for code completion. You can view the suggestions using the key combination  __Ctrl + .(period)__\n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
       "user": "monikak+masterqa@qubole.com",
