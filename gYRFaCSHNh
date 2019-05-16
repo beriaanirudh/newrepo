@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+notebooks@qu-test.com",
+      "dateUpdated": "May 16, 2019 2:49:48 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1558018158043_-164247310",
+      "id": "20190516-144918_8876620_q_CB6KXXUE3V1558017573",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 1288\ndrwxr-xr-x. 10 root root   4096 May 16 14:49 .\ndr-xr-xr-x. 17 root root   4096 May 10 08:10 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwx------.  3 root root     17 Mar 20  2018 .cache\n-rw-r--r--   1 root root 692217 May 16 14:49 cloudman_user_data.log\n-rwxr-xr-x   1 root root   1857 May 16 14:44 compressed.sh\ndrwxr-xr-x   3 root root     34 May 16 14:44 .config\n-rwxr-xr-x   1 root root  35836 May 16 14:45 config.json\ndrwxr-xr-x.  2 root root      6 Mar 20  2018 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    246 May 16 14:45 current_node_config.json\n-rw-r--r--   1 root root   1948 May 16 14:44 custom_data.log\n-rwxr-xr-x   1 root root   2030 May 16 14:44 custom_data.sh\n-rwxr-xr-x   1 root root  40212 May 16 14:45 encrypted-config.json\n-rwxr-xr-x   1 root root   2103 May 16 14:44 extracted.sh\n-rwxr-xr-x   1 root root     22 May 15 19:24 image_bake_metadata.json\n-rw-r--r--   1 root root   3698 May 13 20:21 index.html\n-rw-r--r--   1 root root   3698 May 13 20:21 index.html.1\n-rw-r--r--   1 root root     10 May 16 14:45 launchtime_azure\ndrwxr-xr-x   3 root root     19 May 16 14:45 .local\n-rw-r--r--   1 root root     32 May 16 14:48 master_init_uuid.txt\n-rw-r--r--   1 root root     32 Nov 20 11:46 .monit.id\n-rw-------   1 root root   4328 May 16 14:49 .monit.state\ndrwxr-xr-x   3 root root     27 May 16 14:48 node_bootstrap\n-rwxr-xr-x   1 root root      2 May 16 14:45 node_config.json\n-rw-r--r--   1 root root      0 May 16 14:45 node_reboot_udf.txt\n-rwxr-xr-x   1 root root    483 May 16 14:45 node_setup_script.sh\ndrwxr-----.  3 root root     19 Mar 20  2018 .pki\ndrwxr-xr-x   2 root root      6 May 16 14:45 previous_nodes\n-rw-r--r--   1 root root  25195 May 16 14:45 qbol_config.json\n-rw-r--r--   1 root root   7107 May 16 14:44 rc_local.log\ndrwxr-xr-x   2 root root     29 May 16 14:45 .ssh\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
+      },
+      "dateCreated": "May 16, 2019 2:39:33 PM",
+      "dateSubmitted": "May 16, 2019 2:49:48 PM",
+      "dateStarted": "May 16, 2019 2:49:52 PM",
+      "dateFinished": "May 16, 2019 2:49:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1558018188383_-822121957",
+      "id": "20190516-144948_1549828945_q_CB6KXXUE3V1558017573",
+      "dateCreated": "May 16, 2019 2:49:48 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "CUGxJ",
+  "id": "CB6KXXUE3V1558017573",
+  "angularObjects": {
+    "2EBJXP6C7954771558011126429:shared_process": [],
+    "2ED3B8ZWZ954771558011150250:shared_process": [],
+    "2EADV9DWA954771558011126429:shared_process": [],
+    "2EAU5YMTM954771558011126428:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
