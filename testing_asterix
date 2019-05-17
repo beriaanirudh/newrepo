@@ -1,34 +1,6 @@
 {
   "paragraphs": [
     {
-      "text": "",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1558088507617_1775676763",
-      "id": "20190517-102147_81674733_q_UPFG3VUCJP1558087761",
-      "dateCreated": "May 17, 2019 10:21:47 AM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1558088507394_1764519045",
-      "id": "20190517-102147_834908662_q_UPFG3VUCJP1558087761",
-      "dateCreated": "May 17, 2019 10:21:47 AM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
       "text": "let\u0027s see if this gets saved",
       "user": "anupamp+bbcd@qubole.com",
       "dateUpdated": "May 17, 2019 10:14:09 AM",
