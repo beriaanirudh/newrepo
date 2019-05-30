@@ -1,6 +1,35 @@
 {
   "paragraphs": [
     {
+      "text": "This a test statement",
+      "user": "aupadhyay@qubole.com",
+      "dateUpdated": "May 30, 2019 9:38:20 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1559209082587_816033786",
+      "id": "20190530-093802_95910639_q_ARHSXU33RF1559193099",
+      "dateCreated": "May 30, 2019 9:38:02 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "title": "Introduction",
       "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\nUser can configure parameters with which sc object is created by going to interpreters. \nUser can create as many sc interpreters as they want with different settings\nQubole Notes supports auto assist for code completion. You can view the suggestions using the key combination  __Ctrl + .(period)__\n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
       "config": {
@@ -826,7 +855,12 @@
   ],
   "name": "Getting Started",
   "id": "ARHSXU33RF1559193099",
-  "angularObjects": {},
+  "angularObjects": {
+    "2EBFCV9ZWfalse1559205972124:shared_process": [],
+    "2EBR5GCDYfalse1559205972125:shared_process": [],
+    "2EBKVBT7Jfalse1559205972126:shared_process": [],
+    "2ECRHBHFQfalse1559205972126:shared_process": []
+  },
   "config": {
     "isDashboard": false,
     "defaultLang": "spark"
