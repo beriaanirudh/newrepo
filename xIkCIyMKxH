@@ -42,9 +42,49 @@
       "progressUpdateIntervalMs": 1000
     },
     {
+      "text": "%sh\nls\n",
+      "user": "quboleregression+nbupgrade@qu-test.com",
+      "dateUpdated": "Sep 12, 2019 12:49:18 PM",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "bin\nboot\ncgroup\ndev\netc\nhome\nindex.html\nindex.html.1\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nmotd.part0dB0Q\nmotd.partxC3u4\nmotd.partyOI5m\nopt\nproc\nqfs\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n"
+          }
+        ]
+      },
+      "apps": [],
+      "version": "v0",
+      "jobName": "paragraph_1568292535537_-1096961478",
+      "id": "20190912-124855_1991460666_q_75G9SJWS8B1568282340",
+      "dateCreated": "Sep 12, 2019 12:48:55 PM",
+      "dateSubmitted": "Sep 12, 2019 12:49:18 PM",
+      "dateStarted": "Sep 12, 2019 12:49:18 PM",
+      "dateFinished": "Sep 12, 2019 12:49:18 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "text": "%sh\n",
       "user": "quboleregression+nbupgrade@qu-test.com",
-      "dateUpdated": "Sep 12, 2019 12:48:55 PM",
+      "dateUpdated": "Sep 12, 2019 12:49:18 PM",
       "config": {},
       "settings": {
         "params": {},
@@ -52,9 +92,9 @@
       },
       "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1568292535537_-1096961478",
-      "id": "20190912-124855_1991460666_q_75G9SJWS8B1568282340",
-      "dateCreated": "Sep 12, 2019 12:48:55 PM",
+      "jobName": "paragraph_1568292558843_302311394",
+      "id": "20190912-124918_663670028_q_75G9SJWS8B1568282340",
+      "dateCreated": "Sep 12, 2019 12:49:18 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
