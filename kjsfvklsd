@@ -54,6 +54,35 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "",
+      "user": "quboleregression+nbupgrade@qu-test.com",
+      "dateUpdated": "Sep 12, 2019 8:08:11 AM",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "lineNumbers": true,
+        "title": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "version": "v0",
+      "jobName": "paragraph_1568275678047_-180816183",
+      "id": "20190912-080758_632728893_q_AZ63AW2M3S1568275550",
+      "dateCreated": "Sep 12, 2019 8:07:58 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "title": "Run spark command",
       "text": "sc.version",
       "config": {
@@ -236,7 +265,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql show tables",
+      "text": "%sql show les",
+      "user": "quboleregression+nbupgrade@qu-test.com",
+      "dateUpdated": "Sep 12, 2019 8:08:47 AM",
       "config": {
         "looknfeel": "default",
         "colWidth": 12.0,
@@ -271,7 +302,13 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "fontSize": 9.0,
+        "enabled": true,
+        "lineNumbers": true,
+        "title": true,
+        "results": {},
+        "editorSetting": {}
       },
       "settings": {
         "params": {},
