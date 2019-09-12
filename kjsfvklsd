@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "sc.version",
+      "text": "",
       "user": "quboleregression+nbupgrade@qu-test.com",
-      "dateUpdated": "Sep 12, 2019 8:28:17 AM",
+      "dateUpdated": "Sep 12, 2019 8:21:55 AM",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -40,6 +40,8 @@
     "isDashboard": false,
     "defaultLang": "spark"
   },
-  "info": {},
+  "info": {
+    "runAllInProgress": false
+  },
   "source": "FCN"
 }
