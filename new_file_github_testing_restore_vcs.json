@@ -1,0 +1,27 @@
+{
+  "paragraphs": [
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1568311617820_-2126003753",
+      "id": "20190912-180657_1109132771_q_HZVZCQ3RGU1568311577",
+      "dateCreated": "Sep 12, 2019 6:06:17 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "NOTEBOOK_gs61d",
+  "id": "HZVZCQ3RGU1568311577",
+  "angularObjects": {},
+  "config": {
+    "isDashboard": false,
+    "defaultLang": ""
+  },
+  "info": {},
+  "source": "FCN"
+}
