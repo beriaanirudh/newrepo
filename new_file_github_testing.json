@@ -1,6 +1,20 @@
 {
   "paragraphs": [
     {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1568371732848_1266155453",
+      "id": "20190913-104852_1270482340_q_BENHQ313FC1559545674",
+      "dateCreated": "Sep 13, 2019 10:48:52 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "text": "%sh\nsudo jps | grep SparkSubmit",
       "user": "quboleregression+nb@qu-test.com",
       "dateUpdated": "Jul 10, 2019 6:32:01 AM",
@@ -1126,7 +1140,12 @@
   ],
   "name": "Getting Started",
   "id": "BENHQ313FC1559545674",
-  "angularObjects": {},
+  "angularObjects": {
+    "2EN9EWHUDfalse1568371663667:shared_process": [],
+    "2ENGWG4XJfalse1568371663667:shared_process": [],
+    "2EQ6FTW7Vfalse1568371663667:shared_process": [],
+    "2EM1Z8T2Dfalse1568371663665:shared_process": []
+  },
   "config": {
     "isDashboard": false,
     "defaultLang": "spark"
