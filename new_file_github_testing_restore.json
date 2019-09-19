@@ -1,0 +1,27 @@
+{
+  "paragraphs": [
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1568885795277_1971665487",
+      "id": "20190919-093635_1930202218_q_XXZJ48PKYP1568885753",
+      "dateCreated": "Sep 19, 2019 9:35:53 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "NOTEBOOK_qdk0s",
+  "id": "XXZJ48PKYP1568885753",
+  "angularObjects": {},
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
