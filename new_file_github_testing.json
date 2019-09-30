@@ -7,21 +7,47 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1569798153190_-1413360073",
-      "id": "20190929-230233_1333253296_q_MP7UK7JDKR1569798132",
-      "dateCreated": "Sep 29, 2019 11:02:12 PM",
+      "jobName": "paragraph_1569804211135_-922406191",
+      "id": "20190930-004331_377243968_q_Z65VMWURPF1569803957",
+      "dateCreated": "Sep 30, 2019 12:39:17 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "title": "run spark submit process",
+      "text": "sc.version",
+      "user": "anonymous",
+      "dateUpdated": "Sep 30, 2019 12:44:52 AM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "version": "v0",
+      "jobName": "paragraph_1569804292419_-1966412618",
+      "id": "20190930-004452_1533551886_q_Z65VMWURPF1569803957",
+      "dateCreated": "Sep 30, 2019 12:44:52 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_rf325",
-  "id": "MP7UK7JDKR1569798132",
-  "angularObjects": {},
+  "name": "NOTEBOOK_vgvo0",
+  "id": "Z65VMWURPF1569803957",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "user_quboleregression+nbupgrade_qutest:shared_process": []
+  },
   "config": {
+    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
     "defaultLang": "spark"
   },
-  "info": {},
+  "info": {
+    "runAllInProgress": false
+  },
   "source": "FCN"
 }
