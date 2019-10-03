@@ -8,36 +8,36 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1570053766864_197122025",
-      "id": "20191002-220246_1244580583_q_GXKKU8568W1570053552",
-      "dateCreated": "Oct 2, 2019 9:59:12 PM",
+      "jobName": "paragraph_1570115982393_348482640",
+      "id": "20191003-151942_665340282_q_4X8XYDJ56G1570115755",
+      "dateCreated": "Oct 3, 2019 3:15:55 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     },
     {
       "title": "run spark submit process",
       "text": "sc.version",
-      "dateUpdated": "Oct 2, 2019 10:04:11 PM",
+      "dateUpdated": "Oct 3, 2019 3:21:11 PM",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1570053851219_-1536094626",
-      "id": "20191002-220411_1514152736_q_GXKKU8568W1570053552",
-      "dateCreated": "Oct 2, 2019 10:04:11 PM",
+      "jobName": "paragraph_1570116071554_-618452643",
+      "id": "20191003-152111_945129856_q_4X8XYDJ56G1570115755",
+      "dateCreated": "Oct 3, 2019 3:21:11 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_ealux",
-  "id": "GXKKU8568W1570053552",
+  "name": "NOTEBOOK_mz41r",
+  "id": "4X8XYDJ56G1570115755",
   "angularObjects": {
-    "2ENNCFQCN727681570053760610:shared_process": [],
-    "2ES25EGZR727681570053760611:shared_process": [],
-    "2ER7VF94M727681570053766958:shared_process": [],
-    "2EQQ62YM1727681570053760598:shared_process": []
+    "2ERJG2ZDH1186081570115982533:shared_process": [],
+    "2ENVNQCQ21186081570115975933:shared_process": [],
+    "2EQVPSR5W1186081570115975925:shared_process": [],
+    "2ERXQFBX91186081570115975932:shared_process": []
   },
   "config": {
     "isDashboard": false,
