@@ -8,21 +8,16 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1571197120240_-676699448",
-      "id": "20191016-033840_1738176734_q_6J8C8R4TG31571197020",
-      "dateCreated": "Oct 16, 2019 3:37:00 AM",
+      "jobName": "paragraph_1571223468751_-1769943149",
+      "id": "20191016-105748_219148629_q_XFVTG5GMFT1571223369",
+      "dateCreated": "Oct 16, 2019 10:56:09 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_w9txs",
-  "id": "6J8C8R4TG31571197020",
-  "angularObjects": {
-    "2EPYQS4NB198011571197113803:shared_process": [],
-    "2ERDADG4E198011571197120282:shared_process": [],
-    "2ESZQJ8YZ198011571197113803:shared_process": [],
-    "2EQKR8AN8198011571197113804:shared_process": []
-  },
+  "name": "NOTEBOOK_r4nks",
+  "id": "XFVTG5GMFT1571223369",
+  "angularObjects": {},
   "config": {
     "isDashboard": false,
     "defaultLang": "spark"
