@@ -8,15 +8,15 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1571227157244_875479132",
-      "id": "20191016-115917_1789386359_q_23S1BREXGA1571227057",
-      "dateCreated": "Oct 16, 2019 11:57:37 AM",
+      "jobName": "paragraph_1571247776323_871753263",
+      "id": "20191016-174256_1443951094_q_BADZRBTFWP1571247685",
+      "dateCreated": "Oct 16, 2019 5:41:25 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_ur8py",
-  "id": "23S1BREXGA1571227057",
+  "name": "NOTEBOOK_jmnoa",
+  "id": "BADZRBTFWP1571247685",
   "angularObjects": {},
   "config": {
     "isDashboard": false,
