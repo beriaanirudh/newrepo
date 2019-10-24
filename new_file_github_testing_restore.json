@@ -8,15 +8,15 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1571922642235_-1697313200",
-      "id": "20191024-131042_2050578944_q_DTJEE6CM5H1571922363",
-      "dateCreated": "Oct 24, 2019 1:06:03 PM",
+      "jobName": "paragraph_1571948822687_1685998196",
+      "id": "20191024-202702_1109687395_q_QTZ53SXU831571948610",
+      "dateCreated": "Oct 24, 2019 8:23:30 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_oktab",
-  "id": "DTJEE6CM5H1571922363",
+  "name": "NOTEBOOK_ppits",
+  "id": "QTZ53SXU831571948610",
   "angularObjects": {},
   "config": {
     "isDashboard": false,
