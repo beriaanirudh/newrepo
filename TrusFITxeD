@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+notebooks@qu-test.com",
+      "dateUpdated": "Oct 31, 2019 10:00:08 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1572559156963_-257642692",
+      "id": "20191031-215916_519803765_q_WQRBWJ18BQ1572559150",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 924\ndrwxr-xr-x. 16 root root   4096 Oct 31 21:44 .\ndr-xr-xr-x. 18 root root   4096 Oct  3 06:59 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwxr-xr-x   3 root root     19 Oct 31 11:12 .bundle\ndrwx------.  3 root root     17 Mar 20  2018 .cache\n-rw-r--r--   1 root root 636334 Oct 31 21:45 cloudman_user_data.log\n-rwxr-xr-x   1 root root  13369 Oct 31 21:36 compressed.sh\ndrwxrwsr-x   2 root root     30 Oct 24 13:26 .conda\ndrwxr-xr-x   3 root root     34 Oct 31 21:38 .config\n-rwxr-xr-x   1 root root  45286 Oct 31 21:36 config.json\ndrwxr-xr-x.  2 root root      6 Mar 20  2018 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    265 Oct 31 21:38 current_node_config.json\n-rw-r--r--   1 root root  13460 Oct 31 21:36 custom_data.log\n-rwxr-xr-x   1 root root  13542 Oct 31 21:36 custom_data.sh\n-rwxr-xr-x   1 root root  47894 Oct 31 21:36 extracted.sh\ndrwxr-xr-x   4 root root     31 Jul 19 11:11 .gem\ndrwx------   2 root root     99 Oct 24 13:03 .gnupg\n-rwxr-xr-x   1 root root     22 Oct 31 14:01 image_bake_metadata.json\n-rw-r--r--   1 root root   3698 Oct 21 11:38 index.html\n-rw-r--r--   1 root root   3698 Oct 21 11:38 index.html.1\n-rw-r--r--   1 root root     10 Oct 31 21:38 launchtime_azure\ndrwx------   3 root root     19 Oct 31 11:11 .local\n-rw-r--r--   1 root root     32 Oct 31 21:42 master_init_uuid.txt\n-rw-r--r--   1 root root     32 Nov 20  2018 .monit.id\n-rw-------   1 root root   7072 Oct 31 21:44 .monit.state\ndrwxr-xr-x   3 root root     27 Oct 31 21:42 node_bootstrap\n-rwxr-xr-x   1 root root      2 Oct 31 21:38 node_config.json\n-rw-r--r--   1 root root      0 Oct 31 21:38 node_reboot_udf.txt\n-rwxr-xr-x   1 root root    485 Oct 31 21:38 node_setup_script.sh\ndrwxr-----.  3 root root     19 Mar 20  2018 .pki\ndrwxr-xr-x   2 root root      6 Oct 31 21:38 previous_nodes\ndrwxr-xr-x   2 root root      6 Oct 31 10:50 .prof\n-rwxr-xr-x   1 root root  39535 Oct 31 21:38 qbol_config.json\n-rw-r--r--   1 root root  42229 Oct 31 21:45 rc_local.log\ndrwxr-xr-x   2 root root      6 Oct 31 10:50 .rstudio-desktop\ndrwxr-xr-x   2 root root     29 Oct 31 21:38 .ssh\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
+      },
+      "dateCreated": "Oct 31, 2019 9:59:10 PM",
+      "dateSubmitted": "Oct 31, 2019 10:00:08 PM",
+      "dateStarted": "Oct 31, 2019 10:00:09 PM",
+      "dateFinished": "Oct 31, 2019 10:00:09 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1572559208678_1355132752",
+      "id": "20191031-220008_670456168_q_WQRBWJ18BQ1572559150",
+      "dateCreated": "Oct 31, 2019 10:00:08 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "JadEx",
+  "id": "WQRBWJ18BQ1572559150",
+  "angularObjects": {
+    "2ES4FEBYE1282961572556823656:shared_process": [],
+    "2EQQDPEB31282961572556842948:shared_process": [],
+    "2ETG2KKGC1282961572556823657:shared_process": [],
+    "2ETNRB6WP1282961572556823657:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
