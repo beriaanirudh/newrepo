@@ -1,0 +1,78 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+nb_azure@qu-test.com",
+      "dateUpdated": "Nov 4, 2019 6:28:27 PM",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 1028\ndrwxr-xr-x. 16 root root   4096 Nov  4 17:58 .\ndr-xr-xr-x. 18 root root   4096 Oct  3 06:59 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwxr-xr-x   3 root root     19 Oct 31 11:12 .bundle\ndrwx------.  3 root root     17 Mar 20  2018 .cache\n-rw-r--r--   1 root root 734298 Nov  4 17:58 cloudman_user_data.log\n-rwxr-xr-x   1 root root  13341 Nov  4 17:50 compressed.sh\ndrwxrwsr-x   2 root root     30 Oct 24 13:26 .conda\ndrwxr-xr-x   3 root root     34 Nov  4 17:51 .config\n-rwxr-xr-x   1 root root  45615 Nov  4 17:50 config.json\ndrwxr-xr-x.  2 root root      6 Mar 20  2018 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    265 Nov  4 17:51 current_node_config.json\n-rw-r--r--   1 root root  13432 Nov  4 17:50 custom_data.log\n-rwxr-xr-x   1 root root  13514 Nov  4 17:50 custom_data.sh\n-rwxr-xr-x   1 root root  46986 Nov  4 17:50 extracted.sh\ndrwxr-xr-x   4 root root     31 Jul 19 11:11 .gem\ndrwx------   2 root root     99 Oct 24 13:03 .gnupg\n-rwxr-xr-x   1 root root     22 Nov  2 15:22 image_bake_metadata.json\n-rw-r--r--   1 root root   4772 Oct 31 12:47 index.html\n-rw-r--r--   1 root root   4772 Oct 31 12:47 index.html.1\n-rw-r--r--   1 root root     10 Nov  4 17:51 launchtime_azure\ndrwx------   3 root root     19 Oct 31 11:11 .local\n-rw-r--r--   1 root root     32 Nov  4 17:54 master_init_uuid.txt\n-rw-r--r--   1 root root     32 Nov 20  2018 .monit.id\n-rw-------   1 root root   5112 Nov  4 17:56 .monit.state\ndrwxr-xr-x   3 root root     27 Nov  4 17:54 node_bootstrap\n-rwxr-xr-x   1 root root      2 Nov  4 17:51 node_config.json\n-rw-r--r--   1 root root      0 Nov  4 17:52 node_reboot_udf.txt\n-rwxr-xr-x   1 root root    497 Nov  4 17:52 node_setup_script.sh\ndrwxr-----.  3 root root     19 Mar 20  2018 .pki\ndrwxr-xr-x   2 root root      6 Nov  4 17:51 previous_nodes\ndrwxr-xr-x   2 root root      6 Oct 31 10:50 .prof\n-rwxr-xr-x   1 root root  40487 Nov  4 17:51 qbol_config.json\n-rw-r--r--   1 root root  42145 Nov  4 17:58 rc_local.log\ndrwxr-xr-x   2 root root      6 Oct 31 10:50 .rstudio-desktop\ndrwxr-xr-x   2 root root     29 Nov  4 17:52 .ssh\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
+          }
+        ]
+      },
+      "apps": [],
+      "version": "v1",
+      "jobName": "paragraph_1572892027391_-16957935",
+      "id": "20191104-182707_1995721343_q_P1769M4QYM1572892019",
+      "dateCreated": "Nov 4, 2019 6:26:59 PM",
+      "dateSubmitted": "Nov 4, 2019 6:28:27 PM",
+      "dateStarted": "Nov 4, 2019 6:28:34 PM",
+      "dateFinished": "Nov 4, 2019 6:28:34 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sh\n",
+      "user": "quboleregression+nb_azure@qu-test.com",
+      "dateUpdated": "Nov 4, 2019 6:28:27 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "version": "v0",
+      "jobName": "paragraph_1572892107294_-1931854508",
+      "id": "20191104-182827_629677115_q_P1769M4QYM1572892019",
+      "dateCreated": "Nov 4, 2019 6:28:27 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "JOiI7",
+  "id": "P1769M4QYM1572892019",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "sh:shared_process": [],
+    "user_quboleregression+nb_azure_qutest:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {
+    "runAllInProgress": false
+  },
+  "source": "FCN"
+}
