@@ -1,0 +1,75 @@
+{
+  "paragraphs": [
+    {
+      "text": "sc",
+      "user": "quboleregression+nb@qu-test.com",
+      "dateUpdated": "Nov 8, 2019 10:32:15 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1573209117174_402913640",
+      "id": "20191108-103157_1860068017_q_C5UGS3EH1X1573209109",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres0: org.apache.spark.SparkContext \u003d org.apache.spark.SparkContext@79b50b4f\n"
+      },
+      "dateCreated": "Nov 8, 2019 10:31:49 AM",
+      "dateSubmitted": "Nov 8, 2019 10:32:15 AM",
+      "dateStarted": "Nov 8, 2019 10:32:20 AM",
+      "dateFinished": "Nov 8, 2019 10:32:44 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1573209135066_2108920912",
+      "id": "20191108-103215_1666095486_q_C5UGS3EH1X1573209109",
+      "dateCreated": "Nov 8, 2019 10:32:15 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "test",
+  "id": "C5UGS3EH1X1573209109",
+  "angularObjects": {
+    "2ERDEBHE7458391573124983032:shared_process": [],
+    "2ETADFA6U458391573124983031:shared_process": [],
+    "2ETK9TMXZ458391573207635983:shared_process": [],
+    "2EUA4F1HY458391573124983031:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
