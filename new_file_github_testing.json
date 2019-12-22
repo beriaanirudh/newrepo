@@ -7,42 +7,47 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1577043069089_-137627223",
-      "id": "20191222-193109_974473181_q_85FZF445PV1577042816",
-      "dateCreated": "Dec 22, 2019 7:26:56 PM",
+      "jobName": "paragraph_1577043078844_-26684101",
+      "id": "20191222-193118_1211952762_q_RUCWRB8SE81577042821",
+      "dateCreated": "Dec 22, 2019 7:27:01 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     },
     {
       "title": "run spark submit process",
       "text": "sc.version",
-      "dateUpdated": "Dec 22, 2019 7:32:31 PM",
+      "user": "quboleregression+nbupgrade@qu-test.com",
+      "dateUpdated": "Dec 22, 2019 7:32:37 PM",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1577043151115_1797164437",
-      "id": "20191222-193231_741130209_q_85FZF445PV1577042816",
-      "dateCreated": "Dec 22, 2019 7:32:31 PM",
+      "jobName": "paragraph_1577043157561_355010983",
+      "id": "20191222-193237_235377410_q_RUCWRB8SE81577042821",
+      "dateCreated": "Dec 22, 2019 7:32:37 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_u0ac5",
-  "id": "85FZF445PV1577042816",
+  "name": "NOTEBOOK_g49rx",
+  "id": "RUCWRB8SE81577042821",
+  "noteParams": {},
+  "noteForms": {},
   "angularObjects": {
-    "2EV221RJ31550301577043043137:shared_process": [],
-    "2EV9677TM1550301577043043136:shared_process": [],
-    "2EXNNZTAH1550301577043043137:shared_process": [],
-    "2EW53FHT81550301577043069179:shared_process": []
+    "user_quboleregression+nbupgrade_qutest:shared_process": []
   },
   "config": {
+    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
     "defaultLang": "spark"
   },
-  "info": {},
+  "info": {
+    "runAllInProgress": false
+  },
   "source": "FCN"
 }
