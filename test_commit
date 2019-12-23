@@ -1,8 +1,23 @@
 {
   "paragraphs": [
     {
-      "text": "",
-      "config": {},
+      "text": "sc.version",
+      "user": "quboleregression+jupy@qu-test.com",
+      "dateUpdated": "Dec 23, 2019 7:08:30 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/python"
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -17,7 +32,12 @@
   ],
   "name": "test_commit",
   "id": "WX9DQFVTRM1577084811",
-  "angularObjects": {},
+  "angularObjects": {
+    "2EUTE7U6Y1516991576645142492:shared_process": [],
+    "2EVNNBGE11516991576645142500:shared_process": [],
+    "2EXXHEMG11516991576645142499:shared_process": [],
+    "2EVFPWRGA1516991576645142485:shared_process": []
+  },
   "config": {
     "isDashboard": false,
     "defaultLang": "pyspark"
