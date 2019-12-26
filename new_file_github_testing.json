@@ -7,21 +7,27 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1577365741211_988155442",
-      "id": "20191226-130901_121286175_q_235WA37Z2W1577365731",
-      "dateCreated": "Dec 26, 2019 1:08:51 PM",
+      "jobName": "paragraph_1577369025608_1309850682",
+      "id": "20191226-140345_154949823_q_7NZT6MXCKG1577369019",
+      "dateCreated": "Dec 26, 2019 2:03:39 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_vytel",
-  "id": "235WA37Z2W1577365731",
+  "name": "NOTEBOOK_y2uu2",
+  "id": "7NZT6MXCKG1577369019",
+  "noteParams": {},
+  "noteForms": {},
   "angularObjects": {},
   "config": {
+    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
-    "defaultLang": ""
+    "defaultLang": "spark"
   },
-  "info": {},
+  "info": {
+    "runAllInProgress": false
+  },
   "source": "FCN"
 }
