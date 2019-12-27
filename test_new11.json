@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%md\necho \"hi\"",
+      "text": "Read this in other languages: English, 한국어, 日本語, 简体中文, 正體中文.",
       "user": "quboleregression@gmail.com",
-      "dateUpdated": "Dec 27, 2019 7:45:06 AM",
+      "dateUpdated": "Dec 27, 2019 7:54:26 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,27 +16,17 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true,
-        "tableHide": false
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "version": "v1",
-      "jobName": "paragraph_1577432699500_1715072455",
-      "id": "20191227-074459_660645411_q_E6CUY4V25V1577432414",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eecho \u0026ldquo;hi\u0026rdquo;\u003c/p\u003e\n\u003c/div\u003e"
-      },
-      "dateCreated": "Dec 27, 2019 7:44:59 AM",
-      "dateSubmitted": "Dec 27, 2019 7:45:06 AM",
-      "dateStarted": "Dec 27, 2019 7:45:06 AM",
-      "dateFinished": "Dec 27, 2019 7:45:06 AM",
-      "status": "FINISHED",
+      "version": "v0",
+      "jobName": "paragraph_1577433255471_-129985701",
+      "id": "20191227-075415_513253691_q_E6CUY4V25V1577432414",
+      "dateCreated": "Dec 27, 2019 7:54:15 AM",
+      "status": "READY",
       "progressUpdateIntervalMs": 1000
     },
     {
@@ -97,8 +87,8 @@
     {
       "title": "Most Trending Hashtags",
       "text": "select upper(hashtag),count(1) as COUNT from ( select explode(hashtags) as hashtag from twitter_db.tweets_delta)  group by upper(hashtag) order by COUNT desc limit 10\n",
-      "user": "jyadav@qubole.com",
-      "dateUpdated": "Dec 19, 2019 9:34:11 PM",
+      "user": "quboleregression@gmail.com",
+      "dateUpdated": "Dec 27, 2019 7:45:40 AM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -106,7 +96,7 @@
         "fontSize": 9.0,
         "editorSetting": {},
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
@@ -521,8 +511,8 @@
     {
       "title": "Users with most number of followers",
       "text": "select distinct name,screen_name,max(followers_count) as followers from twitter_db.tweets_delta group by name,screen_name order by followers desc limit 10",
-      "user": "jyadav@qubole.com",
-      "dateUpdated": "Dec 19, 2019 9:34:39 PM",
+      "user": "quboleregression@gmail.com",
+      "dateUpdated": "Dec 27, 2019 7:45:46 AM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -530,7 +520,7 @@
         "fontSize": 9.0,
         "editorSetting": {},
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
@@ -745,7 +735,7 @@
     {
       "text": "%md\n↩\n$\n¢\n£\n€\n¥\n¬\n@\n¶\n§\n©\n®\n™\n°\n℃\n℉\n+\n−\n×\n÷\n\u003d\n≠\n±\n√\n‰\nΩ\n∞\n≈\n~\n¹\n²\n³\nƒ\n¼\n½\n¾\n|\n⁄\n†\n‡\n․\n‥\n…\n➥\n➽\nÀ\nÁ\nÂ\nÃ\nÄ\nÅ\nÆ\nÇ\nÈ\nÉ\nÊ\nË\nÌ\nÍ\nÎ\nÏ\nÐ\nÑ\nÒ\nÓ\nÔ\nÕ\nÖ\nØ\nÙ\nÚ\nÛ\nÜ\nÝ\nÞ\nß\nà\ná\nâ\nã\nä\nå\næ\nç\nè\né\nê\në\nì\ní\nî\nï\nð\nñ\nò\nó\nô\nõ\nö\nø\nù\nú\nû\nü\ný\nþ\nÿ\nĀ\nā\nĂ\nă\nĄ\ną\nĆ\nć\nĈ\nĉ\nĊ\nċ\nČ\nč\nĎ\nď\nĐ\nđ\nĒ\nē\nĔ\nĕ\nĖ\nė\nĘ\nę\nĚ\ně\nĜ\nĝ\nĞ\nğ\nĠ\nġ\nĢ\nģ\nĤ\nĥ\nĦ\nħ\nĨ\nĩ\nĪ\nī\nĬ\nĭ\nĮ\nį\nİ\nı\nĲ\nĳ\nĴ\nĵ\nĶ\nķ\nĸ\nĹ\nĺ\nĻ\nļ\nĽ\nľ\nĿ\nŀ\nŁ\nł\nŃ\nń\nŅ\nņ\nŇ\nň\nŉ\nŊ\nŋ\nŌ\nō\nŎ\nŏ\nŐ\nő\nŒ\nœ\nŔ\nŕ\nŖ\nŗ\nŘ\nř\nŚ\nś\nŜ\nŝ\nŞ\nş\nŠ\nš\nŢ\nţ\nŤ\nť\nŦ\nŧ\nŨ\nũ\nŪ\nū\nŬ\nŭ\nŮ\nů\nŰ\nű\nŲ\nų\nŴ\nŵ\nŶ\nŷ\nŸ\nŹ\nź\nŻ\nż\nŽ",
       "user": "quboleregression@gmail.com",
-      "dateUpdated": "Dec 27, 2019 7:40:58 AM",
+      "dateUpdated": "Dec 27, 2019 7:45:43 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -759,7 +749,8 @@
         },
         "enabled": true,
         "editorHide": true,
-        "tableHide": false
+        "tableHide": false,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -774,9 +765,9 @@
         "msg": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e↩\u003cbr/\u003e$\u003cbr/\u003e¢\u003cbr/\u003e£\u003cbr/\u003e€\u003cbr/\u003e¥\u003cbr/\u003e¬\u003cbr/\u003e@\u003cbr/\u003e¶\u003cbr/\u003e§\u003cbr/\u003e©\u003cbr/\u003e®\u003cbr/\u003e™\u003cbr/\u003e°\u003cbr/\u003e℃\u003cbr/\u003e℉\u003cbr/\u003e+\u003cbr/\u003e−\u003cbr/\u003e×\u003cbr/\u003e÷\u003cbr/\u003e\u003d\u003cbr/\u003e≠\u003cbr/\u003e±\u003cbr/\u003e√\u003cbr/\u003e‰\u003cbr/\u003eΩ\u003cbr/\u003e∞\u003cbr/\u003e≈\u003cbr/\u003e~\u003cbr/\u003e¹\u003cbr/\u003e²\u003cbr/\u003e³\u003cbr/\u003eƒ\u003cbr/\u003e¼\u003cbr/\u003e½\u003cbr/\u003e¾\u003cbr/\u003e|\u003cbr/\u003e⁄\u003cbr/\u003e†\u003cbr/\u003e‡\u003cbr/\u003e․\u003cbr/\u003e‥\u003cbr/\u003e…\u003cbr/\u003e➥\u003cbr/\u003e➽\u003cbr/\u003eÀ\u003cbr/\u003eÁ\u003cbr/\u003eÂ\u003cbr/\u003eÃ\u003cbr/\u003eÄ\u003cbr/\u003eÅ\u003cbr/\u003eÆ\u003cbr/\u003eÇ\u003cbr/\u003eÈ\u003cbr/\u003eÉ\u003cbr/\u003eÊ\u003cbr/\u003eË\u003cbr/\u003eÌ\u003cbr/\u003eÍ\u003cbr/\u003eÎ\u003cbr/\u003eÏ\u003cbr/\u003eÐ\u003cbr/\u003eÑ\u003cbr/\u003eÒ\u003cbr/\u003eÓ\u003cbr/\u003eÔ\u003cbr/\u003eÕ\u003cbr/\u003eÖ\u003cbr/\u003eØ\u003cbr/\u003eÙ\u003cbr/\u003eÚ\u003cbr/\u003eÛ\u003cbr/\u003eÜ\u003cbr/\u003eÝ\u003cbr/\u003eÞ\u003cbr/\u003eß\u003cbr/\u003eà\u003cbr/\u003eá\u003cbr/\u003eâ\u003cbr/\u003eã\u003cbr/\u003eä\u003cbr/\u003eå\u003cbr/\u003eæ\u003cbr/\u003eç\u003cbr/\u003eè\u003cbr/\u003eé\u003cbr/\u003eê\u003cbr/\u003eë\u003cbr/\u003eì\u003cbr/\u003eí\u003cbr/\u003eî\u003cbr/\u003eï\u003cbr/\u003eð\u003cbr/\u003eñ\u003cbr/\u003eò\u003cbr/\u003eó\u003cbr/\u003eô\u003cbr/\u003eõ\u003cbr/\u003eö\u003cbr/\u003eø\u003cbr/\u003eù\u003cbr/\u003eú\u003cbr/\u003eû\u003cbr/\u003eü\u003cbr/\u003eý\u003cbr/\u003eþ\u003cbr/\u003eÿ\u003cbr/\u003eĀ\u003cbr/\u003eā\u003cbr/\u003eĂ\u003cbr/\u003eă\u003cbr/\u003eĄ\u003cbr/\u003eą\u003cbr/\u003eĆ\u003cbr/\u003eć\u003cbr/\u003eĈ\u003cbr/\u003eĉ\u003cbr/\u003eĊ\u003cbr/\u003eċ\u003cbr/\u003eČ\u003cbr/\u003eč\u003cbr/\u003eĎ\u003cbr/\u003eď\u003cbr/\u003eĐ\u003cbr/\u003eđ\u003cbr/\u003eĒ\u003cbr/\u003eē\u003cbr/\u003eĔ\u003cbr/\u003eĕ\u003cbr/\u003eĖ\u003cbr/\u003eė\u003cbr/\u003eĘ\u003cbr/\u003eę\u003cbr/\u003eĚ\u003cbr/\u003eě\u003cbr/\u003eĜ\u003cbr/\u003eĝ\u003cbr/\u003eĞ\u003cbr/\u003eğ\u003cbr/\u003eĠ\u003cbr/\u003eġ\u003cbr/\u003eĢ\u003cbr/\u003eģ\u003cbr/\u003eĤ\u003cbr/\u003eĥ\u003cbr/\u003eĦ\u003cbr/\u003eħ\u003cbr/\u003eĨ\u003cbr/\u003eĩ\u003cbr/\u003eĪ\u003cbr/\u003eī\u003cbr/\u003eĬ\u003cbr/\u003eĭ\u003cbr/\u003eĮ\u003cbr/\u003eį\u003cbr/\u003eİ\u003cbr/\u003eı\u003cbr/\u003eĲ\u003cbr/\u003eĳ\u003cbr/\u003eĴ\u003cbr/\u003eĵ\u003cbr/\u003eĶ\u003cbr/\u003eķ\u003cbr/\u003eĸ\u003cbr/\u003eĹ\u003cbr/\u003eĺ\u003cbr/\u003eĻ\u003cbr/\u003eļ\u003cbr/\u003eĽ\u003cbr/\u003eľ\u003cbr/\u003eĿ\u003cbr/\u003eŀ\u003cbr/\u003eŁ\u003cbr/\u003eł\u003cbr/\u003eŃ\u003cbr/\u003eń\u003cbr/\u003eŅ\u003cbr/\u003eņ\u003cbr/\u003eŇ\u003cbr/\u003eň\u003cbr/\u003eŉ\u003cbr/\u003eŊ\u003cbr/\u003eŋ\u003cbr/\u003eŌ\u003cbr/\u003eō\u003cbr/\u003eŎ\u003cbr/\u003eŏ\u003cbr/\u003eŐ\u003cbr/\u003eő\u003cbr/\u003eŒ\u003cbr/\u003eœ\u003cbr/\u003eŔ\u003cbr/\u003eŕ\u003cbr/\u003eŖ\u003cbr/\u003eŗ\u003cbr/\u003eŘ\u003cbr/\u003eř\u003cbr/\u003eŚ\u003cbr/\u003eś\u003cbr/\u003eŜ\u003cbr/\u003eŝ\u003cbr/\u003eŞ\u003cbr/\u003eş\u003cbr/\u003eŠ\u003cbr/\u003eš\u003cbr/\u003eŢ\u003cbr/\u003eţ\u003cbr/\u003eŤ\u003cbr/\u003eť\u003cbr/\u003eŦ\u003cbr/\u003eŧ\u003cbr/\u003eŨ\u003cbr/\u003eũ\u003cbr/\u003eŪ\u003cbr/\u003eū\u003cbr/\u003eŬ\u003cbr/\u003eŭ\u003cbr/\u003eŮ\u003cbr/\u003eů\u003cbr/\u003eŰ\u003cbr/\u003eű\u003cbr/\u003eŲ\u003cbr/\u003eų\u003cbr/\u003eŴ\u003cbr/\u003eŵ\u003cbr/\u003eŶ\u003cbr/\u003eŷ\u003cbr/\u003eŸ\u003cbr/\u003eŹ\u003cbr/\u003eź\u003cbr/\u003eŻ\u003cbr/\u003eż\u003cbr/\u003eŽ\u003c/p\u003e\n\u003c/div\u003e"
       },
       "dateCreated": "Nov 28, 2019 8:30:20 PM",
-      "dateSubmitted": "Dec 27, 2019 7:40:58 AM",
-      "dateStarted": "Dec 27, 2019 7:40:58 AM",
-      "dateFinished": "Dec 27, 2019 7:40:58 AM",
+      "dateSubmitted": "Dec 27, 2019 7:45:43 AM",
+      "dateStarted": "Dec 27, 2019 7:45:43 AM",
+      "dateFinished": "Dec 27, 2019 7:45:43 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 1000
     },
