@@ -1,6 +1,45 @@
 {
   "paragraphs": [
     {
+      "text": "%md\necho \"hi\"",
+      "user": "quboleregression@gmail.com",
+      "dateUpdated": "Dec 27, 2019 7:45:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1577432699500_1715072455",
+      "id": "20191227-074459_660645411_q_E6CUY4V25V1577432414",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eecho \u0026ldquo;hi\u0026rdquo;\u003c/p\u003e\n\u003c/div\u003e"
+      },
+      "dateCreated": "Dec 27, 2019 7:44:59 AM",
+      "dateSubmitted": "Dec 27, 2019 7:45:06 AM",
+      "dateStarted": "Dec 27, 2019 7:45:06 AM",
+      "dateFinished": "Dec 27, 2019 7:45:06 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "text": "REFRESH TABLE twitter_db.tweets_delta\n",
       "user": "jyadav@qubole.com",
       "dateUpdated": "Dec 19, 2019 9:34:11 PM",
