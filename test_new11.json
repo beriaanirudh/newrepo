@@ -373,7 +373,7 @@
       "title": "MD interpreter example",
       "text": "%md This is an example notebook.",
       "user": "quboleregression@gmail.com",
-      "dateUpdated": "Dec 27, 2019 6:52:48 AM",
+      "dateUpdated": "Dec 27, 2019 6:54:03 AM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -404,9 +404,9 @@
         "msg": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eThis is an example notebook.\u003c/p\u003e\n\u003c/div\u003e"
       },
       "dateCreated": "Jun 13, 2017 6:42:23 AM",
-      "dateSubmitted": "Dec 27, 2019 6:52:48 AM",
-      "dateStarted": "Dec 27, 2019 6:52:52 AM",
-      "dateFinished": "Dec 27, 2019 6:52:52 AM",
+      "dateSubmitted": "Dec 27, 2019 6:54:03 AM",
+      "dateStarted": "Dec 27, 2019 6:54:03 AM",
+      "dateFinished": "Dec 27, 2019 6:54:03 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
