@@ -7,47 +7,42 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1578307268665_-1673781372",
-      "id": "20200106-104108_1053788052_q_GRYE9854YT1578307001",
-      "dateCreated": "Jan 6, 2020 10:36:41 AM",
+      "jobName": "paragraph_1578307402260_767980155",
+      "id": "20200106-104322_1486908625_q_CT6KQ4ZVCX1578307148",
+      "dateCreated": "Jan 6, 2020 10:39:08 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     },
     {
       "title": "run spark submit process",
       "text": "sc.version",
-      "user": "quboleregression+nbupgrade@qu-test.com",
-      "dateUpdated": "Jan 6, 2020 10:42:21 AM",
+      "dateUpdated": "Jan 6, 2020 10:44:46 AM",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
-      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1578307341422_1184757327",
-      "id": "20200106-104221_1585305872_q_GRYE9854YT1578307001",
-      "dateCreated": "Jan 6, 2020 10:42:21 AM",
+      "jobName": "paragraph_1578307486421_337167011",
+      "id": "20200106-104446_29928613_q_CT6KQ4ZVCX1578307148",
+      "dateCreated": "Jan 6, 2020 10:44:46 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_k2mk6",
-  "id": "GRYE9854YT1578307001",
-  "noteParams": {},
-  "noteForms": {},
+  "name": "NOTEBOOK_iueyj",
+  "id": "CT6KQ4ZVCX1578307148",
   "angularObjects": {
-    "user_quboleregression+nbupgrade_qutest:shared_process": []
+    "2EZTKHSEU1073691578307398844:shared_process": [],
+    "2EXWNJPBN1073691578307398843:shared_process": [],
+    "2EY6NVZ2B1073691578307402360:shared_process": [],
+    "2EYF3TNYQ1073691578307398844:shared_process": []
   },
   "config": {
-    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
-    "defaultLang": "spark"
+    "defaultLang": ""
   },
-  "info": {
-    "runAllInProgress": false
-  },
+  "info": {},
   "source": "FCN"
 }
