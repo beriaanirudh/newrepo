@@ -7,27 +7,21 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1578549122705_1962767754",
-      "id": "20200109-055202_1463742456_q_SKUQ1F93R91578548861",
-      "dateCreated": "Jan 9, 2020 5:47:41 AM",
+      "jobName": "paragraph_1578678830472_-497341184",
+      "id": "20200110-175350_1221016431_q_D2B96QEYKJ1578678569",
+      "dateCreated": "Jan 10, 2020 5:49:29 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_coeu8",
-  "id": "SKUQ1F93R91578548861",
-  "noteParams": {},
-  "noteForms": {},
+  "name": "NOTEBOOK_ateej",
+  "id": "D2B96QEYKJ1578678569",
   "angularObjects": {},
   "config": {
-    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
     "defaultLang": "spark"
   },
-  "info": {
-    "runAllInProgress": false
-  },
+  "info": {},
   "source": "FCN"
 }
