@@ -3,43 +3,6 @@
     {
       "text": "%sh ls -al",
       "user": "quboleregression+notebooks@qu-test.com",
-      "dateUpdated": "Jan 23, 2020 12:25:16 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v1",
-      "jobName": "paragraph_1579782306172_-365951854",
-      "id": "20200123-122506_344575511_q_U64U43RCT51579782110",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "total 832\ndrwxr-xr-x. 17 root root   4096 Jan 23 12:07 .\ndr-xr-xr-x. 18 root root    270 Oct 23 06:32 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwxr-xr-x   3 root root     19 Jan 23 02:21 .bundle\ndrwx------.  3 root root     17 Oct 23 05:14 .cache\n-rw-r--r--   1 root root 619567 Jan 23 12:07 cloudman_user_data.log\n-rwxr-xr-x   1 root root   2053 Jan 23 11:59 compressed.sh\ndrwxrwsr-x   2 root root     30 Dec 10 08:01 .conda\ndrwxr-xr-x   3 root root     34 Jan 23 12:00 .config\n-rwxr-xr-x   1 root root  47628 Jan 23 12:00 config.json\ndrwxr-xr-x.  2 root root      6 Oct 23 05:24 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    257 Jan 23 12:00 current_node_config.json\n-rwxr-xr-x   1 root root  53996 Jan 23 12:00 encrypted-config.json\n-rwxr-xr-x   1 root root   3246 Jan 23 11:59 extracted.sh\ndrwxr-xr-x.  4 root root     31 Oct 23 05:43 .gem\ndrwx------.  2 root root     99 Dec 16 07:46 .gnupg\n-rwxr-xr-x   1 root root     22 Jan 23 02:24 image_bake_metadata.json\n-rw-r--r--   1 root root   3698 Jan 17 19:49 index.html\n-rw-r--r--   1 root root   3698 Jan 17 19:49 index.html.1\n-rw-r--r--   1 root root     10 Jan 23 12:00 launchtime_azure\ndrwx------   3 root root     19 Jan 23 02:20 .local\n-rw-r--r--   1 root root     32 Jan 23 12:05 master_init_uuid.txt\n-rw-r--r--   1 root root     32 Oct 23 06:32 .monit.id\n-rw-------   1 root root   5112 Jan 23 12:08 .monit.state\ndrwxr-xr-x   3 root root     27 Jan 23 12:05 node_bootstrap\n-rwxr-xr-x   1 root root      2 Jan 23 12:00 node_config.json\n-rw-r--r--   1 root root      0 Jan 23 12:00 node_reboot_udf.txt\n-rwxr-xr-x   1 root root    477 Jan 23 12:00 node_setup_script.sh\ndrwxr-----.  3 root root     19 Oct 23 04:49 .pki\ndrwxr-xr-x   2 root root      6 Jan 23 12:00 previous_nodes\ndrwxr-xr-x   2 root root      6 Jan 23 01:58 .prof\n-rwxr-xr-x   1 root root  43382 Jan 23 12:00 qbol_config.json\ndrwxr-xr-x   2 root root      6 Jan 23 01:58 .rstudio-desktop\ndrwx------   2 root root     29 Jan 23 11:59 .ssh\ndrwxrwxr-x   3 root root     65 Dec 10 07:33 .subversion\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
-      },
-      "dateCreated": "Jan 23, 2020 12:25:06 PM",
-      "dateSubmitted": "Jan 23, 2020 12:25:16 PM",
-      "dateStarted": "Jan 23, 2020 12:25:16 PM",
-      "dateFinished": "Jan 23, 2020 12:25:16 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "%sh ls -al",
-      "user": "quboleregression+notebooks@qu-test.com",
       "dateUpdated": "Jan 23, 2020 12:22:48 PM",
       "config": {
         "colWidth": 12.0,
