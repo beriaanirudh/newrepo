@@ -7,27 +7,21 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1582726784350_1662519479",
-      "id": "20200226-141944_836777950_q_TW47HCYFRN1582726467",
-      "dateCreated": "Feb 26, 2020 2:14:27 PM",
+      "jobName": "paragraph_1583121294404_1172484806",
+      "id": "20200302-035454_1411219881_q_8YUJEKJPS31583121172",
+      "dateCreated": "Mar 2, 2020 3:52:52 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_m7sim",
-  "id": "TW47HCYFRN1582726467",
-  "noteParams": {},
-  "noteForms": {},
+  "name": "NOTEBOOK_rf2q9",
+  "id": "8YUJEKJPS31583121172",
   "angularObjects": {},
   "config": {
-    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
     "defaultLang": "spark"
   },
-  "info": {
-    "runAllInProgress": false
-  },
+  "info": {},
   "source": "FCN"
 }
