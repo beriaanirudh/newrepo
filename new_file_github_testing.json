@@ -7,42 +7,27 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1583878987493_-552296109",
-      "id": "20200310-222307_1235571000_q_UUZM7NGYEB1583878721",
-      "dateCreated": "Mar 10, 2020 10:18:41 PM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "title": "run spark submit process",
-      "text": "sc.version",
-      "dateUpdated": "Mar 10, 2020 10:24:18 PM",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1583879058480_-427378599",
-      "id": "20200310-222418_23464214_q_UUZM7NGYEB1583878721",
-      "dateCreated": "Mar 10, 2020 10:24:18 PM",
+      "jobName": "paragraph_1583879064229_-784717289",
+      "id": "20200310-222424_704621626_q_KMDJM4U5EW1583879046",
+      "dateCreated": "Mar 10, 2020 10:24:06 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_sq7f9",
-  "id": "UUZM7NGYEB1583878721",
-  "angularObjects": {
-    "2F2D2MXQP1919361583878964428:shared_process": [],
-    "2F4B4YQY21919361583878964423:shared_process": [],
-    "2F4GST33A1919361583878987618:shared_process": [],
-    "2F4HVYVBE1919361583878964427:shared_process": []
-  },
+  "name": "NOTEBOOK_paffp",
+  "id": "KMDJM4U5EW1583879046",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
   "config": {
+    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
-    "defaultLang": "spark"
+    "defaultLang": ""
   },
-  "info": {},
+  "info": {
+    "runAllInProgress": false
+  },
   "source": "FCN"
 }
