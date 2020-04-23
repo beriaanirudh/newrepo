@@ -7,27 +7,21 @@
         "params": {},
         "forms": {}
       },
-      "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1587597004286_986748589",
-      "id": "20200422-231004_88378262_q_RZNN3THX9T1587596666",
-      "dateCreated": "Apr 22, 2020 11:04:26 PM",
+      "jobName": "paragraph_1587609374629_547387646",
+      "id": "20200423-023614_1757674910_q_6A9SCZJ7T41587609254",
+      "dateCreated": "Apr 23, 2020 2:34:14 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_z9iw8",
-  "id": "RZNN3THX9T1587596666",
-  "noteParams": {},
-  "noteForms": {},
+  "name": "NOTEBOOK_rpn0y",
+  "id": "6A9SCZJ7T41587609254",
   "angularObjects": {},
   "config": {
-    "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
     "defaultLang": "spark"
   },
-  "info": {
-    "runAllInProgress": false
-  },
+  "info": {},
   "source": "FCN"
 }
