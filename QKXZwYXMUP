@@ -3,43 +3,6 @@
     {
       "text": "%sh ls -al",
       "user": "quboleregression+nb+release@qu-test.com",
-      "dateUpdated": "May 4, 2020 7:27:40 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v1",
-      "jobName": "paragraph_1588577250007_-431642301",
-      "id": "20200504-072730_1803918655_q_G2Q4V44TNP1588577059",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "total 136\ndr-xr-xr-x  26 root root  4096 May  4 07:08 .\ndr-xr-xr-x  26 root root  4096 May  4 07:08 ..\n-rw-r--r--   1 root root     0 May  4 07:03 .autofsck\n-rw-r--r--   1 root root     0 Oct 16  2013 .autorelabel\ndr-xr-xr-x   2 root root  4096 Nov 28 10:29 bin\ndr-xr-xr-x   4 root root  4096 Mar 25 20:19 boot\ndrwxr-xr-x  10 root root  4096 Apr 14 08:16 cgroup\ndrwxr-xr-x  16 root root  2780 May  4 07:08 dev\ndrwxr-xr-x 110 root root 12288 May  4 07:06 etc\ndrwxr-xr-x   7 root root  4096 Apr 14 08:12 home\n-rw-r--r--   1 root root  3698 Apr 13 16:54 index.html\n-rw-r--r--   1 root root  3698 Apr 13 16:54 index.html.1\ndr-xr-xr-x  12 root root  4096 Mar 25 19:32 lib\ndr-xr-xr-x  10 root root 12288 Mar 25 19:32 lib64\ndrwxr-xr-x   2 root root  4096 Oct 28  2011 local\ndrwx------   2 root root 16384 Oct 28  2011 lost+found\ndrwxr-xr-x   3 root root  4096 May  4 07:04 media\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 mnt\ndrwxr-xr-x   5 root root  4096 Jun  6  2016 opt\ndr-xr-xr-x 167 root root     0 May  4 07:02 proc\ndrwxrwxrwx   2 root root  4096 Jan 29  2018 qfs\ndr-xr-x---  16 root root  4096 May  4 07:03 root\ndrwxr-xr-x   4 root root  4096 May  4 07:08 run\ndr-xr-xr-x   2 root root 12288 Mar 26 06:07 sbin\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 selinux\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 srv\ndr-xr-xr-x  13 root root     0 May  4 07:25 sys\ndrwxrwxrwt  22 root root  4096 May  4 07:27 tmp\ndrwxr-xr-x  16 root root  4096 Dec 15  2018 usr\ndrwxr-xr-x  23 root root  4096 Aug 31  2016 var\n"
-      },
-      "dateCreated": "May 4, 2020 7:27:30 AM",
-      "dateSubmitted": "May 4, 2020 7:27:41 AM",
-      "dateStarted": "May 4, 2020 7:27:41 AM",
-      "dateFinished": "May 4, 2020 7:27:41 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "text": "%sh ls -al",
-      "user": "quboleregression+nb+release@qu-test.com",
       "dateUpdated": "May 4, 2020 7:25:26 AM",
       "config": {
         "colWidth": 12.0,
