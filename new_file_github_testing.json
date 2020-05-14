@@ -9,38 +9,18 @@
       },
       "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1589439457582_1975857978",
-      "id": "20200514-065737_552297605_q_EQSHYSPRJ71589439249",
-      "dateCreated": "May 14, 2020 6:54:09 AM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "title": "run spark submit process",
-      "text": "sc.version",
-      "user": "zep-gcp-automation@qu-test.com",
-      "dateUpdated": "May 14, 2020 6:57:55 AM",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "version": "v0",
-      "jobName": "paragraph_1589439475497_-1258248689",
-      "id": "20200514-065755_1038494528_q_EQSHYSPRJ71589439249",
-      "dateCreated": "May 14, 2020 6:57:55 AM",
+      "jobName": "paragraph_1589439674529_-928398161",
+      "id": "20200514-070114_356388429_q_EDN3TUZV4G1589439665",
+      "dateCreated": "May 14, 2020 7:01:05 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_azyl0",
-  "id": "EQSHYSPRJ71589439249",
+  "name": "NOTEBOOK_rwd6o",
+  "id": "EDN3TUZV4G1589439665",
   "noteParams": {},
   "noteForms": {},
-  "angularObjects": {
-    "user_zepgcpautomation_qutest:shared_process": []
-  },
+  "angularObjects": {},
   "config": {
     "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
