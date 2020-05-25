@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh ls -al",
+      "user": "quboleregression+notebooks@qu-test.com",
+      "dateUpdated": "May 25, 2020 9:01:35 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1590440461715_-1474330933",
+      "id": "20200525-210101_97326957_q_Q5YDZDA8NH1590440455",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 936\ndrwxr-xr-x. 17 root root   4096 May 25 20:35 .\ndr-xr-xr-x. 18 root root    270 Oct 23  2019 ..\n-rw-r--r--.  1 root root     18 Dec 29  2013 .bash_logout\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bash_profile\n-rw-r--r--.  1 root root    176 Dec 29  2013 .bashrc\ndrwxr-xr-x   3 root root     19 May 18 18:34 .bundle\ndrwx------.  3 root root     17 Oct 23  2019 .cache\n-rw-r--r--   1 root root 716414 May 25 20:35 cloudman_user_data.log\n-rwxr-xr-x   1 root root   2265 May 25 20:29 compressed.sh\ndrwxrwsr-x   2 root root     30 Dec 10 08:01 .conda\ndrwxr-xr-x   3 root root     34 May 25 20:29 .config\n-rwxr-xr-x   1 root root  52989 May 25 20:29 config.json\ndrwxr-xr-x.  2 root root      6 Oct 23  2019 .continuum\n-rw-r--r--.  1 root root    100 Dec 29  2013 .cshrc\n-rwxr-xr-x   1 root root    258 May 25 20:29 current_node_config.json\n-rwxr-xr-x   1 root root  59776 May 25 20:29 encrypted-config.json\n-rwxr-xr-x   1 root root   3850 May 25 20:29 extracted.sh\ndrwxr-xr-x.  4 root root     31 Oct 23  2019 .gem\ndrwx------.  2 root root     99 Apr 13 14:22 .gnupg\n-rwxr-xr-x   1 root root     22 May 18 18:38 image_bake_metadata.json\n-rw-r--r--   1 root root   3698 Apr 13 16:54 index.html\n-rw-r--r--   1 root root   3698 Apr 13 16:54 index.html.1\n-rw-r--r--   1 root root     10 May 25 20:29 launchtime_azure\ndrwx------   3 root root     19 May 18 18:34 .local\n-rw-r--r--   1 root root     32 May 25 20:34 master_init_uuid.txt\n-rw-r--r--   1 root root     32 Oct 23  2019 .monit.id\n-rw-------   1 root root   3152 May 25 20:36 .monit.state\ndrwxr-xr-x   3 root root     27 May 25 20:34 node_bootstrap\n-rwxr-xr-x   1 root root      2 May 25 20:29 node_config.json\n-rw-r--r--   1 root root      0 May 25 20:30 node_reboot_udf.txt\n-rwxr-xr-x   1 root root    480 May 25 20:29 node_setup_script.sh\ndrwxr-----.  3 root root     19 Oct 23  2019 .pki\ndrwxr-xr-x   2 root root      6 May 25 20:29 previous_nodes\ndrwxr-xr-x   2 root root      6 May 18 18:12 .prof\n-rwxr-xr-x   1 root root  49617 May 25 20:29 qbol_config.json\ndrwxr-xr-x   2 root root      6 May 18 18:12 .rstudio-desktop\ndrwx------   2 root root     29 May 25 20:29 .ssh\ndrwxrwxr-x   3 root root     65 Dec 10 07:33 .subversion\n-rw-r--r--.  1 root root    129 Dec 29  2013 .tcshrc\n"
+      },
+      "dateCreated": "May 25, 2020 9:00:55 PM",
+      "dateSubmitted": "May 25, 2020 9:01:36 PM",
+      "dateStarted": "May 25, 2020 9:01:43 PM",
+      "dateFinished": "May 25, 2020 9:01:43 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1590440495991_-1265214710",
+      "id": "20200525-210135_538460357_q_Q5YDZDA8NH1590440455",
+      "dateCreated": "May 25, 2020 9:01:35 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "5xdiV",
+  "id": "Q5YDZDA8NH1590440455",
+  "angularObjects": {
+    "2F8JCV4CR132551590438672731:shared_process": [],
+    "2F9V8ZTWW132551590438672729:shared_process": [],
+    "2FB4VQAX2132551590438672731:shared_process": [],
+    "2F8BZMQQ9132551590438672731:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": "spark"
+  },
+  "info": {},
+  "source": "FCN"
+}
