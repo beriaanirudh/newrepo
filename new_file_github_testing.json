@@ -9,38 +9,18 @@
       },
       "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1595615999003_548423914",
-      "id": "20200724-183959_1142557173_q_Q6533RWF411595615826",
-      "dateCreated": "Jul 24, 2020 6:37:06 PM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "title": "run spark submit process",
-      "text": "sc.version",
-      "user": "monikak@qubole.com",
-      "dateUpdated": "Jul 24, 2020 6:41:11 PM",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "version": "v0",
-      "jobName": "paragraph_1595616071408_564000591",
-      "id": "20200724-184111_620357309_q_Q6533RWF411595615826",
-      "dateCreated": "Jul 24, 2020 6:41:11 PM",
+      "jobName": "paragraph_1595616428395_-954438768",
+      "id": "20200724-184708_1426048558_q_EDEJYPVTP71595616424",
+      "dateCreated": "Jul 24, 2020 6:47:04 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_gztij",
-  "id": "Q6533RWF411595615826",
+  "name": "NOTEBOOK_xiq8s",
+  "id": "EDEJYPVTP71595616424",
   "noteParams": {},
   "noteForms": {},
-  "angularObjects": {
-    "user_monikak_qubole:shared_process": []
-  },
+  "angularObjects": {},
   "config": {
     "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
