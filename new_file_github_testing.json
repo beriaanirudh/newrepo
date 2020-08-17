@@ -9,38 +9,18 @@
       },
       "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1597659520595_-1347377309",
-      "id": "20200817-101840_1282463397_q_Y2KP2G3AMH1597659349",
-      "dateCreated": "Aug 17, 2020 10:15:49 AM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "title": "run spark submit process",
-      "text": "sc.version",
-      "user": "quboleregression+nbupgrade@qu-test.com",
-      "dateUpdated": "Aug 17, 2020 10:19:56 AM",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "version": "v0",
-      "jobName": "paragraph_1597659596260_-1116294845",
-      "id": "20200817-101956_1987555945_q_Y2KP2G3AMH1597659349",
-      "dateCreated": "Aug 17, 2020 10:19:56 AM",
+      "jobName": "paragraph_1597663409985_548455037",
+      "id": "20200817-112329_1947495792_q_4GC5PXNSU71597663407",
+      "dateCreated": "Aug 17, 2020 11:23:27 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_femfj",
-  "id": "Y2KP2G3AMH1597659349",
+  "name": "NOTEBOOK_c79sb",
+  "id": "4GC5PXNSU71597663407",
   "noteParams": {},
   "noteForms": {},
-  "angularObjects": {
-    "user_quboleregression+nbupgrade_qutest:shared_process": []
-  },
+  "angularObjects": {},
   "config": {
     "isZeppelinNotebookCronEnable": false,
     "isDashboard": false,
