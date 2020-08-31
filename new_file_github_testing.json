@@ -8,37 +8,16 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1598841573138_167983130",
-      "id": "20200831-023933_1979245824_q_BVV8SETF3H1598841452",
-      "dateCreated": "Aug 31, 2020 2:37:32 AM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 1000
-    },
-    {
-      "title": "run spark submit process",
-      "text": "sc.version",
-      "dateUpdated": "Aug 31, 2020 2:42:18 AM",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "version": "v0",
-      "jobName": "paragraph_1598841738597_419036982",
-      "id": "20200831-024218_3862726_q_BVV8SETF3H1598841452",
-      "dateCreated": "Aug 31, 2020 2:42:18 AM",
+      "jobName": "paragraph_1598841928804_-1698912123",
+      "id": "20200831-024528_985528693_q_EHRTJUV21C1598841913",
+      "dateCreated": "Aug 31, 2020 2:45:13 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_b36mp",
-  "id": "BVV8SETF3H1598841452",
-  "angularObjects": {
-    "2FKRVS4JR344381598841563710:shared_process": [],
-    "2FJHRZSWJ344381598841563710:shared_process": [],
-    "2FJP77BQK344381598841563711:shared_process": [],
-    "2FGTH6ABJ344381598841573180:shared_process": []
-  },
+  "name": "NOTEBOOK_asq3w",
+  "id": "EHRTJUV21C1598841913",
+  "angularObjects": {},
   "config": {
     "isDashboard": false,
     "defaultLang": "spark"
