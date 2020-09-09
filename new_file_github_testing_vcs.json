@@ -9,9 +9,9 @@
       },
       "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1599608305045_-762639877",
-      "id": "20200908-233825_1780132438_q_Z75KKJ4YR81599608115",
-      "dateCreated": "Sep 8, 2020 11:35:15 PM",
+      "jobName": "paragraph_1599679899918_-1783189902",
+      "id": "20200909-193139_1644419857_q_BN5MP9ZAJ91599679715",
+      "dateCreated": "Sep 9, 2020 7:28:35 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     },
@@ -19,7 +19,7 @@
       "title": "run spark submit process",
       "text": "sc.version",
       "user": "quboleregression+nbupgrade@qu-test.com",
-      "dateUpdated": "Sep 8, 2020 11:40:53 PM",
+      "dateUpdated": "Sep 9, 2020 7:33:44 PM",
       "config": {},
       "settings": {
         "params": {},
@@ -27,15 +27,15 @@
       },
       "apps": [],
       "version": "v0",
-      "jobName": "paragraph_1599608453212_-1967766027",
-      "id": "20200908-234053_56327387_q_Z75KKJ4YR81599608115",
-      "dateCreated": "Sep 8, 2020 11:40:53 PM",
+      "jobName": "paragraph_1599680024055_785454952",
+      "id": "20200909-193344_622097542_q_BN5MP9ZAJ91599679715",
+      "dateCreated": "Sep 9, 2020 7:33:44 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
-  "name": "NOTEBOOK_xwrzk",
-  "id": "Z75KKJ4YR81599608115",
+  "name": "NOTEBOOK_vtko9",
+  "id": "BN5MP9ZAJ91599679715",
   "noteParams": {},
   "noteForms": {},
   "angularObjects": {
